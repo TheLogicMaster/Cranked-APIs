@@ -15,5 +15,5 @@ function playdate.update()
   gfx.sprite.update()
   out:write(string.format("frame %d %s\n", frame, table.concat(log, " ")))
   local m = moves[frame]
-  if m then s:moveTo(m[1], m[2]) else out:close() end
+  if m then s:moveTo(m[1], m[2]) else out:close() playdate.stop() end
 end

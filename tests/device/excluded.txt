@@ -1,0 +1,31 @@
+# probes that cannot run inside the suite (name, then the reason); run them as separate bundles
+rr_const tests the globals that exist without CoreLibs, and the suite imports CoreLibs
+coroq2 yields from its update, which the suite calls from a protected call
+dd13 draws for minutes in its main chunk, and its expected output ends where the Simulator run was stopped
+netq asks for network permission, and the run waits at the prompt until it is answered
+errpos checks error positions of calls made from the main chunk outside any update, and behaviour without CoreLibs; the suite runs main chunks from its update with CoreLibs imported
+locq reads localized strings, which come from .strings files at the bundle's root
+locqu reads localized strings, which come from .strings files at the bundle's root
+preimp checks which CoreLibs globals exist before its imports, and the suite imports CoreLibs first
+polyopen calls drawCircleAtPoint before importing CoreLibs/graphics, which the suite has already imported
+coroq checks that the main chunk can yield, and the suite runs each main chunk through file.run, which calls it from C
+apilist lists the functions reachable from the playdate table without CoreLibs, and the suite imports CoreLibs
+identq checks which CoreLibs tables exist, and the suite imports CoreLibs first
+reqq lists the global and library tables, which CoreLibs (imported by the suite) adds to
+retq calls CoreLibs functions before importing them, and the suite imports CoreLibs first
+spm lists the sprite methods, which include the CoreLibs ones the suite has imported
+metaq reads playdate.metadata, which is the suite's pdxinfo
+randq checks the default random sequence, which earlier probes have advanced
+ccdepth measures how deep calls can nest, and the suite's own calls are below the probe's
+stackq overflows the Lua and C stacks on purpose, which stalled the Simulator when run inside the suite
+stale4 checks drawing before any sprite exists, and earlier probes have made sprites
+crankacc needs the crank turned while it runs
+jsonenc checks the key order of JSON encoding, which follows the Lua state's string hashes and table history
+jsonfmt checks the key order of JSON encoding, which follows the Lua state's string hashes and table history
+jsonord checks the key order of JSON encoding, which follows the Lua state's string hashes and table history
+rr_core includes JSON key orders, which follow the Lua state's string hashes and table history
+overlapq lists sprite pairs in the order the collision lists hold them, which follows the history of the sprite system
+sprclipclr stops the game in the Simulator (the sprite clip-rect call it tests)
+rr_cov calls sprite.clearClipRectsInRange, which stops the game in the Simulator when the suite has left the display list empty (tests/probes/sprclipclr)
+f7 includes a sprite update with no sprites after setting the background colour, which redraws the screen once any sprite has existed in the run
+vcr checks vcrPauseFilterImage, whose random state is global and advanced by earlier probes

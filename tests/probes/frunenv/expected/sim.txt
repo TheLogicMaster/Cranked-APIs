@@ -1,0 +1,9 @@
+run ok true nil
+printed: demo: helper says hello
+myGlobal env 42 _G nil
+helperValue env function _G nil
+update env nil playdate.update set false
+no env: myGlobal _G 42 helperValue _G nil
+load with imports false main.lua:19: pdz files loaded with file.load() can only contain one segment (i.e., no imports)
+load with imports, direct pcall false pdz files loaded with file.load() can only contain one segment (i.e., no imports)
+load without imports true function

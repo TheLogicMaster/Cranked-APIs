@@ -1,7 +1,7 @@
 -- Probe: a file player with no file: play, isPlaying over frames, load while "playing", stop, callbacks
 local snd = playdate.sound
 local fh = playdate.file.open("out.txt", playdate.file.kFileWrite)
-local function out(...) local t = table.pack(...) local p = {} for i = 1, t.n do p[i] = tostring(t[i]) end fh:write(table.concat(p, " | ") .. "\n") fh:flush() end
+local function out(...) if not fh then return end local t = table.pack(...) local p = {} for i = 1, t.n do p[i] = tostring(t[i]) end fh:write(table.concat(p, " | ") .. "\n") fh:flush() end
 local fp = snd.fileplayer.new()
 fp:setFinishCallback(function() out("finish callback a") end)
 out("play", fp:play())
@@ -33,5 +33,5 @@ function playdate.update()
     out("play tone", fp:play())
     out("isPlaying tone", fp:isPlaying())
   end
-  if frame == 60 then out("frame 60 isPlaying", fp:isPlaying()) fh:close() end
+  if frame == 60 then out("frame 60 isPlaying", fp:isPlaying()) fh:close() fh = nil playdate.stop() end
 end

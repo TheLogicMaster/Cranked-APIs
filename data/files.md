@@ -122,11 +122,17 @@ catches, never a crash.
 - A separately compiled `.pdz` holds the file's own chunk and the modules it imports. Running it runs the file's own
   chunk (not whichever chunk comes first), and its imports resolve to the modules inside it. When no environment
   argument is passed, the chunk runs with the normal globals. (BlockDate's themes depend on this.)
+- With an environment argument, the globals the file sets and those of the modules it imports go into that table,
+  not into `_G`. A module already imported is not run again by a later `file.run` (`tests/probes/frunenv`).
+- `file.load` takes only a `.pdz` without imports: for one with imported modules it raises
+  `"pdz files loaded with file.load() can only contain one segment (i.e., no imports)"` (with the calling line in
+  front when called from Lua code). `file.run` runs the same file (`tests/probes/frunenv`).
 
 ### The open-file limit
 
 At most 64 files can be open at once, reading and writing counted together. One more `open` returns nil and
-`"Too many open files"` until a file is closed or collected. Files the system opens for the game (datastore and image
+`"Too many open files"` until a file is closed or collected (a file the game drops is closed when it is
+collected: 200 opens with a collection every 10 all succeed, `tests/probes/gckeep`). Files the system opens for the game (datastore and image
 writes) count against the same limit. (`tests/probes/flimq`; the playbit test suite checks it too.)
 
 ## The C `file` interface

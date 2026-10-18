@@ -1,0 +1,10 @@
+frame 1 sprites 1
+frame 2 sprites 1
+frame 3 sprites 1
+set
+cleared
+frame 4 sprites 1
+frame 5 sprites 1
+removed
+frame 6 sprites 0
+cleared with no sprites

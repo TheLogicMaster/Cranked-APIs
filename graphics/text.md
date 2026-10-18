@@ -128,6 +128,14 @@ the width ("Hi 12": 31). The returned size is measured from ink, not from advanc
   returns 99), and the width is the widest line that starts inside the box, at most the box width, whatever the
   alignment.
 - **Fallback glyphs** (below) make the returned height the system font's height.
+- **Lines in different fonts:** with styled text or a font family, each line is as high as the tallest font among the
+  glyphs on it, whatever font is current when the line ends, and a line with no glyph is as high as the regular font.
+  With the Nontendo Light family (13 high) whose bold is the system font (20), "*aa*\nbb\ncc" puts its lines at 0, 20
+  and 33 and returns 41, and "aa*\n*bb\ncc" (bold is on across the line break but draws no glyph) puts them at 0, 13
+  and 26. When a line
+  wraps, the glyph that did not fit counts on the line it ended. The last line of wrapped text whose glyphs mix fonts
+  ("aaaa bbbb *c*c" at 60 wide) is 13 high in the Simulator, not 20; that case is not modelled yet
+  (`tests/probes/famwrap`).
 - Text whose characters are all missing still returns the font's height.
 
 ## Drawing text

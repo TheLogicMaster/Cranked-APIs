@@ -346,6 +346,11 @@ pass "ignore the draw offset" down to the bitmap drawing, which then drops the s
 - Fractional values (Lua): the origin rounds down and the size rounds up, each on its own. A clip of
   (x + 0.6, y + 0.6, 10, 10) covers pixels 0 to 9 from x, and a height of 1.4 covers 2 rows (13 rects sampled).
 - `setClipRectsInRange` (Lua and C) follows the same rules.
+- `clearClipRectsInRange` in the SDK 3.1.1 Simulator stops the game when the display list is empty after sprites
+  were removed, or holds sprites no update has drawn yet: the console shows
+  `LCDSprite_getBounds: non-NULL value required for argument 's'` and no later update runs. With sprites the last
+  update drew it works, and so does a call before any sprite exists (`tests/probes/sprclipclr`). Whether the device
+  does the same is not known yet; an emulator can keep running.
 
 ### Stencils
 

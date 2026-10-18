@@ -23,5 +23,5 @@ function playdate.update()
   gfx.sprite.update()
   playdate.timer.updateTimers()
   playdate.frameTimer.updateTimers()
-  if n == 6 then fh:close() end
+  if n == 6 then fh:close() playdate.stop() end
 end

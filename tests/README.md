@@ -112,6 +112,7 @@ expected output shows the form of the result rather than exact values.
 | `tools/stfuzz/` | random image draws through random stencils, with a hash of the target after each case, for comparing builds |
 | `tools/sim/simkeys.sh` | run a pdx in the Simulator under Xvfb and replay an actions file (`sleep`, `key`, `down`, `up`, `wheel` lines) |
 | `tools/compare/` | `diff.py` and `diff3.py` for case files; `diffview.py <a> <b>` and `diffregion.py <a> <b> x0 y0 x1 y1 step` for 400x240 frame dumps (hex rows separated by `/`), marking pixels set in one only |
+| `device/` | the probe suite for a Playdate: `build_suite.py` packs the Lua probes into one bundle that runs them in turn, `compare.py` compares a run's data folder with `expected/` or with another run (see `device/README.md`) |
 | `tools/imggen/gen.py` | writes the generated test images several probes share (figure.png, cursor.png, panel.png, marks-table-24-24.png) into their `Source/` folders; `arrow/gen.py` and `itlen/gen.py` do the same for those probes |
 
 ## Probe index
@@ -263,6 +264,7 @@ expected output shows the form of the result rather than exact values.
 | fadetype | Lua | drawFaded and fadedImage with dither types outside 0 to 10 | yes |
 | fadetype2 | Lua | An unknown dither type in drawFaded at several x and y positions, and with a draw offset | yes |
 | famq | Lua | setFontFamily given a font instead of a table, and getFont variants | yes |
+| famwrap | Lua | Line positions and returned height of text whose lines use fonts of different heights (a font family missing a variant, styled runs, a missing glyph), with newlines and wrapping | yes |
 | farq | Lua | Overlaps and queries of sprites far from the origin (cells past 32767 and below -32768) | yes |
 | ffam | Lua | The font family argument of drawText and drawTextInRect, with missing variants, styled text, and the returned size | yes |
 | fffdq | Lua | getTextSize and drawText widths around the replacement glyph U+FFFD in styled system text | yes |
@@ -284,7 +286,9 @@ expected output shows the form of the result rather than exact values.
 | fpsfont | Lua | Which system font draws the FPS digits ("30" at 1,1, black on white) | no |
 | fracargs | Lua | How integer-taking calls treat fractional arguments (truncate, round, floor, or error) | yes |
 | fracq | Lua | Where images land at fractional positions, for draw, drawIgnoringOffset, drawCentered, drawAnchored, drawScaled and sprites | yes |
+| frunenv | Lua | file.run(path, env) with a file that imports a module: where its globals and the module's go; file.load refuses a .pdz with imports | yes |
 | ftq | Lua | Frame timers (deterministic): values, callbacks, repeats, reverses, delays, pause and removal | yes |
+| gckeep | Lua | Which dropped objects are collected: files (closed when collected), channels in the mix and their effects, removed channels, lone effects | yes |
 | geoflt | Lua | Number types of geometry fields after construction with integers and after assigning integers | yes |
 | glyphfb | Lua | Drawing button glyphs (U+24B6, U+24B7) with the system font and with a font that lacks them | yes |
 | glyphq | Lua | Which code points the text drawer skips (no glyph, no advance) | yes |
@@ -426,6 +430,7 @@ expected output shows the form of the result rather than exact values.
 | spradd | Lua | Sprites added or removed during sprite.update, and the update order | yes |
 | spradddraw | Lua | A sprite's draw callback removes and re-adds another sprite; frame hashes | yes |
 | sprbgq | Lua | Sprites over a background drawing callback that sets and clears the clip rect; frame hash per step | yes |
+| sprclipclr | Lua | sprite.clearClipRectsInRange with drawn sprites, then with an emptied display list (the Simulator stops the game after the second) | yes |
 | sprclr | Lua | The area a sprite update clears (background) for sprites at fractional bounds | yes |
 | sprdfrac | Lua | Sprites that grow by fractional sizes and move by fractional steps each frame; every display frame dumped | yes |
 | sprdiff | Lua | Differential sprite and collision operations on random scenes, logging every result | yes |

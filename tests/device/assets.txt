@@ -1,0 +1,30 @@
+# Files a probe needs that the repository does not include (each probe's README says which), as
+# <probe> <file under the probe's Source/> <source>
+# The source is a path under the Playdate SDK folder given to build_suite.py, or "png" for a generated 8x8
+# 1-bit image (for probes that only list file names). build_suite.py copies them into a temporary copy of
+# Source/ before compiling; the repository's Source/ is not changed.
+dtw font-Bitmore-Medieval-Bold.fnt Resources/Fonts/Bitmore/font-Bitmore-Medieval-Bold.fnt
+dtw font-Bitmore-Medieval-Bold-table-8-11.png Resources/Fonts/Bitmore/font-Bitmore-Medieval-Bold-table-8-11.png
+fontreset font-Bitmore-Medieval-Bold.fnt Resources/Fonts/Bitmore/font-Bitmore-Medieval-Bold.fnt
+fontreset font-Bitmore-Medieval-Bold-table-8-11.png Resources/Fonts/Bitmore/font-Bitmore-Medieval-Bold-table-8-11.png
+glyphfb font-Bitmore-Medieval-Bold.fnt Resources/Fonts/Bitmore/font-Bitmore-Medieval-Bold.fnt
+glyphfb font-Bitmore-Medieval-Bold-table-8-11.png Resources/Fonts/Bitmore/font-Bitmore-Medieval-Bold-table-8-11.png
+ffam Nontendo-Bold.fnt Resources/Fonts/Nontendo/Nontendo-Bold.fnt
+ffam Nontendo-Bold-table-10-13.png Resources/Fonts/Nontendo/Nontendo-Bold-table-10-13.png
+ffam Nontendo-Light.fnt Resources/Fonts/Nontendo/Nontendo-Light.fnt
+ffam Nontendo-Light-table-8-13.png Resources/Fonts/Nontendo/Nontendo-Light-table-8-13.png
+txtmode font/namco-1x.fnt C_API/Examples/Particles/Source/font/namco-1x.fnt
+txtmode font/namco-1x-table-9-9.png C_API/Examples/Particles/Source/font/namco-1x-table-9-9.png
+txtmode2 font/namco-1x.fnt C_API/Examples/Particles/Source/font/namco-1x.fnt
+txtmode2 font/namco-1x-table-9-9.png C_API/Examples/Particles/Source/font/namco-1x-table-9-9.png
+listf images/5f3a9c0e1b2d4a6c8e0f1a2b.png png
+listf images/apple-pear-plum.png png
+listf images/berry-cherry-grape-melon-10.png png
+listf images/sub/Zeta.png png
+listf images/sub/deeper/x.png png
+rr_upd video/appear_frames.pdv Disk/System/Launcher.pdx/video/appear/appear_frames.pdv
+vidcf video/appear_frames.pdv Disk/System/Launcher.pdx/video/appear/appear_frames.pdv
+famwrap Nontendo-Bold.fnt Resources/Fonts/Nontendo/Nontendo-Bold.fnt
+famwrap Nontendo-Bold-table-10-13.png Resources/Fonts/Nontendo/Nontendo-Bold-table-10-13.png
+famwrap Nontendo-Light.fnt Resources/Fonts/Nontendo/Nontendo-Light.fnt
+famwrap Nontendo-Light-table-8-13.png Resources/Fonts/Nontendo/Nontendo-Light-table-8-13.png

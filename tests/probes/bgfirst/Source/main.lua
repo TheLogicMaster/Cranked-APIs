@@ -25,5 +25,5 @@ function playdate.update()
   if frame <= 5 then fh:write(frame .. " update\n") end
   gfx.sprite.update()
   s3:setImage(img)
-  if frame == 6 then fh:close() end
+  if frame == 6 then fh:close() playdate.stop() end
 end

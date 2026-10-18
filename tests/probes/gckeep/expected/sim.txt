@@ -1,0 +1,4 @@
+files opened 200 failed 0 first collected true
+channel collected false its effect collected false
+removed channel collected true lone effect collected true
+frame 5: channel collected false removed channel collected true

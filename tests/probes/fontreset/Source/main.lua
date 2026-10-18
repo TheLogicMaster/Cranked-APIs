@@ -21,5 +21,5 @@ function playdate.update()
   n += 1
   state("update" .. n)
   if n == 1 then gfx.setFont(custom) end
-  if n == 3 then fh:close() end
+  if n == 3 then fh:close() playdate.stop() end
 end

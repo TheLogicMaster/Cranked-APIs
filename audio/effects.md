@@ -80,6 +80,10 @@ So a `playNote` without `when` lands in the first block rendered after the call.
 - **`newChannel`** already puts the channel in the mix: a channel never passed to `addChannel` is heard,
   `addChannel` on it returns 0, and `removeChannel` returns 1 and silences it (`tests/probes/audchadd`).
 - **Lua return values:** `channel:addEffect`, `channel:removeEffect` and `channel:removeSource` return nothing.
+- **Lifetime in Lua:** a channel made with `playdate.sound.channel.new()` stays alive while it is in the mix, with
+  the effects added to it, even when the game keeps no reference to either; after `channel:remove()` it is
+  collected like any other value, and so is an effect that was never added to a channel (`tests/probes/gckeep`). The
+  difference shows in weak tables, and in memory for games that make channels often.
 
 ### Channel sources
 

@@ -1,0 +1,75 @@
+heights system 20 bold 20 light 13 nbold 13
+famN1 44,46 rows 1-15 21-33 36-46
+famNB1 42,39 rows 1-10 14-26 29-39
+sys1 48,79 rows 2-15 22-38 44-55 67-78
+light1 44,46 rows 1-15 21-33 36-46
+rect_light1 58,26 rows 1-26
+famN2 50,53 rows 1-10 26-35 41-50
+famNB2 54,39 rows 1-10 14-23 29-36
+sys2 35,94 rows 7-15 22-35 46-55 62-75 87-95
+light2 50,53 rows 1-10 26-35 41-50
+rect_light2 50,39 rows 1-10 14-23 29-36
+famN3 50,41 rows 6-15 21-30 34-43
+famNB3 54,26 rows 1-10 14-23
+sys3 35,75 rows 6-15 22-35 47-55 62-75
+light3 50,41 rows 6-15 21-30 34-43
+rect_light3 50,26 rows 1-10 14-23
+famN4 50,46 rows 1-10 16-23 35-48
+famNB4 54,26 rows 1-10 14-23
+sys4 35,74 rows 7-15 22-35 47-55 62-75
+light4 50,46 rows 1-10 16-23 35-48
+rect_light4 50,26 rows 1-10 14-23
+famN5 52,46 rows 1-18 21-30 36-46
+famNB5 52,46 rows 1-18 21-30 36-46
+sys5 58,80 rows 1-18 22-35 42-55 67-78
+light5 52,46 rows 1-18 21-30 36-46
+rect_light5 58,26 rows 1-10 14-26
+nl_famN aa 11,11 rows 3-10
+nl_famN_box aa 11,11 rows 3-10
+nl_famN *aa* 17,15 rows 6-15
+nl_famN_box *aa* 17,15 rows 6-15
+nl_famN bb 11,13 rows 1-10
+nl_famN_box bb 11,13 rows 1-10
+nl_famN dd 11,13 rows 1-10
+nl_famN_box dd 11,13 rows 1-10
+nl_famN *aa*/bb/cc 17,41 rows 6-15 21-30 36-43
+nl_famN_box *aa*/bb/cc 17,41 rows 6-15 21-30 36-43
+nl_famN aa/*bb*/cc 17,44 rows 3-10 15-28 36-43
+nl_famN_box aa/*bb*/cc 17,44 rows 3-10 15-28 36-43
+nl_famN aa/bb/*cc* 17,44 rows 3-10 14-23 32-41
+nl_famN_box aa/bb/*cc* 17,44 rows 3-10 14-23 32-41
+nl_famN aa *bb*/cc 32,32 rows 2-15 23-30
+nl_famN_box aa *bb*/cc 32,32 rows 2-15 23-30
+nl_famN aa/bb *cc* 32,31 rows 3-10 14-28
+nl_famN_box aa/bb *cc* 32,31 rows 3-10 14-28
+nl_famN aa//cc 11,37 rows 3-10 29-36
+nl_famN_box aa//cc 11,37 rows 3-10 29-36
+nl_famN *aa*//cc 17,41 rows 6-15 36-43
+nl_famN_box *aa*//cc 17,41 rows 6-15 36-43
+nl_famN aa/*/*cc 11,37 rows 3-10 29-36
+nl_famN_box aa/*/*cc 11,37 rows 3-10 29-36
+nl_famN aa/ 11,24 rows 3-10
+nl_famN_box aa/ 11,24 rows 3-10
+nl_famN *aa*/ 17,28 rows 6-15
+nl_famN_box *aa*/ 17,28 rows 6-15
+nl_famN aa*/*bb/cc 11,37 rows 3-10 14-23 29-36
+nl_famN_box aa*/*bb/cc 11,37 rows 3-10 14-23 29-36
+nl_famN aa*/ 11,24 rows 3-10
+nl_famN_box aa*/ 11,24 rows 3-10
+nl_famN aa*/bb*/cc 17,44 rows 3-10 15-28 36-43
+nl_famN_box aa*/bb*/cc 17,44 rows 3-10 15-28 36-43
+nl_famN aa/*bb/*cc 17,44 rows 3-10 15-28 36-43
+nl_famN_box aa/*bb/*cc 17,44 rows 3-10 15-28 36-43
+nl_famN *aa/*/cc 17,41 rows 6-15 36-43
+nl_famN_box *aa/*/cc 17,41 rows 6-15 36-43
+nl_famN aa/*/ 11,37 rows 3-10
+nl_famN_box aa/*/ 11,37 rows 3-10
+wrap_famN aaaa bbbb *cc* 50,40 rows 1-10 26-35
+wrap_famN aaaa bbbb *cc* dd 50,40 rows 1-10 21-35
+wrap_famN aaaa bbbb/*cc* 50,33 rows 1-10 19-28
+wrap_famN aaaa bbbb *cc*/dd 50,53 rows 1-10 26-35 41-50
+wrap_famN aaaa bbbb *cc* dddd eeee 50,53 rows 1-10 21-35 43-50
+wrap_famN aaaa *bbbbbbbbbb* 53,58 rows 3-10 22-35 42-55
+wrap_famN aaaa bbbb *c*c 50,33 rows 1-10 23-35
+wrap_famN aaaa bbbb c*c* 50,33 rows 1-10 23-35
+famN_short_box 44,46 rows 1-15 21-24

@@ -1,0 +1,17 @@
+# Probes whose output depends on time or speed (frame times, timers, the audio clock, performance counts), as
+# <name> <what varies>. compare.py reports them as "varies" when they differ, since any two runs can.
+animq animator values follow the real time between frames
+audspgc the frame a sound finishes on
+chlevel audio levels sampled at frame times
+drawfps frame rates
+drawfps2 frame rates
+luafp file player offsets at frame times
+luafp2 file player offsets at frame times
+numtype includes the elapsed and audio time
+perfq timings
+timeq timers measured by clock
+accel accelerometer readings (the Simulator's are fixed values, a device's come from its sensor)
+retq3 includes the audio clock and animator values read at frame times
+scoreb includes scoreboard callbacks, which arrive when the network answers
+dsimg lists the bundle's pdxinfo, whose size depends on the pdc that built it
+stpat includes dither patterns for error-diffusion dithers, which come out different on every run
