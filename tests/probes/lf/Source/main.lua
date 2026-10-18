@@ -1,0 +1,11 @@
+local gfx = playdate.graphics
+local i = gfx.image.new(4, 4, gfx.kColorWhite)
+gfx.setColor(gfx.kColorBlack)
+gfx.lockFocus(i)
+gfx.fillRect(0, 0, 2, 2)
+local insideA = i:sample(0, 0)
+gfx.unlockFocus()
+local s = gfx.getWorkingImage():sample(0, 0)
+local f = playdate.file.open("lf.txt", playdate.file.kFileWrite)
+f:write("image(0,0) during lock: " .. tostring(insideA) .. ", after: " .. tostring(i:sample(0, 0)) .. ", screen(0,0): " .. tostring(s) .. "\n"); f:close()
+playdate.stop()

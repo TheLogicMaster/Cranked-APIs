@@ -1,0 +1,19 @@
+plain sample=wwwbbbbb drawn=wwwbbbbb
+setInverted sample=bbbwwwww drawn=bbbwwwww
+copy of inverted sample=bbbwwwww drawn=bbbwwwww
+invertedImage of inverted sample=wwwbbbbb drawn=wwwbbbbb
+invertedImage of plain sample=bbbwwwww drawn=bbbwwwww
+scaled of inverted sample=bbbwwwww drawn=bbbwwwww
+rotated of inverted sample=bbbwwwww drawn=bbbwwwww
+blurred of inverted sample=bbbwwwww drawn=bbbwwwww
+faded of inverted sample=bbbwwwww drawn=bbbwwwww
+blurred r1 of inverted sample=bbbwwwww drawn=bbbwwwww
+faded half of inverted sample=cbcwcwcw drawn=bbbwbwbw
+scaled 2 of inverted sample=bbbbbbwwwwwwwwww drawn=bbbbbbww
+rotated 90 of inverted sample=bbbb drawn=bbbbbbbb
+copy of copy sample=bbbwwwww drawn=bbbwwwww
+inverted of copy sample=wwwbbbbb drawn=wwwbbbbb
+drawn white transparent sample=bbbwwwww drawn=bbbwwwww
+vcr of inverted sample=bbwwwbbb drawn=bbwwwbbb
+drawn into clear sample=bbbwwwww drawn=bbbwwwww
+setInverted false sample=wwwbbbbb drawn=wwwbbbbb

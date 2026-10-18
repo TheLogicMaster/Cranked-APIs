@@ -1,0 +1,5 @@
+instrument playNote 440 for 0.3 at capture frame 21504
+instrument playMIDINote C5 held at capture frame 65536
+instrument noteOff C5 at capture frame 87040
+two-voice chord E4 G4 for 0.3 at capture frame 116736
+playingSources count 1

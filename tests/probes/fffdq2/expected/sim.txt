@@ -1,0 +1,3 @@
+v0 track=2 h=20 glyph=20x20 [R]=15 [RR]=32 [aR]=24 [Ra]=24 [a]=7 [aa]=16 [ R]=20 [☃]=15 fdraw=15x20 ink=102
+v1 track=1 h=20 glyph=20x20 [R]=13 [RR]=27 [aR]=22 [Ra]=22 [a]=8 [aa]=17 [ R]=17 [☃]=13 fdraw=13x20 ink=104
+v2 track=1 h=20 glyph=20x20 [R]=17 [RR]=31 [aR]=21 [Ra]=22 [a]=8 [aa]=16 [ R]=21 [☃]=17 fdraw=0x20 ink=0

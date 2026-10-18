@@ -1,0 +1,492 @@
+1 1 atpoint  inrect s9
+1 2 overlap s4 
+1 3 overlap s6 
+1 4 move s6 81.335,86.724 
+1 5 check s6 n=0
+1 6 alpha s8-s2 false
+1 7 check s3 n=1
+1 8 line 
+1 9 overlap s3 s1
+1 10 check s1 n=1
+1 11 toggle s9 false 139.648,59.252
+1 12 line s7:0.144-0.312:146.539,19.464;s5:0.512-0.679:151.527,48.076
+1 13 overlap s4 
+1 14 line s5:0.202-0.240:157.368,52.287;s4:0.621-0.643:90.836,98.144;s2:0.937-0.975:40.568,132.791
+1 15 alpha s10-s8 false
+1 16 line 
+1 17 line 
+1 18 toggle s5 false 154.368,61.076
+1 19 move s4 99.785,83.134 
+1 20 toggle s8 true 79.872,83.924
+1 21 move s9 124.618,65.027 
+1 22 move s7 137.110,49.959 
+1 23 check s5 n=0
+1 24 move s1 130.766,125.871 s3:2:156.549,93.740:0.000,-1.000:-44.911:true
+1 25 check s9 n=0
+1 26 move s3 148.246,133.615 
+1 27 check s9 n=0
+1 28 overlap s3 
+1 29 move s1 133.986,130.496 
+1 30 move s9 107.578,47.472 
+1 31 move s1 116.366,124.601 
+1 32 check s5 n=0
+1 33 overlap s3 
+1 34 move s9 122.788,28.287 
+1 35 move s5 154.758,77.871 
+1 36 move s7 137.960,41.774 
+1 37 toggle s9 true 122.788,28.287
+1 38 atpoint  inrect s4,s7
+1 39 move s6 99.220,70.074 s8:2:66.872,100.188:-1.000,0.000:-14.294:true
+1 40 atpoint  inrect s10,s7
+1 all 0
+2 1 check s11 n=0
+2 2 check s10 n=0
+2 3 alpha s11-s9 false
+2 4 line 
+2 5 check s7 n=0
+2 6 move s7 150.189,122.118 
+2 7 move s9 21.657,130.050 
+2 8 move s4 181.877,93.502 
+2 9 move s2 70.913,56.330 
+2 10 atpoint  inrect s2
+2 11 check s9 n=0
+2 12 overlap s5 
+2 13 toggle s3 true 81.632,23.708
+2 14 overlap s5 
+2 15 move s2 50.823,76.805 
+2 16 overlap s4 
+2 17 check s2 n=0
+2 18 atpoint  inrect 
+2 19 toggle s2 false 50.823,76.805
+2 20 line s4:0.025-0.100:187.877,96.971
+2 21 toggle s2 false 168.448,47.252
+2 22 atpoint  inrect s5,s7
+2 23 check s5 n=0
+2 24 move s3 59.602,43.843 
+2 25 move s1 157.982,36.683 
+2 26 move s1 181.112,53.978 
+2 27 alpha s11-s10 false
+2 28 toggle s6 true 74.560,133.124
+2 29 line s8:0.771-0.869:111.344,134.239
+2 30 move s3 76.322,48.688 
+2 31 toggle s4 false 181.877,93.502
+2 32 move s6 92.375,139.804 
+2 33 check s2 n=0
+2 34 atpoint  inrect 
+2 35 check s4 n=0
+2 36 move s8 101.159,156.416 
+2 37 move s4 186.312,95.842 
+2 38 line 
+2 39 move s3 91.387,52.978 
+2 40 alpha s6-s4 false
+2 all 0
+3 1 move s2 87.033,142.142 
+3 2 check s6 n=0
+3 3 atpoint  inrect 
+3 4 move s2 109.318,120.452 
+3 5 check s4 n=0
+3 6 move s6 98.821,37.290 
+3 7 atpoint  inrect 
+3 8 move s4 -0.611,22.010 
+3 9 overlap s6 
+3 10 move s2 125.693,135.612 
+3 11 move s2 125.568,114.192 
+3 12 overlap s2 
+3 13 move s2 115.213,113.222 
+3 14 atpoint  inrect 
+3 15 overlap s2 
+3 16 move s4 21.824,39.790 
+3 17 line s1:0.169-0.237:79.192,102.541;s4:0.798-0.881:24.117,47.290
+3 18 overlap s6 
+3 19 toggle s6 true 61.216,39.308
+3 20 overlap s3 
+3 21 overlap s3 
+3 22 check s1 n=0
+3 23 check s5 n=0
+3 24 atpoint  inrect 
+3 25 line s4:0.000-0.010:26.800,37.200
+3 26 move s3 120.470,48.191 
+3 27 move s1 82.562,88.627 
+3 28 overlap s3 
+3 29 move s5 62.340,163.365 
+3 30 move s1 86.562,72.832 
+3 31 move s5 59.760,160.350 
+3 32 line 
+3 33 move s1 93.292,53.327 
+3 34 atpoint  inrect 
+3 35 overlap s5 
+3 36 line s2:0.992-1.000:115.213,107.054
+3 37 move s3 141.680,41.886 
+3 38 alpha s3-s3 true
+3 39 move s4 33.849,59.280 
+3 40 move s4 48.574,69.230 
+3 all 0
+4 1 move s5 174.506,20.687 
+4 2 check s3 n=0
+4 3 alpha s7-s3 false
+4 4 move s4 139.157,21.014 
+4 5 overlap s10 s9
+4 6 alpha s10-s6 false
+4 7 atpoint  inrect 
+4 8 alpha s4-s7 false
+4 9 alpha s7-s2 false
+4 10 move s2 71.732,106.281 
+4 11 overlap s6 
+4 12 overlap s6 
+4 13 check s7 n=0
+4 14 move s6 65.000,122.349 
+4 15 move s11 72.308,33.833 
+4 16 line s1:0.709-0.730:111.488,129.340;s10:0.902-0.940:138.616,137.006
+4 17 atpoint  inrect s11
+4 18 line 
+4 19 line 
+4 20 alpha s2-s2 true
+4 21 toggle s4 true 67.584,52.244
+4 22 overlap s8 
+4 23 line 
+4 24 atpoint  inrect 
+4 25 overlap s1 
+4 26 line 
+4 27 alpha s7-s2 false
+4 28 check s7 n=0
+4 29 overlap s3 
+4 30 move s7 53.091,100.076 
+4 31 line 
+4 32 alpha s9-s7 false
+4 33 overlap s11 
+4 34 move s6 65.830,117.024 
+4 35 overlap s9 s10
+4 36 move s2 75.092,103.766 
+4 37 move s2 97.552,86.191 
+4 38 check s11 n=0
+4 39 line s2:0.376-0.489:93.418,86.191
+4 40 atpoint  inrect s10,s9
+4 all 1
+5 1 move s2 120.915,44.848 s1:2:124.392,38.139:1.000,0.000:-10.475:true
+5 2 overlap s2 s1
+5 3 alpha s2-s2 true
+5 4 check s3 n=0
+5 5 check s3 n=0
+5 6 check s3 n=0
+5 7 move s1 91.952,26.825 s2:2:123.915,47.665:1.000,0.000:-41.195:true
+5 8 move s3 24.956,45.117 
+5 9 atpoint  inrect 
+5 10 overlap s5 
+5 11 move s3 10.646,28.332 
+5 12 move s5 162.582,17.703 
+5 13 toggle s5 false 162.582,17.703
+5 14 overlap s2 
+5 15 move s2 120.870,66.388 
+5 16 atpoint  inrect 
+5 17 move s4 83.403,39.840 
+5 18 atpoint  inrect 
+5 19 move s4 82.238,54.180 
+5 20 toggle s4 true 117.920,104.684
+5 21 check s5 n=0
+5 22 atpoint  inrect s1
+5 23 move s5 187.002,42.328 
+5 24 check s3 n=0
+5 25 alpha s5-s5 true
+5 26 move s6 91.159,138.044 
+5 27 alpha s2-s6 false
+5 28 move s5 193.812,23.383 
+5 29 alpha s1-s1 true
+5 30 check s6 n=0
+5 31 move s6 78.684,118.554 
+5 32 move s2 130.615,67.518 
+5 33 line 
+5 34 move s4 115.575,102.164 
+5 35 move s6 96.399,141.134 
+5 36 move s2 147.110,82.158 
+5 37 overlap s6 
+5 38 line 
+5 39 atpoint  inrect 
+5 40 move s6 103.214,126.894 
+5 all 0
+6 1 move s1 95.086,60.955 
+6 2 move s1 103.496,62.410 
+6 3 toggle s3 false 157.296,22.808
+6 4 line s5:0.631-0.672:142.552,87.609
+6 5 line 
+6 6 move s5 163.757,86.494 
+6 7 move s5 171.462,101.104 
+6 8 atpoint  inrect s4
+6 9 overlap s5 
+6 10 move s5 147.797,93.984 
+6 11 move s4 71.579,23.340 
+6 12 check s4 n=0
+6 13 toggle s5 true 105.440,92.636
+6 14 toggle s2 false 121.328,107.960
+6 15 alpha s7-s1 false
+6 16 move s5 114.530,77.571 
+6 17 line 
+6 18 move s1 80.456,52.375 
+6 19 check s7 n=0
+6 20 alpha s7-s4 false
+6 21 check s1 n=0
+6 22 alpha s1-s5 false
+6 23 toggle s3 true 157.296,22.808
+6 24 check s7 n=1
+6 25 alpha s7-s4 false
+6 26 move s1 96.476,71.240 
+6 27 move s4 87.259,2.665 
+6 28 line 
+6 29 alpha s6-s4 false
+6 30 line 
+6 31 move s4 82.054,-10.395 
+6 32 move s3 134.377,12.128 s7:3:154.544,24.496:-1.000,0.000:-7.596:true
+6 33 move s1 103.151,72.380 
+6 34 toggle s1 true 178.336,36.332
+6 35 move s2 130.828,107.585 
+6 36 move s4 58.254,10.170 
+6 37 move s6 38.916,33.289 
+6 38 check s3 n=0
+6 39 atpoint  inrect 
+6 40 move s2 116.308,131.110 
+6 all 0
+7 1 line 
+7 2 line 
+7 3 move s4 44.207,60.276 
+7 4 toggle s6 true 176.480,82.940
+7 5 move s5 48.600,39.801 
+7 6 alpha s5-s3 false
+7 7 alpha s4-s6 false
+7 8 check s3 n=0
+7 9 toggle s3 false 40.768,68.420
+7 10 check s4 n=1
+7 11 move s4 60.272,54.801 s5:0:47.898,54.801:0.000,1.000:0.230:false
+7 12 atpoint  inrect 
+7 13 move s2 183.577,13.462 
+7 14 alpha s6-s2 false
+7 15 atpoint  inrect 
+7 16 atpoint  inrect s5
+7 17 line 
+7 18 move s3 33.198,91.095 
+7 19 overlap s5 
+7 20 alpha s1-s5 false
+7 21 line 
+7 22 check s6 n=0
+7 23 line 
+7 24 toggle s2 true 53.856,122.684
+7 25 move s5 51.600,28.526 
+7 26 toggle s5 false 51.600,28.526
+7 27 move s6 198.575,99.180 
+7 28 atpoint  inrect 
+7 29 move s4 82.567,59.641 
+7 30 alpha s2-s4 false
+7 31 move s5 44.170,52.701 
+7 32 toggle s5 true 44.170,52.701
+7 33 atpoint  inrect 
+7 34 alpha s6-s4 false
+7 35 atpoint  inrect s4
+7 36 overlap s1 
+7 37 line s4:0.470-0.531:87.567,53.774
+7 38 move s1 100.280,103.481 
+7 39 alpha s3-s1 false
+7 40 move s2 69.711,100.524 
+7 all 0
+8 1 atpoint  inrect 
+8 2 move s2 77.990,41.803 
+8 3 move s6 150.930,72.255 
+8 4 atpoint  inrect s2
+8 5 move s7 163.338,107.111 
+8 6 alpha s7-s2 false
+8 7 move s6 159.675,58.785 
+8 8 move s4 122.901,42.422 
+8 9 alpha s1-s3 false
+8 10 line 
+8 11 line 
+8 12 alpha s4-s4 true
+8 13 check s4 n=0
+8 14 atpoint  inrect 
+8 15 atpoint  inrect 
+8 16 move s3 182.467,126.292 
+8 17 alpha s2-s4 false
+8 18 toggle s6 false 159.675,58.785
+8 19 move s5 81.657,31.562 
+8 20 check s7 n=0
+8 21 toggle s1 true 37.056,120.740
+8 22 alpha s4-s3 false
+8 23 move s2 75.935,58.253 
+8 24 alpha s4-s4 true
+8 25 move s3 163.447,151.077 
+8 26 toggle s1 false 37.056,120.740
+8 27 check s3 n=0
+8 28 move s2 96.310,73.653 
+8 29 move s4 137.256,56.602 
+8 30 line 
+8 31 overlap s3 
+8 32 overlap s7 
+8 33 move s3 178.332,166.307 
+8 34 check s7 n=0
+8 35 overlap s6 
+8 36 move s2 92.865,57.873 
+8 37 overlap s7 
+8 38 line s5:0.465-0.468:77.657,35.901;s4:0.814-0.817:134.256,61.859
+8 39 check s4 n=0
+8 40 check s6 n=0
+8 all 0
+9 1 line 
+9 2 overlap s2 
+9 3 toggle s8 true 134.336,26.660
+9 4 atpoint  inrect 
+9 5 atpoint  inrect s4
+9 6 move s1 61.038,33.023 
+9 7 overlap s5 
+9 8 check s3 n=0
+9 9 toggle s7 false 28.704,60.428
+9 10 overlap s6 
+9 11 atpoint  inrect 
+9 12 overlap s8 
+9 13 atpoint  inrect 
+9 14 move s2 162.923,21.064 
+9 15 toggle s6 true 43.552,98.444
+9 16 move s7 11.364,35.533 
+9 17 move s3 184.544,115.697 
+9 18 move s7 -3.376,55.238 
+9 19 move s3 192.744,117.542 
+9 20 line 
+9 21 move s1 41.988,11.178 
+9 22 move s5 93.986,27.387 
+9 23 line s8:0.475-0.821:137.336,26.120
+9 24 check s3 n=0
+9 25 move s7 -20.676,61.983 
+9 26 alpha s3-s1 false
+9 27 move s2 184.238,0.044 
+9 28 check s6 n=0
+9 29 atpoint  inrect 
+9 30 check s6 n=0
+9 31 overlap s2 
+9 32 toggle s8 true 142.784,53.156
+9 33 move s1 51.578,-5.947 
+9 34 overlap s5 
+9 35 check s3 n=0
+9 36 atpoint  inrect 
+9 37 move s3 208.744,102.547 
+9 38 alpha s7-s5 false
+9 39 line s8:0.624-0.701:143.307,59.656
+9 40 move s8 166.049,28.526 
+9 all 0
+10 1 alpha s2-s3 false
+10 2 overlap s1 
+10 3 move s3 63.057,87.978 
+10 4 atpoint  inrect s6
+10 5 alpha s3-s8 false
+10 6 overlap s2 
+10 7 move s8 34.862,86.875 
+10 8 check s6 n=0
+10 9 overlap s2 
+10 10 overlap s1 
+10 11 toggle s3 false 63.057,87.978
+10 12 move s8 52.307,75.225 
+10 13 line 
+10 14 toggle s6 true 101.984,64.316
+10 15 move s4 63.528,71.733 
+10 16 alpha s3-s1 false
+10 17 line 
+10 18 line 
+10 19 atpoint  inrect 
+10 20 move s1 70.175,114.968 
+10 21 move s8 47.314,62.325 s4:3:56.528,71.172:-1.000,0.000:0.314:false
+10 22 toggle s4 true 52.768,108.620
+10 23 check s9 n=0
+10 24 line s5:0.625-0.650:79.144,101.897
+10 25 move s8 26.804,69.660 
+10 26 move s3 80.847,100.333 
+10 27 move s2 152.010,96.095 
+10 28 move s5 85.414,84.171 
+10 29 check s9 n=0
+10 30 move s6 108.014,70.991 
+10 31 atpoint  inrect s6
+10 32 move s3 68.117,94.408 
+10 33 move s9 41.090,95.911 
+10 34 toggle s8 false 26.804,69.660
+10 35 move s1 90.080,99.684 s5:3:86.385,95.171:0.000,1.000:0.814:false
+10 36 move s1 79.165,103.194 
+10 37 move s7 13.993,79.498 
+10 38 line 
+10 39 check s4 n=0
+10 40 atpoint  inrect 
+10 all 0
+11 1 check s4 n=1
+11 2 move s8 137.793,48.518 
+11 3 move s4 51.613,33.474 s3:2:42.613,52.124:0.000,1.000:-105.276:true
+11 4 check s8 n=0
+11 5 alpha s4-s2 false
+11 6 alpha s7-s5 false
+11 7 move s6 87.647,91.372 
+11 8 move s2 98.731,109.424 
+11 9 move s6 85.862,68.292 
+11 10 atpoint  inrect 
+11 11 line s5:0.000-0.045:120.540,132.480
+11 12 toggle s8 true 85.568,113.924
+11 13 line 
+11 14 line 
+11 15 move s5 114.898,125.059 
+11 16 alpha s1-s7 false
+11 17 move s8 96.833,137.054 
+11 18 alpha s4-s2 false
+11 19 overlap s7 
+11 20 atpoint  inrect 
+11 21 overlap s1 
+11 22 move s7 140.772,115.757 
+11 23 move s3 46.613,34.689 s4:0:46.613,38.099:-1.000,0.000:-87.656:true
+11 24 atpoint  inrect s7
+11 25 toggle s3 false 46.613,34.689
+11 26 check s2 n=0
+11 27 move s6 103.317,91.972 
+11 28 toggle s2 true 103.008,39.548
+11 29 atpoint  inrect 
+11 30 check s7 n=0
+11 31 overlap s3 
+11 32 move s1 169.478,72.599 
+11 33 move s5 125.988,104.154 
+11 34 toggle s1 false 169.478,72.599
+11 35 alpha s8-s6 false
+11 36 move s3 40.293,36.014 
+11 37 move s7 149.712,132.822 
+11 38 move s3 15.613,20.019 
+11 39 alpha s7-s5 false
+11 40 overlap s6 
+11 all 0
+12 1 toggle s6 false 62.704,80.120
+12 2 toggle s5 true 36.448,80.060
+12 3 overlap s1 
+12 4 overlap s2 
+12 5 toggle s1 false 155.504,123.416
+12 6 line s8:0.458-0.484:132.536,110.364
+12 7 move s9 145.712,86.665 s4:1:147.712,88.665:-1.000,0.000:-7.192:true
+12 8 move s7 119.317,15.390 
+12 9 atpoint  inrect 
+12 10 line 
+12 11 atpoint  inrect 
+12 12 move s2 55.811,106.500 
+12 13 overlap s8 
+12 14 move s3 111.053,14.398 s7:3:115.317,16.777:-1.000,0.000:0.739:false
+12 15 toggle s9 true 31.552,20.228
+12 16 move s7 115.053,5.565 s3:1:117.053,7.565:1.000,0.000:0.696:false
+12 17 atpoint  inrect s9
+12 18 move s7 118.723,-14.440 
+12 19 move s8 129.346,93.063 
+12 20 toggle s6 true 62.704,80.120
+12 21 overlap s4 
+12 22 alpha s1-s9 false
+12 23 move s2 50.921,128.495 
+12 24 check s8 n=0
+12 25 overlap s4 
+12 26 toggle s1 true 155.504,123.416
+12 27 move s6 42.479,58.120 
+12 28 check s4 n=0
+12 29 check s9 n=0
+12 30 line 
+12 31 overlap s2 
+12 32 check s9 n=0
+12 33 line 
+12 34 move s7 140.148,-21.630 
+12 35 move s7 154.513,-4.520 
+12 36 alpha s6-s9 false
+12 37 toggle s8 false 129.346,93.063
+12 38 atpoint  inrect 
+12 39 move s1 132.799,122.136 
+12 40 line 
+12 all 0

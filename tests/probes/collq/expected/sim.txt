@@ -1,0 +1,39 @@
+resp 0 diag -> 40.000,50.000 n=2
+  1 other=wall type=0 overlaps=false ti=0.500 move=30.000,17.500 normal=-1.000,0.000 touch=40.000,37.500 sr=40.000,37.500,10.000,10.000 or=50.000,0.000,10.000,100.000 bounce=nil slide=40.000,55.000
+  2 other=floor type=0 overlaps=false ti=0.714 move=0.000,12.500 normal=0.000,-1.000 touch=40.000,50.000 sr=40.000,50.000,10.000,10.000 or=0.000,60.000,200.000,10.000 bounce=nil slide=40.000,50.000
+resp 0 right -> 40.000,20.000 n=1
+  1 other=wall type=0 overlaps=false ti=0.333 move=30.000,0.000 normal=-1.000,0.000 touch=40.000,20.000 sr=40.000,20.000,10.000,10.000 or=50.000,0.000,10.000,100.000 bounce=nil slide=40.000,20.000
+resp 1 diag -> 40.000,37.500 n=1
+  1 other=wall type=1 overlaps=false ti=0.500 move=30.000,17.500 normal=-1.000,0.000 touch=40.000,37.500 sr=40.000,37.500,10.000,10.000 or=50.000,0.000,10.000,100.000 bounce=nil slide=nil
+resp 1 right -> 40.000,20.000 n=1
+  1 other=wall type=1 overlaps=false ti=0.333 move=30.000,0.000 normal=-1.000,0.000 touch=40.000,20.000 sr=40.000,20.000,10.000,10.000 or=50.000,0.000,10.000,100.000 bounce=nil slide=nil
+resp 2 diag -> 70.000,55.000 n=2
+  1 other=wall type=2 overlaps=false ti=0.500 move=30.000,17.500 normal=-1.000,0.000 touch=40.000,37.500 sr=40.000,37.500,10.000,10.000 or=50.000,0.000,10.000,100.000 bounce=nil slide=nil
+  2 other=floor type=2 overlaps=false ti=0.857 move=51.429,30.000 normal=0.000,-1.000 touch=61.429,50.000 sr=61.429,50.000,10.000,10.000 or=0.000,60.000,200.000,10.000 bounce=nil slide=nil
+resp 2 right -> 100.000,20.000 n=1
+  1 other=wall type=2 overlaps=false ti=0.333 move=30.000,0.000 normal=-1.000,0.000 touch=40.000,20.000 sr=40.000,20.000,10.000,10.000 or=50.000,0.000,10.000,100.000 bounce=nil slide=nil
+resp 3 diag -> 10.000,45.000 n=2
+  1 other=wall type=3 overlaps=false ti=0.500 move=30.000,17.500 normal=-1.000,0.000 touch=40.000,37.500 sr=40.000,37.500,10.000,10.000 or=50.000,0.000,10.000,100.000 bounce=10.000,55.000 slide=nil
+  2 other=floor type=3 overlaps=false ti=0.714 move=-21.429,12.500 normal=0.000,-1.000 touch=18.571,50.000 sr=18.571,50.000,10.000,10.000 or=0.000,60.000,200.000,10.000 bounce=10.000,45.000 slide=nil
+resp 3 right -> -20.000,20.000 n=1
+  1 other=wall type=3 overlaps=false ti=0.333 move=30.000,0.000 normal=-1.000,0.000 touch=40.000,20.000 sr=40.000,20.000,10.000,10.000 or=50.000,0.000,10.000,100.000 bounce=-20.000,20.000 slide=nil
+fn resp -> 70.000,50.000 n=3
+  1 other=wall type=2 overlaps=false ti=0.273 move=30.000,8.727 normal=-1.000,0.000 touch=40.000,28.727 sr=40.000,28.727,10.000,10.000 or=50.000,0.000,10.000,100.000 bounce=nil slide=nil
+  2 other=box type=0 overlaps=false ti=0.545 move=60.000,17.455 normal=-1.000,0.000 touch=70.000,37.455 sr=70.000,37.455,10.000,10.000 or=80.000,30.000,10.000,10.000 bounce=nil slide=70.000,52.000
+  3 other=floor type=0 overlaps=false ti=0.863 move=0.000,12.545 normal=0.000,-1.000 touch=70.000,50.000 sr=70.000,50.000,10.000,10.000 or=0.000,60.000,200.000,10.000 bounce=nil slide=70.000,50.000
+check -> 70.000,50.000 n=3
+  1 other=wall type=2 overlaps=false ti=0.273 move=30.000,8.727 normal=-1.000,0.000 touch=40.000,28.727 sr=40.000,28.727,10.000,10.000 or=50.000,0.000,10.000,100.000 bounce=nil slide=nil
+  2 other=box type=0 overlaps=false ti=0.545 move=60.000,17.455 normal=-1.000,0.000 touch=70.000,37.455 sr=70.000,37.455,10.000,10.000 or=80.000,30.000,10.000,10.000 bounce=nil slide=70.000,52.000
+  3 other=floor type=0 overlaps=false ti=0.863 move=0.000,12.545 normal=0.000,-1.000 touch=70.000,50.000 sr=70.000,50.000,10.000,10.000 or=0.000,60.000,200.000,10.000 bounce=nil slide=70.000,50.000
+after check pos 10.000,20.000
+groups miss -> 120.000,20.000 n=0
+groups hit -> 120.000,20.000 n=1
+  1 other=wall type=2 overlaps=false ti=0.273 move=30.000,0.000 normal=-1.000,0.000 touch=40.000,20.000 sr=40.000,20.000,10.000,10.000 or=50.000,0.000,10.000,100.000 bounce=nil slide=nil
+start overlapping -> 49.000,20.000 n=1
+  1 other=wall type=2 overlaps=true ti=-80.000 move=-8.000,0.000 normal=-1.000,0.000 touch=40.000,20.000 sr=40.000,20.000,10.000,10.000 or=50.000,0.000,10.000,100.000 bounce=nil slide=nil
+fractional -> 60.750,20.250 n=1
+  1 other=wall type=2 overlaps=false ti=0.587 move=29.500,0.000 normal=-1.000,0.000 touch=40.000,20.250 sr=40.000,20.250,10.000,10.000 or=50.000,0.000,10.000,100.000 bounce=nil slide=nil
+disabled -> 120.000,20.000 n=0
+overlapping 0 all 0
+along wall
+  wall ti1=0.250 ti2=0.300 entry=50.000,25.000 exit=60.000,25.000

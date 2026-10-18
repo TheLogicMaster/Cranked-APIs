@@ -1,0 +1,11 @@
+fresh true nil
+same synth, second instrument false synths may only be in one instrument or channel at a time
+first true nil
+same instrument again false synths may only be in one instrument or channel at a time
+after playNote false synths may only be in one instrument or channel at a time
+in a channel true nil
+removed from channel true nil
+after setVolume true nil
+copy true nil
+after playNote + noteOff false synths may only be in one instrument or channel at a time
+channel add of a voice true true

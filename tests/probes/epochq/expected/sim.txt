@@ -1,0 +1,42 @@
+normal gmt true 769268730 250
+y2000 gmt true 0 0
+y1999 gmt true 0 0
+y0 gmt true 0 0
+month0 gmt true 758160000 0
+day0 gmt true 762480000 0
+month13 gmt true 757382400 0
+y2100mar gmt true -1134023296 0
+y2104mar gmt true -1007792896 0
+hour25 gmt true 757472400 0
+min75 gmt true 757386900 0
+sec99 gmt true 757382499 1500
+y2136 gmt true 2050304 0
+y2200 gmt true 2016552704 0
+day40 gmt true 763430400 0
+y2001mar gmt true 36720000 0
+y2004mar gmt true 131414400 0
+y2005jan gmt true 157852800 0
+fromEpoch 0 gmt 2000-1-1 0:0:0 wd=6
+fromEpoch 1 gmt 2000-1-1 0:0:1 wd=6
+fromEpoch 86399 gmt 2000-1-1 23:59:59 wd=6
+fromEpoch 86400 gmt 2000-1-2 0:0:0 wd=7
+fromEpoch 3.15576e+09 gmt bad argument #1 to '?' (number has no integer representation)
+fromEpoch -1 gmt 2000-1-1 0:0:255 wd=6
+fromEpoch -86401 gmt 1999-1-0 0:0:255 wd=4
+fromEpoch 2147483647 gmt 2068-1-19 3:14:7 wd=4
+fromEpoch 4.294967e+09 gmt bad argument #1 to '?' (number has no integer representation)
+fromEpoch 4.294967e+09 gmt bad argument #1 to '?' (number has no integer representation)
+timeFromEpoch no ms false main.lua:25: bad argument #2 to 'timeFromEpoch' (number expected, got no value)
+GMT no ms false main.lua:26: bad argument #2 to 'GMTTimeFromEpoch' (number expected, got no value)
+GMT ms 1500 true 2000-1-1 0:1:40 wd=6 ms=1500
+GMT ms -20 true 2000-1-1 0:1:40 wd=6 ms=65516
+GMT float false main.lua:29: bad argument #1 to 'GMTTimeFromEpoch' (number has no integer representation)
+local 1e6 true 2000-1-12 13:46:40 wd=3 ms=7
+epochFromGMTTime nil false main.lua:31: Time table required.
+epochFromGMTTime str false main.lua:32: Time table required.
+epochFromGMTTime floats true 757569600 0
+epochFromGMTTime big true 2678400 0
+epochFromTime empty true 0 0
+epochFromTime local true 329918400 77
+epochFromTime numeric key false invalid key to 'next'
+now fields ok true true integer

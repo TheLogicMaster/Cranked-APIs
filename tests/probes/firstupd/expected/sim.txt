@@ -1,0 +1,17 @@
+1 update
+1 sprite update
+1 frametimer 0
+2 update
+2 sprite update
+2 timer 0
+2 timer 1
+2 frametimer 1
+3 update
+3 sprite update
+3 timer 40
+4 update
+4 sprite update
+5 update
+5 sprite update
+6 update
+6 sprite update

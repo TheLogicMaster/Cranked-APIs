@@ -1,0 +1,20 @@
+tempo=192.0 length=384 tracks=16
+track 1: 2 notes, length 384
+  step=1 note=60.0 length=96 velocity=0.7874016
+  step=289 note=62.0 length=96 velocity=0.7086614
+track 2: 0 notes, length 0
+track 3: 0 notes, length 0
+track 4: 0 notes, length 0
+track 5: 0 notes, length 0
+track 6: 0 notes, length 0
+track 7: 0 notes, length 0
+track 8: 0 notes, length 0
+track 9: 0 notes, length 0
+track 10: 1 notes, length 144
+  step=97 note=36.0 length=48 velocity=0.8661417
+track 11: 0 notes, length 0
+track 12: 0 notes, length 0
+track 13: 0 notes, length 0
+track 14: 0 notes, length 0
+track 15: 0 notes, length 0
+track 16: 0 notes, length 0

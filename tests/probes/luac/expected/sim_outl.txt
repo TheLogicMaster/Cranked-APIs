@@ -1,0 +1,33 @@
+addFunction and registerClass	1i | 1i | true | true
+addFunction dotted name	"table" | "function"
+args: none	n=0
+args: nil bool int float	n=4 [1]t=0,nil=1,b=0,i=0,f=0.000 [2]t=1,nil=0,b=1,i=0,f=0.000 [3]t=2,nil=0,b=1,i=42,f=42.000 [4]t=3,nil=0,b=1,i=0,f=3.700
+args: false and zero	n=2 [1]t=1,nil=0,b=0,i=0,f=0.000 [2]t=2,nil=0,b=1,i=0,f=0.000
+args: strings	n=3 [1]t=4,nil=0,b=1,i=12,f=12.000,s=12,len=2,b0=49 [2]t=4,nil=0,b=1,i=0,f=0.000,s=a,len=3,b0=97 [3]t=4,nil=0,b=1,i=0,f=0.000,s=,len=0,b0=0
+args: table function	n=2 [1]t=5,nil=0,b=1,i=0,f=0.000 [2]t=6,nil=0,b=1,i=0,f=0.000
+args: image object	n=1 [1]t=8:playdate.graphics.image,nil=0,b=1,i=0,f=0.000
+args: negative float to int	n=1 [1]t=3,nil=0,b=1,i=0,f=-2.700
+push values	nil | true | 42i | 3.500f | "str" | "a\0b"
+push bitmap	"userdata" | 3i
+get bitmap	5004i
+get bitmap wrong type	ERR main.lua:20: bad argument #1 to 'c_get_bitmap' (playdate.graphics.image expected, got number)
+push sprite	"table" | 30.000f
+get sprite	12.000f
+push function	"function" | 99i
+callFunction	1i | true | 5i
+callFunction missing	0i | true
+class constants	42i | 0.500f | "probe"
+class new and method	"userdata" | 11i
+class default value	7i
+getArgObject wrong class	true
+user values	nil
+retain and release	true
+many objects stay distinct	210i
+gc collects objects	true
+object survives gc while referenced	5i
+indexMetatable method	3i
+indexMetatable custom field	5i
+indexMetatable class constant	9i
+indexMetatable missing field	nil
+callFunction_deprecated	"called" | 10i
+stop and start	"ok"

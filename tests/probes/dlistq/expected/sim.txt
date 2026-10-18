@@ -1,0 +1,4 @@
+root 10.txt,9.txt,Alpha.txt,B.txt,_under.txt,a.txt,adir/,beta.txt,dirB/,main.pdz,mid.dat,pdxinfo,zeta.txt
+readd 10.txt,9.txt,Alpha.txt,B.txt,_under.txt,a.txt,adir/,beta.txt,dirB/,main.pdz,mid.dat,pdxinfo,zeta.txt
+dirB A.txt,x.txt
+dirB/ A.txt,x.txt

@@ -1,0 +1,28 @@
+-- full opaque image on top
+-- masked image set: opaque=false
+2 low 0.0,0.0,100.0,100.0
+2 mid 0.0,0.0,60.0,60.0
+-- same masked again, setOpaque(true)
+-- top hidden
+4 low 0.0,0.0,100.0,100.0
+4 mid 0.0,0.0,60.0,60.0
+-- callback cover opaque over mid
+5 low 0.0,0.0,100.0,100.0
+5 mid 0.0,0.0,60.0,60.0
+5 cover 0.0,0.0,80.0,80.0
+-- dirty rect only inside cover
+6 cover 30.0,30.0,20.0,20.0
+-- dirty rect half inside cover
+7 mid 0.0,20.0,40.0,20.0
+7 cover 0.0,30.0,50.0,20.0
+-- cover not opaque
+8 mid 0.0,0.0,60.0,60.0
+8 cover 0.0,0.0,80.0,80.0
+-- cover opaque, smaller than mid
+9 low 0.0,0.0,100.0,100.0
+9 mid 0.0,0.0,60.0,60.0
+9 cover 0.0,0.0,40.0,40.0
+-- cover opaque, ignores draw offset with offset
+10 low 5.0,0.0,100.0,100.0
+10 mid 5.0,0.0,60.0,60.0
+10 cover 5.0,0.0,80.0,80.0

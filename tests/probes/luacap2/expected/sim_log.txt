@@ -1,0 +1,10 @@
+synth ADSR start at capture frame 24576
+sampleplayer start at capture frame 67584
+sampleplayer finished at capture frame 90112
+synth with callback start at capture frame 111616
+synth finished at capture frame 120832
+delay start at capture frame 148480
+sampleplayer finished at capture frame 172032
+bitcrusher start at capture frame 199680
+synth finished at capture frame 214016
+fileplayer start at capture frame 236544

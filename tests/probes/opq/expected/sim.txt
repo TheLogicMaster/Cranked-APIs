@@ -1,0 +1,22 @@
+clear hasMask=true new=false
+clear after setImage false
+clear sprite.new(img) false
+clear setOpaque(true) true
+clear setImage again true
+clear2 hasMask=true new=false
+clear2 after setImage false
+clear2 sprite.new(img) false
+clear2 setOpaque(true) true
+clear2 setImage again true
+black hasMask=false new=false
+black after setImage true
+black sprite.new(img) true
+black setOpaque(true) true
+black setImage again true
+white hasMask=false new=false
+white after setImage true
+white sprite.new(img) true
+white setOpaque(true) true
+white setImage again true
+composited hasMask=true
+tilemap false

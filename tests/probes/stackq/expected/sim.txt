@@ -1,0 +1,14 @@
+pure lua	false	stack overflow	999982	350	31439.23
+sort comparator	false	C stack overflow	199	25	15843.13
+gsub callback	false	C stack overflow	199	32	8039.072
+pcall nest	false	C stack overflow	199	47	227.665
+xpcall nest	false	C stack overflow	199	0	234.1553
+coroutine nest	false	main.lua:15: main.lua:15: main.lua:15: main.lua:15: main.lua	199	1	656.5732
+metamethod __index	false	C stack overflow	198	0	663.4541
+tostring __tostring	false	C stack overflow	198	0	670.2666
+__lt via sort	false	C stack overflow	198	0	664.7783
+performOnAllSprites	false	stack overflow	111108	181	23228.53
+pushContext deep	true	nil	100000	48	23229.13
+lockFocus deep	true	nil	100000	69	23229.72
+sprite draw recursion	true	nil	1	0	23230.65
+image draw in context	false	stack overflow	999960	847	44063.86

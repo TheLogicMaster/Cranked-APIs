@@ -1,0 +1,5 @@
+0 a=alive playing=true b=alive playing=true c=collected
+15 a=alive playing=true b=alive playing=true c=collected
+31 finish callback a
+45 a=collected b=collected c=collected
+150 made 400 failed 0

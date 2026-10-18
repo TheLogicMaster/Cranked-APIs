@@ -1,0 +1,25 @@
+1 [ a] draw=7x14 ink=5-11,6-14
+2 [  a] draw=7x14 ink=10-16,6-14
+3 [a] draw=7x14 ink=0-6,6-14
+4 [.a] draw=10x14 ink=0-9,6-14
+5 ['a] draw=10x19 ink=0-9,1-14
+6 [^] draw=5x19 ink=0-4,1-3
+7 [_^_] draw=8x19 ink=0-7,1-4
+8 [j] draw=3x18 ink=0-2,2-17
+9 [_j_] draw=6x18 ink=0-5,2-17
+10 [/a] draw=7x14 ink=0-6,26-34
+11 [//a] draw=7x14 ink=0-6,46-54
+12 [ /a] draw=7x14 ink=0-6,26-34
+13 [a/] draw=7x34 ink=0-6,6-14
+14 [_R_/a] draw=7x14 ink=0-6,26-34
+15 [_R_ a] draw=7x14 ink=20-26,6-14
+16 [_l_] draw=5x19 ink=0-4,1-14
+17 [_l_a] draw=11x19 ink=0-10,1-14
+18 [a_l_] draw=13x19 ink=0-12,1-14
+19 [_Ra_] draw=8x14 ink=14-21,6-14
+20 [_aR_] draw=8x14 ink=0-7,6-14
+21 [  ] draw=0x20 ink=99--1,99--1
+22 [_R_/_R_/b] draw=7x19 ink=0-6,41-54
+23 [,] draw=2x6 ink=0-1,14-17
+24 [-] draw=5x11 ink=0-4,9-9
+25 [_-_] draw=5x11 ink=0-4,9-9

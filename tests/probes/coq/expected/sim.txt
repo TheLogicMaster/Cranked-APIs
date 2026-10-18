@@ -1,0 +1,5 @@
+plain yield	ok	done	2
+print	ok	done	2
+lockFocus	ok	done	2
+yield in lockFocus	ok	done	2
+tonumber/sub	ok	1	2

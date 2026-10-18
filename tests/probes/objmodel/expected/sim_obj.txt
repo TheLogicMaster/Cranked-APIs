@@ -1,0 +1,25 @@
+sprite	type=table custom=true/42 pairs=true(6) mt=playdate.graphics.sprite rawget=true tostring=playdate.graphics.sprite: ADDR
+image	type=userdata custom=false/nil pairs=false(0) mt=playdate.graphics.image rawget=false tostring=playdate.graphics.image: ADDR
+imagetable	type=userdata custom=false/nil pairs=false(0) mt=playdate.graphics.imagetable rawget=false tostring=playdate.graphics.imagetable: ADDR
+tilemap	type=userdata custom=false/nil pairs=false(0) mt=playdate.graphics.tilemap rawget=false tostring=playdate.graphics.tilemap: ADDR
+font	type=userdata custom=false/nil pairs=false(0) mt=playdate.graphics.font rawget=false tostring=playdate.graphics.font: ADDR
+rect	type=userdata custom=false/nil pairs=false(0) mt=playdate.geometry.rect rawget=false tostring=(1.0, 2.0, 3.0, 4.0)
+point	type=userdata custom=false/nil pairs=false(0) mt=playdate.geometry.point rawget=false tostring=(1.0, 2.0)
+vector2D	type=userdata custom=false/nil pairs=false(0) mt=playdate.geometry.vector2D rawget=false tostring=(1.0, 2.0)
+size	type=userdata custom=false/nil pairs=false(0) mt=playdate.geometry.size rawget=false tostring=(1.0, 2.0)
+lineSegment	type=userdata custom=false/nil pairs=false(0) mt=playdate.geometry.lineSegment rawget=false tostring=((0.0, 0.0),  (1.0, 1.0))
+arc	type=userdata custom=false/nil pairs=false(0) mt=playdate.geometry.arc rawget=false tostring=location: (0.0, 0.0), radius: 5.0, startAngle: 0.0, endAngle: 90.0, clockwise? true
+polygon	type=userdata custom=false/nil pairs=false(0) mt=playdate.geometry.polygon rawget=false tostring=[(0.0, 0.0), (1.0, 0.0), (1.0, 1.0)]
+affineTransform	type=userdata custom=false/nil pairs=false(0) mt=playdate.geometry.affineTransform rawget=false tostring=[ 1.0 	 0.0 	 0.0 ]
+[ 0.0 	 1.0 	 0.0 ]
+[ 0.0 	 0.0 	 1.0 ]
+
+synth	type=userdata custom=false/nil pairs=false(0) mt=playdate.sound.synth rawget=false tostring=playdate.sound.synth: ADDR
+sample	type=userdata custom=false/nil pairs=false(0) mt=playdate.sound.sample rawget=false tostring=playdate.sound.sample: ADDR
+sampleplayer	type=userdata custom=false/nil pairs=false(0) mt=playdate.sound.sampleplayer rawget=false tostring=playdate.sound.sampleplayer: ADDR
+lfo	type=userdata custom=false/nil pairs=false(0) mt=playdate.sound.lfo rawget=false tostring=playdate.sound.lfo: ADDR
+channel	type=userdata custom=false/nil pairs=false(0) mt=playdate.sound.channel rawget=false tostring=playdate.sound.channel: ADDR
+sequence	type=userdata custom=false/nil pairs=false(0) mt=playdate.sound.sequence rawget=false tostring=playdate.sound.sequence: ADDR
+file	type=userdata custom=false/nil pairs=false(0) mt=playdate.file.file rawget=false tostring=playdate.file.file: ADDR
+graph	type=userdata custom=false/nil pairs=false(0) mt=playdate.pathfinder.graph rawget=false tostring=playdate.pathfinder.graph: ADDR
+timer	type=table custom=true/42 pairs=true(16) mt=table rawget=true tostring=playdate.timer(duration:1000, repeats: false, reverses: false)

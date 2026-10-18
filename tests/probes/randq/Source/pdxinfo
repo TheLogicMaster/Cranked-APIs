@@ -1,0 +1,6 @@
+name=randq
+author=Cranked APIs probes
+description=probe
+bundleID=org.crankedapis.randq
+version=1.0
+buildNumber=1

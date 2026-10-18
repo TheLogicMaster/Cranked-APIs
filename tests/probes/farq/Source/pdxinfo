@@ -1,0 +1,6 @@
+name=farq
+author=Cranked APIs probes
+description=probe
+bundleID=org.crankedapis.farq
+version=1.0
+buildNumber=1

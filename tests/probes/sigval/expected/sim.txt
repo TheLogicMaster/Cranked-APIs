@@ -1,0 +1,11 @@
+name playdate.sound.signalvalue
+keys __index:table __name:string getValue:function userval_count:number
+index same true
+getValue true 0.0
+setOffset false main.lua:12: field '?' is not callable (a nil value)
+setScale false main.lua:12: field '?' is not callable (a nil value)
+wet same object true
+as modulator true nil
+lfo name playdate.sound.lfo keys __gc:function __index:table __name:string getValue:function new:function setArpeggio:function setCenter:function setDelay:function setDepth:function setGlobal:function setOffset:function setPhase:function setRandomSeed:function setRate:function setRetrigger:function setScale:function setStartPhase:function setType:function userval_count:number
+signal class __index:table __name:string getValue:function setOffset:function setScale:function userval_count:number
+signalvalue class __index:table __name:string getValue:function userval_count:number

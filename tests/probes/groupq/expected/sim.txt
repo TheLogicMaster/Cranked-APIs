@@ -1,0 +1,13 @@
+case 1 a(g=0,cw=nil) b(g=0,cw=nil): all=1 aOver=1 bOver=1 aHits=1 bHits=1 acw=0
+case 2 a(g=2,cw=nil) b(g=0,cw=nil): all=0 aOver=1 bOver=0 aHits=1 bHits=0 acw=0
+case 3 a(g=0,cw=nil) b(g=2,cw=nil): all=0 aOver=0 bOver=1 aHits=0 bHits=1 acw=0
+case 4 a(g=2,cw=nil) b(g=2,cw=nil): all=0 aOver=0 bOver=0 aHits=0 bHits=0 acw=0
+case 5 a(g=1,cw=2) b(g=2,cw=nil): all=1 aOver=1 bOver=0 aHits=1 bHits=0 acw=2
+case 6 a(g=1,cw=4) b(g=2,cw=nil): all=0 aOver=0 bOver=0 aHits=0 bHits=0 acw=4
+case 7 a(g=1,cw=4) b(g=2,cw=1): all=1 aOver=0 bOver=1 aHits=0 bHits=1 acw=4
+case 8 a(g=1,cw=0) b(g=2,cw=0): all=0 aOver=0 bOver=0 aHits=0 bHits=0 acw=0
+case 9 a(g=0,cw=0) b(g=0,cw=0): all=1 aOver=1 bOver=1 aHits=1 bHits=1 acw=0
+case 10 a(g=2,cw=2) b(g=0,cw=0): all=0 aOver=0 bOver=0 aHits=0 bHits=0 acw=2
+case 11 a(g=0,cw=1) b(g=0,cw=nil): all=0 aOver=0 bOver=1 aHits=0 bHits=1 acw=1
+case 12 a(g=0,cw=1) b(g=0,cw=2): all=0 aOver=0 bOver=0 aHits=0 bHits=0 acw=1
+case 13 a(g=0,cw=0) b(g=0,cw=3): all=0 aOver=1 bOver=0 aHits=1 bHits=0 acw=0

@@ -1,0 +1,4 @@
+USB=true
+charging=true
+screws=false
+battery 100.0 4.2

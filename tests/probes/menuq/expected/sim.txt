@@ -1,0 +1,18 @@
+a true nil b true nil c true nil
+fourth true nil Cannot add more items to this menu.
+count 3
+titles Alpha Beta Gamma
+values 0 true two
+set false three
+bad option true nil one
+numeric option one
+retitle Alpha2
+empty options true nil
+after remove 2
+no callback true nil
+long false Cannot add more items to this menu. nil
+after removeAll 0
+checkmark default false
+options default x
+order Chk,Opts
+nil title false bad argument #2 to '?' (string expected, got nil)

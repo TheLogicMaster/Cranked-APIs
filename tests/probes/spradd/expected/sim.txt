@@ -1,0 +1,50 @@
+1	begin
+1	update	a
+1	a added c
+1	update	b
+1	end	3
+2	begin
+2	update	a
+2	update	b
+2	b added d (z -5)
+2	update	c
+2	end	4
+3	begin
+3	update	d
+3	update	a
+3	update	b
+3	b removed a
+3	update	c
+3	end	3
+4	begin
+4	update	d
+4	update	b
+4	update	c
+4	c removed itself, added e
+4	end	3
+5	f added before update
+5	begin
+5	update	d
+5	update	b
+5	update	f
+5	update	e
+5	end	4
+6	b z 20
+6	begin
+6	update	d
+6	update	f
+6	update	e
+6	update	b
+6	end	4
+7	begin
+7	update	d
+7	update	f
+7	update	e
+7	update	b
+7	end	4
+8	begin
+8	update	d
+8	update	f
+8	update	e
+8	update	b
+8	end	4

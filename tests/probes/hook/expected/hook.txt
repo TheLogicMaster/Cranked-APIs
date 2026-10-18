@@ -1,0 +1,3 @@
+after assign: replaced=true wrapper called=1
+rawget same=true mt=false
+append open=true

@@ -1,0 +1,9 @@
+start	56	20	true	false	false	false
+big ok	true	32
+setFontFamily(font)	true	nil
+after family(font)	94	32	false	true	false	false
+after family{normal=big}	94	32	false	true	false	false
+after family(getFont(bold))	56	20	false	false	false	false
+setFontFamily(nil)	true	nil
+setFontFamily({})	true	nil
+after empty table	56	20	false	false	false	false

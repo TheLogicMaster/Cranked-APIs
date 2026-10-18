@@ -1,0 +1,5 @@
+main font=custom mode=3 color=1.0 lw=5.0 off=3.0,4.0 bg=0.0
+custom2 true
+update1 font=custom mode=3 color=1.0 lw=5.0 off=3.0,4.0 bg=0.0
+update2 font=custom mode=3 color=1.0 lw=5.0 off=3.0,4.0 bg=0.0
+update3 font=custom mode=3 color=1.0 lw=5.0 off=3.0,4.0 bg=0.0

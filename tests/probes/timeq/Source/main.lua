@@ -1,0 +1,18 @@
+-- Probe: wall-clock time functions (compare fields; seconds differ between runs)
+local fh = playdate.file.open("out.txt", playdate.file.kFileWrite)
+local function tt(t) local k = {} for _, f in ipairs({"year", "month", "day", "weekday", "hour", "minute"}) do k[#k + 1] = f .. "=" .. tostring(t[f]) end return table.concat(k, " ") end
+local s, ms = playdate.getSecondsSinceEpoch()
+fh:write("secs " .. math.floor(s / 60) .. "\n")
+fh:write("getTime " .. tt(playdate.getTime()) .. "\n")
+fh:write("getGMTTime " .. tt(playdate.getGMTTime()) .. "\n")
+fh:write("timeFromEpoch " .. tt(playdate.timeFromEpoch(s, ms)) .. "\n")
+fh:write("GMTTimeFromEpoch " .. tt(playdate.GMTTimeFromEpoch(s, ms)) .. "\n")
+fh:write("epochFromTime " .. math.floor(playdate.epochFromTime(playdate.getTime()) / 60) .. "\n")
+fh:write("epochFromGMTTime " .. math.floor(playdate.epochFromGMTTime(playdate.getGMTTime()) / 60) .. "\n")
+fh:write("t0 " .. tt(playdate.timeFromEpoch(0, 0)) .. "\n")
+fh:write("g0 " .. tt(playdate.GMTTimeFromEpoch(0, 0)) .. "\n")
+fh:write("e2024 " .. tostring(playdate.epochFromGMTTime({year = 2024, month = 2, day = 29, hour = 12, minute = 0, second = 0})) .. "\n")
+fh:write("t2024 " .. tt(playdate.GMTTimeFromEpoch(762436800, 0)) .. "\n")
+fh:write("offset " .. tostring(playdate.getTimeZoneOffset and playdate.getTimeZoneOffset()) .. "\n")
+fh:close()
+function playdate.update() end

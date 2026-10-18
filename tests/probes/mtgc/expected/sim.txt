@@ -1,0 +1,9 @@
+file type=userdata mt=playdate.file.file gc=function protected=false
+font type=userdata mt=playdate.graphics.font gc=function protected=false
+image type=userdata mt=playdate.graphics.image gc=function protected=false
+imagetable type=userdata mt=playdate.graphics.imagetable gc=function protected=false
+point type=userdata mt=playdate.geometry.point gc=nil protected=false
+sample type=userdata mt=playdate.sound.sample gc=function protected=false
+synth type=userdata mt=playdate.sound.synth gc=function protected=false
+tilemap type=userdata mt=playdate.graphics.tilemap gc=function protected=false
+swapped images still referenced: 0

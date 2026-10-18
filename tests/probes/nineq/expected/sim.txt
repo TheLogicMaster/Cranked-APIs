@@ -1,0 +1,64 @@
+ns size 0,0 min 8,6
+trying 12x9
+ns 12x9 50x40:45:455291
+trying 20x15
+ns 20x15 50x40:117:286519
+trying 7x5
+ns 7x5 50x40:21:18694
+trying 3x2
+ns 3x2 50x40:21:18694
+trying 40x9
+ns 40x9 50x40:143:379387
+trying 12x30
+ns 12x30 50x40:143:665504
+trying 33x17
+ns 33x17 50x40:207:709717
+trying 0x0
+ns 0x0 50x40:21:18694
+trying 1x1
+ns 1x1 50x40:21:18694
+ns offset 50x40:117:723476
+iwt [hello world] 40 38x40:202:638583 false
+  al0 36x20:98:431311 true
+  al2 36x20:98:431311 true
+  al1 36x20:98:431311 true
+iwt [hello world] 200 76x20:202:334638 false
+  al0 76x20:202:334638 false
+  al2 76x20:202:334638 false
+  al1 76x20:202:334638 false
+iwt [a/bb/ccc] 100 25x60:133:818378 false
+  al0 7x20:24:960681 true
+  al2 7x20:24:960681 true
+  al1 7x20:24:960681 true
+iwt [*bold* _it_] 100 44x20:224:663164 false
+  al0 44x20:224:663164 false
+  al2 44x20:224:663164 false
+  al1 44x20:224:663164 false
+iwt [] 50 nil ERR nil
+  al0 nil ERR CoreLibs/graphics.lua:540: invalid bitmap size: 0 x 20
+  al2 nil ERR CoreLibs/graphics.lua:540: invalid bitmap size: 0 x 20
+  al1 nil ERR CoreLibs/graphics.lua:540: invalid bitmap size: 0 x 20
+dtir [the quick brown fox jumps] 60x40 al0 tz'' -> 58,40,true 80x60:206:23996
+dtir [the quick brown fox jumps] 60x40 al0 tz'...' -> 59,40,true 80x60:198:549615
+dtir [the quick brown fox jumps] 60x40 al2 tz'' -> 58,40,true 80x60:206:755924
+dtir [the quick brown fox jumps] 60x40 al2 tz'...' -> 59,40,true 80x60:198:965790
+dtir [the quick brown fox jumps] 60x40 al1 tz'' -> 58,40,true 80x60:206:227757
+dtir [the quick brown fox jumps] 60x40 al1 tz'...' -> 59,40,true 80x60:198:416344
+dtir [the quick brown fox jumps] 60x20 al0 tz'' -> 58,20,true 80x60:140:613504
+dtir [the quick brown fox jumps] 60x20 al0 tz'...' -> 58,20,true 80x60:129:995314
+dtir [the quick brown fox jumps] 60x20 al2 tz'' -> 58,20,true 80x60:140:403696
+dtir [the quick brown fox jumps] 60x20 al2 tz'...' -> 58,20,true 80x60:129:730285
+dtir [the quick brown fox jumps] 60x20 al1 tz'' -> 58,20,true 80x60:140:193888
+dtir [the quick brown fox jumps] 60x20 al1 tz'...' -> 58,20,true 80x60:129:465256
+dtir [supercalifragilistic] 40x40 al0 tz'' -> 37,40,true 80x60:188:747204
+dtir [supercalifragilistic] 40x40 al0 tz'...' -> 39,40,true 80x60:175:490445
+dtir [supercalifragilistic] 40x40 al2 tz'' -> 37,40,true 80x60:188:767091
+dtir [supercalifragilistic] 40x40 al2 tz'...' -> 39,40,true 80x60:175:278878
+dtir [supercalifragilistic] 40x40 al1 tz'' -> 37,40,true 80x60:188:617271
+dtir [supercalifragilistic] 40x40 al1 tz'...' -> 39,40,true 80x60:175:580741
+dtir [a b c d e f g h] 30x30 al0 tz'' -> 26,20,true 80x60:53:177711
+dtir [a b c d e f g h] 30x30 al0 tz'...' -> 30,20,true 80x60:59:358292
+dtir [a b c d e f g h] 30x30 al2 tz'' -> 26,20,true 80x60:53:23950
+dtir [a b c d e f g h] 30x30 al2 tz'...' -> 30,20,true 80x60:59:358292
+dtir [a b c d e f g h] 30x30 al1 tz'' -> 26,20,true 80x60:53:870192
+dtir [a b c d e f g h] 30x30 al1 tz'...' -> 30,20,true 80x60:59:358292

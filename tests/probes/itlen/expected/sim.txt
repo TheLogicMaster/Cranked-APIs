@@ -1,0 +1,7 @@
+len	3	3	3	1
+idx	0	false	nil	false
+idx	1	true	256	true
+idx	2	true	144	true
+idx	3	true	104	true
+idx	4	false	nil	false
+sprite img	true

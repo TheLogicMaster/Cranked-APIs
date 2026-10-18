@@ -1,0 +1,5 @@
+0 over s1,s3,s4 all 5 rect s1,s2,s3,s4 point s2,s3
+1100000 over s1,s3,s4 all 5 rect s1,s2,s3,s4 point s2,s3
+2000000 over s1,s3,s4 all 5 rect s1,s2,s3,s4 point s2,s3
+-1100000 over s1,s3,s4 all 5 rect s1,s2,s3,s4 point s2,s3
+2097136 over s1,s3,s4 all 5 rect s1,s2,s3,s4 point s2,s3

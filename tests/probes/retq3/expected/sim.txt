@@ -1,0 +1,129 @@
+syn:playNote 1 boolean
+syn:playMIDINote 1 boolean
+syn:noteOff 0 
+syn:isPlaying 1 boolean
+syn:getVolume 2 f:1,f:1
+syn:setVolume 0 
+syn:copy 1 playdate.sound.synth
+syn:setADSR 0 
+syn:getEnvelope 1 playdate.sound.envelope
+syn:setWaveform 0 
+smp:getLength 2 f:0,f:0.1
+smp:getSampleRate 1 i:4.41e+04
+smp:getFormat 1 i:3
+smp:getSubsample 1 nil
+sp:play 1 boolean
+sp:isPlaying 1 boolean
+sp:stop 0 
+sp:getLength 1 f:0
+sp:getVolume 2 f:1,f:1
+sp:getRate 1 f:1
+sp:getOffset 1 f:0
+sp:getSample 1 playdate.sound.sample
+sp:setRange ERR attempt to call a nil value
+sp:copy 1 playdate.sound.sampleplayer
+fp:isPlaying 1 boolean
+fp:getLength 2 nil,s:The file at (null) could not be loaded
+fp:getOffset 1 f:0
+fp:getVolume 2 f:1,f:1
+fp:getRate 1 f:1
+fp:play 1 boolean
+fp:didUnderrun 1 boolean
+fp:load missing 2 boolean,s:file already playing
+ch:addSource 1 boolean
+ch:removeSource 0 
+ch:getVolume 1 f:1
+ch:addEffect 0 
+ch:removeEffect 0 
+ch:getDryLevelSignal 1 playdate.sound.signalvalue
+ch:remove 0 
+seq:getLength 1 i:0
+seq:getTrackCount 1 i:0
+seq:isPlaying 1 boolean
+seq:getTempo 1 f:16
+seq:getCurrentStep 1 i:1
+seq:addTrack 0 
+seq:getTrackAtIndex 1 playdate.sound.track
+tr:addNote 0 
+tr:getLength 1 i:4
+tr:getNotes 1 table
+tr:getPolyphony 1 i:0
+tr:getNotesActive 1 i:0
+tr:getInstrument 1 nil
+inst:addVoice ERR synths may only be in one instrument or channel at a time
+inst:getVolume 2 f:1,f:1
+env:getValue 1 f:0
+env:trigger 0 
+lfo:getValue 1 f:0
+flt:setFrequency 0 
+dly:addTap 1 playdate.sound.delaylinetap
+cntl:getValue 1 f:0
+cntl:addEvent 0 
+snd.getCurrentTime 1 f:0.02322
+snd.resetTime 0 
+snd.getSampleRate 1 f:4.41e+04
+snd.kFormat16bitMono 1 i:2
+tm.currentTime 4 i:0,i:1000,i:0,i:1000
+tm:pause 0 
+tm:start 0 
+tm:remove 0 
+timer.performAfterDelay 1 table
+timer.keyRepeatTimer 1 table
+ft.frame 3 i:0,i:0,i:10
+an:currentValue 1 f:0
+an:valueAtTime 1 f:5
+an:progress 1 f:0
+an:ended 1 boolean
+an:reset 0 
+pt+v 1 playdate.geometry.point
+pt-pt 1 playdate.geometry.vector2D
+pt*tf 1 playdate.geometry.point
+v*2 1 playdate.geometry.vector2D
+v*v 1 f:11
+v+v 1 playdate.geometry.vector2D
+-v 1 playdate.geometry.vector2D
+v/2 1 playdate.geometry.vector2D
+v==v 1 boolean
+pt==pt 1 boolean
+pt..pt 1 playdate.geometry.lineSegment
+tostring pt 1 s:(1.0, 2.0)
+tostring v 1 s:(1.0, 2.0)
+tostring rect 1 s:(1.0, 2.0, 3.0, 4.0)
+tostring line 1 s:((1.0, 2.0),  (3.0, 4.0))
+tostring tf 1 s:[ 1.0 	 0.0 	 0.0 ]
+[ 0.0 	 1.0 	 0.0 ]
+[ 0.0 	 0.0 	 1.0 ]
+
+pt.x 2 f:1,f:2
+v.dx 3 f:1,f:2,f:1
+rect fields 12 f:1,f:2,f:3,f:4,f:3,f:4,f:2,f:1,f:6,f:4,playdate.geometry.size,playdate.geometry.point
+tf*tf 1 playdate.geometry.affineTransform
+tf:invert 0 
+tf:translatedBy 1 playdate.geometry.affineTransform
+geo.vector2D.newPolar 1 playdate.geometry.vector2D
+geo.size.new 1 playdate.geometry.size
+geo.arc.new 1 playdate.geometry.arc
+arc:length 1 f:15.71
+arc:pointOnArc 1 playdate.geometry.point
+math.lerp ERR attempt to call a nil value
+string.trimWhitespace ERR attempt to call a nil value
+string.UUID ERR field 'UUID' is not callable (a nil value)
+crankTicks 1 i:0
+gfx.nineSlice.new missing ERR attempt to index a nil value (local 'image')
+pd.getSystemMenu:getMenuItems 1 table
+pd.getSystemMenu:addMenuItem 2 playdate.menu.item,nil
+menu item fields 2 s:x,i:0
+string.format %s nil ERR bad argument #2 to 'string.format' (no value)
+print return 0 
+printTable ERR attempt to call a nil value
+table.indexOfElement 1 i:2
+table.getsize 2 i:2,i:1
+table.create 1 table
+table.shallowcopy 1 i:2
+table.deepcopy 1 i:2
+where ERR attempt to call a nil value
+sample ERR attempt to call a nil value
+playdate.argv 1 i:1
+pd.isSimulator 1 i:1
+pd.getFPS 1 i:0
+pd.display.getRefreshRate 1 f:30

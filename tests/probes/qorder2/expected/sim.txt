@@ -1,0 +1,140 @@
+a s1 s28,s49,s82
+a s4 
+a s7 s37
+a s10 s38
+a s13 s24
+a s16 
+a s19 s40,s58
+a s22 s8
+a s25 s5,s34
+a s28 s49,s1,s55,s82
+a s31 s11
+a s34 s5,s25,s49,s77
+a s37 s7,s44
+a s40 s85,s58,s19,s35
+a s43 s41,s61,s12,s9
+a s46 
+a s49 s34,s77,s28,s8,s1,s82,s59
+a s52 s55,s23
+a s55 s52,s23,s28,s82
+a s58 s40,s19
+a s61 s41,s43,s12,s9,s88,s89
+a s64 s80
+a s67 s33
+a s70 
+a s73 s85
+a s76 
+a s79 s39
+a s82 s1,s28,s49,s55
+a s85 s73,s87,s40,s42
+a s88 s54,s61,s12
+a rect s13
+a point 
+a rect s50,s88,s54
+a point 
+a rect s7,s44,s37
+a point s7
+a rect s32,s66,s68,s20,s70,s57
+a point s32
+a rect s65,s46,s31,s11,s4,s85
+a point 
+a rect s85,s17,s15,s42,s51,s35,s2,s72
+a point 
+a rect s60,s29,s66,s32
+a point 
+a rect s29,s69,s68,s14,s86,s78,s70,s57
+a point s29
+b s1 s82,s6,s39
+b s4 s65,s11,s15,s35
+b s7 s44,s37
+b s10 s38
+b s13 
+b s16 
+b s19 s40,s63,s58
+b s22 s25,s8
+b s25 s22,s8
+b s28 s49,s77,s82
+b s31 s46
+b s34 s49
+b s37 s7
+b s40 s73,s63,s19,s58
+b s43 s61,s41,s12
+b s46 s31,s65
+b s49 s34,s28,s8,s77,s59
+b s52 s55,s79,s23,s39
+b s55 s77,s52
+b s58 s40,s63,s19
+b s61 s43,s41
+b s64 s80
+b s67 s33
+b s70 s69
+b s73 s35,s85,s87,s63,s40
+b s76 
+b s79 s52,s23,s39
+b s82 s28,s77,s1
+b s85 s73,s87,s63
+b s88 s54,s12
+b rect s79,s7,s44,s37
+b point s79
+b rect s81,s30,s33,s83,s71,s67,s60
+b point 
+b rect s50,s41,s88,s54,s36,s89
+b point 
+b rect s21,s26,s3,s24
+b point 
+b rect s12,s43,s41,s9,s89,s27
+b point s12,s43,s41
+b rect s10,s38,s80,s90
+b point 
+b rect s73,s40,s63,s19,s58,s84,s10,s64
+b point s73
+b rect s72
+b point 
+c s4 
+c s16 
+c s28 
+c s40 
+c s52 
+c s64 s80
+c s76 
+c s88 s12
+c rect 
+c point 
+c rect s48,s28,s8
+c point 
+c rect s60,s68
+c point 
+c rect s60
+c point 
+c rect 
+c point 
+c rect 
+c point 
+c rect s4,s84
+c point s4
+c rect s36
+c point 
+d s4 s40,s64,s56
+d s16 
+d s28 s44,s24
+d s40 s64,s4,s56
+d s52 
+d s64 s40,s4
+d s76 
+d s88 s12,s72,s84,s8
+d rect 
+d point 
+d rect 
+d point 
+d rect 
+d point 
+d rect 
+d point 
+d rect 
+d point 
+d rect s36,s16
+d point 
+d rect s80,s60
+d point 
+d rect 
+d point 

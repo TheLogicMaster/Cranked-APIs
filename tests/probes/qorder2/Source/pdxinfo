@@ -1,0 +1,6 @@
+name=qorder2
+author=Cranked APIs probes
+description=probe
+bundleID=org.crankedapis.qorder2
+version=1.0
+buildNumber=1

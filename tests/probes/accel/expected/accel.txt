@@ -1,0 +1,9 @@
+0 load run=false nil nil nil
+2 afterstart run=true 1.224647e-16 1.0 0.0
+2 tick run=true 1.224647e-16 1.0 0.0
+3 tick run=true 1.224647e-16 1.0 0.0
+4 tick run=true 1.224647e-16 1.0 0.0
+5 tick run=true 1.224647e-16 1.0 0.0
+6 tick run=true 1.224647e-16 1.0 0.0
+7 afterstop run=false nil nil nil
+8 later run=false nil nil nil

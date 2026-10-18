@@ -1,0 +1,20 @@
+item set foo false Could not set value for 'foo' on playdate.menu.item
+item set 1 false Could not set value for '1' on playdate.menu.item
+item get bar true nil
+item set title true y
+item set value true 3
+item set callback false Could not set value for 'callback' on playdate.menu.item
+node set foo false Could not set value for 'foo' on playdate.pathfinder.node
+node set 1 false Could not set value for '1' on playdate.pathfinder.node
+node set x str true 5.0
+node get bar true nil
+node set x true 9.0
+node set id true 9.0
+graph set foo false attempt to index a playdate.pathfinder.graph value (upvalue 'g')
+image set foo false attempt to index a playdate.graphics.image value (upvalue 'img')
+image set width false attempt to index a playdate.graphics.image value (upvalue 'img')
+sprite set foo true 1
+sprite set x true 9
+font set foo false attempt to index a playdate.graphics.font value (upvalue 'font')
+synth set foo false attempt to index a playdate.sound.synth value (upvalue 'snd')
+file set foo false attempt to index a playdate.file.file value (upvalue 'f')

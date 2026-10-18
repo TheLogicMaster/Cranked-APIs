@@ -1,0 +1,20 @@
+-- Probe: fields of geometry objects (aliases such as w and h)
+local out = playdate.file.open("out.txt", playdate.file.kFileWrite)
+local g = playdate.geometry
+local function show(name, o, keys) local t = {} for _, k in ipairs(keys) do local ok, v = pcall(function() return o[k] end) t[#t + 1] = k .. "=" .. (ok and tostring(type(v) == "table" or type(v) == "userdata" and "obj" or v) or "err") end out:write(name .. "\t" .. table.concat(t, " ") .. "\n") end
+local r = g.rect.new(1, 2, 3, 4)
+show("rect", r, { "x", "y", "width", "height", "w", "h", "left", "right", "top", "bottom", "size", "origin", "dx", "x1" })
+local p = g.point.new(5, 6) show("point", p, { "x", "y", "dx", "w", "1", "2" })
+local s = g.size.new(7, 8) show("size", s, { "width", "height", "w", "h", "x" })
+local v = g.vector2D.new(1, 2) show("vector", v, { "dx", "dy", "x", "y" })
+local l = g.lineSegment.new(1, 2, 3, 4) show("line", l, { "x1", "y1", "x2", "y2", "x", "y", "dx", "dy", "w", "h", "x3" })
+local a = g.arc.new(1, 2, 3, 0, 90) show("arc", a, { "x", "y", "radius", "startAngle", "endAngle", "direction", "r", "clockwise", "isClockwise", "w" })
+pcall(function() r.w = 10 end) show("rect after w=10", r, { "width", "w" })
+pcall(function() r.h = 11 end) show("rect after h=11", r, { "height", "h" })
+pcall(function() s.w = 12 end) show("size after w=12", s, { "width", "w" })
+pcall(function() a.r = 9 end) show("arc after r=9", a, { "radius", "r" })
+pcall(function() l.x = 7 end) show("line after x=7", l, { "x1", "x" })
+local t = g.affineTransform.new() show("transform", t, { "m11", "m12", "m21", "m22", "tx", "ty", "a", "b", "c", "d" })
+local ok, e = pcall(function() return g.size.new(1,2).w end) out:write("err\t" .. tostring(e) .. "\n") local ok2, e2 = pcall(function() local r = g.rect.new(1,2,3,4) r.w = 5 return r.width end) out:write("err2\t" .. tostring(e2) .. "\n")
+out:close()
+function playdate.update() end

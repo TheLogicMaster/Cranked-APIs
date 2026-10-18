@@ -1,0 +1,5 @@
+name=cbench
+author=Cranked APIs probes
+bundleID=org.crankedapis.cbench
+version=1.0
+buildNumber=1

@@ -1,0 +1,5 @@
+sample both 1.00
+sample only 0.50
+sampleplayer only 0.50
+fileplayer only 0.50
+listFiles both.pda,main.pdz,only.pda,pdxinfo

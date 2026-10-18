@@ -1,0 +1,12 @@
+text	100,101,32,19
+fillRect	50,60,30,20
+pixel	200,150,1,1
+two_rects	10,10,5,5 300,200,5,5
+line	20,30,101,61
+image	150,40,16,12
+offset_text	107,110,11,19
+clipped	20,20,20,20
+image_ctx	
+clear	0,0,400,240
+offscreen	
+nothing	

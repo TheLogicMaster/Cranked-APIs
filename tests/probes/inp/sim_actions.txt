@@ -1,0 +1,9 @@
+sleep 0.2
+key s
+sleep 0.6
+down s
+sleep 1.5
+up s
+sleep 0.6
+key a
+sleep 0.6

@@ -1,0 +1,24 @@
+point 151,157 
+rect 151,157 s1,s2,s10,s13,s14,s3,s12
+line s13,s14,s4,s2,s1,s3
+overlap s1 s2,s13,s14,s3,s7,s10,s12
+point 143,93 s2,s6,s8,s10,s11
+rect 143,93 s2,s6,s11,s13,s8,s9,s10
+line s6,s13,s10,s2,s11,s8,s9,s7,s5,s12
+overlap s2 s6,s11,s13,s8,s9,s10,s5,s7,s4,s14,s12,s1,s3
+point 142,101 s2,s10,s11
+rect 142,101 s2,s6,s11,s13,s8,s9,s10,s14
+line s6,s13,s2,s11,s10,s9,s7,s14,s5,s12
+overlap s3 s1,s2,s14,s10,s12
+point 167,84 s7,s8,s9
+rect 167,84 s2,s6,s8,s9,s10,s11,s5,s7
+line s6,s8,s9,s7,s10,s5,s2,s12
+overlap s4 s2,s13,s14,s11
+point 120,131 s2,s13,s14
+rect 120,131 s2,s4,s11,s13,s14,s10,s1
+line s13,s14,s4,s2,s11,s1,s10,s3,s12
+overlap s5 s2,s7,s8,s9,s10,s12,s14
+point 129,130 s1,s2,s13,s14
+rect 129,130 s2,s4,s11,s13,s14,s10,s1
+line s13,s14,s4,s2,s11,s1,s10,s3,s12
+overlap s6 s13,s2,s11,s8,s9,s10

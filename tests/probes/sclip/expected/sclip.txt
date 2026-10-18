@@ -1,0 +1,9 @@
+center00_clip_full	black=400 box=40,40-59,59
+center00_clip_half	black=200 box=100,40-119,49
+center_default_clip_at_pos	black=100 box=160,40-169,49
+clip_local_coords	black=0
+clip_then_move	black=100 box=290,50-299,59
+clip_fraction	black=160 box=340,40-359,47
+fields	black=200 box=40,120-59,129
+drawoffset	black=400 box=100,120-119,139
+width field=20.0 height field=20.0

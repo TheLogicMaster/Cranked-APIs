@@ -1,0 +1,20 @@
+play | true
+isPlaying | true
+offset | 0.0
+underrun | false
+play2 count | true
+load bad | false | Invalid argument
+play after bad load | true
+isPlaying3 | true
+play4 | true
+paused isPlaying4 | false
+load4 after pause | true
+frame | 1 | isPlaying | true | offset | 0.0 | underrun | false
+frame | 5 | isPlaying | true | offset | 0.0 | underrun | false
+frame | 30 | isPlaying | true | offset | 0.0 | underrun | false
+load while playing | false | file already playing
+after stop isPlaying | false
+load after stop | true
+play tone | true
+isPlaying tone | true
+frame 60 isPlaying | true

@@ -1,0 +1,12 @@
+author=string:Cranked APIs probes
+buildNumber=string:1
+bundleID=string:org.crankedapis.metaq
+contentWarning2=string:two
+contentWarning=string:none
+description=string:desc
+imagePath=string:img
+launchSoundPath=string:snd
+name=string:metaq
+pdxversion=number:integer:30101
+version=string:1.0
+headphone 2 true false

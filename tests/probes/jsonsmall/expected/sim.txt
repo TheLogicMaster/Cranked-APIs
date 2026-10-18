@@ -1,0 +1,37 @@
+lbrk size=2	path: nil / "empty file at line 1"	file: nil / "empty file at line 1"	decode: {} / nil
+lbrace size=2	path: nil / "empty file at line 1"	file: nil / "empty file at line 1"	decode: {} / nil
+one size=1	path: nil / "empty file at line 1"	file: nil / "empty file at line 1"	decode: nil / nil
+empty size=0	path: nil / "empty file at line 1"	file: nil / "empty file at line 1"	decode: nil / "empty file at line 1"
+space size=1	path: nil / "empty file at line 1"	file: nil / "empty file at line 1"	decode: nil / "empty file at line 1"
+arr1 size=3	path: {1=integer:1} / nil	file: {1=integer:1} / nil	decode: {1=integer:1} / nil
+two size=2	path: nil / "empty file at line 1"	file: nil / "empty file at line 1"	decode: nil / nil
+onesp size=2	path: nil / "empty file at line 1"	file: nil / "empty file at line 1"	decode: integer:1 / nil
+onenl size=2	path: nil / "empty file at line 1"	file: nil / "empty file at line 1"	decode: integer:1 / nil
+nl size=1	path: nil / "empty file at line 1"	file: nil / "empty file at line 1"	decode: nil / "empty file at line 2"
+nl2 size=2	path: nil / "empty file at line 1"	file: nil / "empty file at line 1"	decode: nil / "empty file at line 3"
+str size=2	path: nil / "empty file at line 1"	file: nil / "empty file at line 1"	decode: "" / nil
+strx size=3	path: "x" / nil	file: "x" / nil	decode: "x" / nil
+t size=1	path: nil / "empty file at line 1"	file: nil / "empty file at line 1"	decode: nil / "expected \"true\" at line 1"
+tr size=2	path: nil / "empty file at line 1"	file: nil / "empty file at line 1"	decode: nil / "expected \"true\" at line 1"
+brk size=1	path: nil / "empty file at line 1"	file: nil / "empty file at line 1"	decode: nil / "json decode_value() read unexpected character at line 1"
+brk2 size=2	path: nil / "empty file at line 1"	file: nil / "empty file at line 1"	decode: nil / "json decode_value() read unexpected character at line 1"
+zero size=2	path: nil / "empty file at line 1"	file: nil / "empty file at line 1"	decode: integer:0 / nil
+neg size=3	path: integer:-1 / nil	file: integer:-1 / nil	decode: integer:-1 / nil
+arrsp size=3	path: {} / nil	file: {} / nil	decode: {} / nil
+objsp size=3	path: {} / nil	file: {} / nil	decode: {} / nil
+arr2 size=4	path: {1=integer:12} / nil	file: {1=integer:12} / nil	decode: {1=integer:12} / nil
+bom size=3	path: nil / "empty file at line 1"	file: nil / "empty file at line 1"	decode: nil / "json decode_value() read unexpected character at line 1"
+bomarr size=5	path: {} / nil	file: {} / nil	decode: nil / "json decode_value() read unexpected character at line 1"
+bomobj size=5	path: {} / nil	file: {} / nil	decode: nil / "json decode_value() read unexpected character at line 1"
+bomone size=4	path: nil / nil	file: nil / nil	decode: nil / "json decode_value() read unexpected character at line 1"
+bomb1 size=1	path: nil / "empty file at line 1"	file: nil / "empty file at line 1"	decode: nil / "json decode_value() read unexpected character at line 1"
+bomb2 size=2	path: nil / "empty file at line 1"	file: nil / "empty file at line 1"	decode: nil / "json decode_value() read unexpected character at line 1"
+bomb2arr size=4	path: nil / "json decode_value() read unexpected character at line 1"	file: nil / "json decode_value() read unexpected character at line 1"	decode: nil / "json decode_value() read unexpected character at line 1"
+true size=4	path: true / nil	file: true / nil	decode: true / nil
+null size=4	path: nil / nil	file: nil / nil	decode: nil / nil
+nullsp size=5	path: nil / nil	file: nil / nil	decode: nil / nil
+x size=1	path: nil / "empty file at line 1"	file: nil / "empty file at line 1"	decode: nil / "json decode_value() read unexpected character at line 1"
+nul size=1	path: nil / "empty file at line 1"	file: nil / "empty file at line 1"	decode: nil / "empty file at line 1"
+nularr size=3	path: nil / "decode_value() didn't run to end of file at line 1"	file: nil / "decode_value() didn't run to end of file at line 1"	decode: {} / nil
+encodeToFile {} size=2	nil / "empty file at line 1"
+encodeToFile pretty {} size=3	{} / nil

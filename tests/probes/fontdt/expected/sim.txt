@@ -1,0 +1,15 @@
+pixels 1	350965768
+pixels 2	989539640
+pixels 3	772104648
+pixels 4	0
+pixels 5	47119742
+pixels 6	642219308
+pixels 7	802958389
+case 1	font 32 19 | gfx 32 19
+case 2	font 7 14 | gfx 7 14
+case 3	font 8 19 | gfx 8 19
+case 4	font 0 20 | gfx 0 20
+case 5	font 42 39 | gfx 42 39
+case 6	font 44 79 | gfx 44 79
+case 7	font 44 88 | gfx 44 88
+rect	32 19

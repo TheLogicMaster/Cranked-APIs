@@ -1,0 +1,172 @@
+START	[1,2,3]
+[1,2,3]	{#1=i1,#2=i2,#3=i3} | nil
+START	{"a":1}
+{"a":1}	{a=i1} | nil
+START	[]
+[]	{} | nil
+START	{}
+{}	{} | nil
+START	  [ 1 , 2 ]  
+  [ 1 , 2 ]  	{#1=i1,#2=i2} | nil
+START	[	1,
+2]
+[	1,
+2]	{#1=i1,#2=i2} | nil
+START	12
+12	nil | nil
+START	12 
+12 	i12 | nil
+START	1.5
+1.5	nil | nil
+START	1.5 
+1.5 	f1.5 | nil
+START	"str"
+"str"	s"str" | nil
+START	"str" 
+"str" 	s"str" | nil
+START	true
+true	true | nil
+START	true 
+true 	true | nil
+START	null
+null	nil | nil
+START	null 
+null 	nil | nil
+START	[0]
+[0]	{#1=i0} | nil
+START	[-0]
+[-0]	{#1=i0} | nil
+START	[-7]
+[-7]	{#1=i-7} | nil
+START	[0.1]
+[0.1]	{#1=f0.100000001} | nil
+START	[3.14159]
+[3.14159]	{#1=f3.14159012} | nil
+START	[1e3]
+[1e3]	{#1=i1000} | nil
+START	[1E-2]
+[1E-2]	{#1=f0.00999999978} | nil
+START	[2.5e+3]
+[2.5e+3]	nil | s"decode_array() didn't find ']' at line 1"
+START	[01]
+[01]	{#1=i1} | nil
+START	[1.]
+[1.]	nil | s"bad number format at line 1"
+START	[.5]
+[.5]	nil | s"json decode_value() read unexpected character at line 1"
+START	[-.5]
+[-.5]	{#1=f-0.5} | nil
+START	[-]
+[-]	{#1=i0} | nil
+START	[9999999999]
+[9999999999]	{#1=i1410065407} | nil
+START	[-2147483649]
+[-2147483649]	{#1=i2147483647} | nil
+START	[21e8]
+[21e8]	{#1=i2100000000} | nil
+START	[3e9]
+[3e9]	{#1=f3e+09} | nil
+START	[1e400]
+[1e400]	{#1=finf} | nil
+START	[5e-1]
+[5e-1]	{#1=f0.5} | nil
+START	[1e0]
+[1e0]	{#1=f1} | nil
+START	[0.123456789123]
+[0.123456789123]	{#1=f0.123456791} | nil
+START	[123456.789]
+[123456.789]	{#1=f123456.789} | nil
+START	[1e5]
+[1e5]	{#1=i100000} | nil
+START	1e5
+1e5	f1 | nil
+START	["\b\f\n\r\t\/\\\""]
+["\b\f\n\r\t\/\\\""]	{#1=s"\8\12\n\13\9/\\\""} | nil
+START	["\u0041"]
+["\u0041"]	{#1=s"A"} | nil
+START	["\u00e9"]
+["\u00e9"]	{#1=s"é"} | nil
+START	["\u20ac"]
+["\u20ac"]	{#1=s"â‚¬"} | nil
+START	["\ud83d\ude00"]
+["\ud83d\ude00"]	{#1=s"í ½í¸€"} | nil
+START	["\q"]
+["\q"]	nil | s"invalid escape character at line 1"
+START	["\uZZ41"]
+["\uZZ41"]	{#1=s"A"} | nil
+START	["abc
+["abc	nil | s"read_string() hit end of file at line 1"
+START	["a\u0000b"]
+["a\u0000b"]	{#1=s"a"} | nil
+START	[1,]
+[1,]	nil | s"json decode_value() read unexpected character at line 1"
+START	{"a":1,}
+{"a":1,}	nil | s"decode_table expected '\"' at line 1"
+START	{"a" 1}
+{"a" 1}	nil | s"decode_table expected ':' at line 1"
+START	{a:1}
+{a:1}	nil | s"decode_table expected '\"' at line 1"
+START	['x']
+['x']	nil | s"json decode_value() read unexpected character at line 1"
+START	[True]
+[True]	nil | s"json decode_value() read unexpected character at line 1"
+START	[nul]
+[nul]	nil | s"expected \"null\" at line 1"
+START	[1] 2
+[1] 2	nil | s"decode_value() didn't run to end of file at line 1"
+START	
+	nil | s"empty file at line 1"
+START	   
+   	nil | s"empty file at line 1"
+START	{"a":1
+{"a":1	nil | nil
+START	[1,null,3]
+[1,null,3]	{#1=i1,#3=i3} | nil
+START	{"a":null,"b":2}
+{"a":null,"b":2}	{b=i2} | nil
+START	{"a":1,"a":2}
+{"a":1,"a":2}	{a=i2} | nil
+START	{"_array":[1,2],"x":4}
+{"_array":[1,2],"x":4}	{#1=i1,#2=i2,x=i4} | nil
+START	{"_array":{"k":1}}
+{"_array":{"k":1}}	{k=i1} | nil
+START	[[1,[2,[3]]],{"x":{"y":[]}}]
+[[1,[2,[3]]],{"x":{"y":[]}}]	{#1={#1=i1,#2={#1=i2,#2={#1=i3}}},#2={x={y={}}}} | nil
+START	{"":1}
+{"":1}	{=i1} | nil
+START	{"1":"one","2":"two"}
+{"1":"one","2":"two"}	{1=s"one",2=s"two"} | nil
+START	[1, "two", true, false, null]
+[1, "two", true, false, null]	{#1=i1,#2=s"two",#3=true,#4=false} | nil
+START	{"a":[1,2],"b":{"c":"d"}}
+{"a":[1,2],"b":{"c":"d"}}	{a={#1=i1,#2=i2},b={c=s"d"}} | nil
+START	[1 2]
+[1 2]	nil | s"decode_array() didn't find ']' at line 1"
+START	{"a":1 "b":2}
+{"a":1 "b":2}	nil | s"decode_table expected ',' at line 1"
+START	[-1.5e2]
+[-1.5e2]	{#1=f-150} | nil
+START	[1e]
+[1e]	{#1=f1} | nil
+START	[1e-]
+[1e-]	{#1=f1} | nil
+START	[
+
+1,
+x]
+[
+
+1,
+x]	nil | s"json decode_value() read unexpected character at line 4"
+START	{
+"a":
+
+!}
+{
+"a":
+
+!}	nil | s"json decode_value() read unexpected character at line 4"
+START	[1.234567891234]
+[1.234567891234]	{#1=f1.23456788} | nil
+START	[100000000000000000000.0]
+[100000000000000000000.0]	{#1=f1.66199296e+09} | nil

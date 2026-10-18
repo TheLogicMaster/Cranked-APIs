@@ -1,0 +1,13 @@
+new opaque=true img=true
+rot30 opaque=false img=true
+rot90 opaque=true img=true
+rot0 opaque=true img=true
+scale2 opaque=true img=true
+scale1 opaque=true img=true
+setOpaque then rot45 opaque=false img=true
+rot0 again opaque=true img=true
+setImage scale2 opaque=true img=true
+setImage scale1 opaque=true img=true
+masked opaque=false img=false
+masked rot30 opaque=false img=false
+masked opaque rot30 opaque=false img=false

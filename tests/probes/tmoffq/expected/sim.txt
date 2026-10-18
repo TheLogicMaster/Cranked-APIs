@@ -1,0 +1,13 @@
+off=0,0 draw true  24:786293
+off=0,0 ignore true  24:786293
+off=0,0 image ignore true  4:499310
+off=0,0 drawrect true  9:978546
+off=5,3 draw true  24:754975
+off=5,3 ignore true  24:754975
+off=5,3 image ignore true  4:499310
+off=5,3 drawrect true  9:578464
+off=-3,7 draw true  20:151954
+off=-3,7 ignore true  20:151954
+off=-3,7 image ignore true  4:499310
+off=-3,7 drawrect true  9:652259
+screen 48:728395

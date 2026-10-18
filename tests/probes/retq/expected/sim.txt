@@ -1,0 +1,222 @@
+gfx.setColor 0 
+gfx.getColor 1 f
+gfx.setLineWidth 0 
+gfx.drawLine 0 
+gfx.drawRect 0 
+gfx.fillRect 0 
+gfx.drawCircleAtPoint 0 
+gfx.drawText 2 i,i
+gfx.drawTextAligned 0 
+gfx.drawTextInRect 4 i,i,boolean,nil
+gfx.getTextSizeForMaxWidth 2 i,i
+gfx.imageWithText 2 playdate.graphics.image,boolean
+gfx.setDrawOffset 0 
+gfx.getDrawOffset 2 f,f
+gfx.setClipRect 0 
+gfx.clearClipRect 0 
+gfx.pushContext 0 
+gfx.popContext 0 
+gfx.getWorkingImage 1 playdate.graphics.image
+gfx.getDisplayImage 1 playdate.graphics.image
+gfx.checkAlphaCollision 1 boolean
+gfx.getFont 1 playdate.graphics.font
+gfx.setFont 0 
+gfx.getFontTracking 1 f
+gfx.getBackgroundColor 1 f
+gfx.getImageDrawMode 1 i
+gfx.setPattern 0 
+gfx.setDitherPattern 0 
+gfx.setColor2 0 
+img:getSize 2 i,i
+img:copy 1 playdate.graphics.image
+img:sample 1 i
+img:draw 0 
+img:drawScaled 0 
+img:scaledImage 1 playdate.graphics.image
+img:rotatedImage 1 playdate.graphics.image
+img:blurredImage 1 playdate.graphics.image
+img:fadedImage 1 playdate.graphics.image
+img:invertedImage 1 playdate.graphics.image
+img:hasMask 1 boolean
+img:getMaskImage 1 nil
+img:clear 0 
+img:transformedImage 1 playdate.graphics.image
+img:vcrPauseFilterImage 1 playdate.graphics.image
+img:drawCentered 0 
+img:drawTiled 0 
+img:drawIgnoringOffset 0 
+img:addMask 0 
+img:removeMask 0 
+img:setInverted 0 
+img:load 2 boolean,string
+it:getLength 1 i
+it:getSize 2 i,i
+it:getImage 0 
+it:setImage 0 
+font:getHeight 1 i
+font:getTextWidth 1 i
+font:drawText 2 i,i
+font:drawTextAligned 0 
+font:getGlyph 2 playdate.graphics.image,i
+spr:moveTo 0 
+spr:moveBy 0 
+spr:getPosition 2 f,f
+spr:add 0 
+spr:remove 0 
+spr:setImage 0 
+spr:getImage 1 playdate.graphics.image
+spr:setSize 0 
+spr:getBounds 4 f,f,f,f
+spr:getBoundsRect 1 playdate.geometry.rect
+spr:setCollideRect 0 
+spr:getCollideRect 1 playdate.geometry.rect
+spr:getCollideBounds 4 f,f,f,f
+spr:moveWithCollisions 4 f,f,table,i
+spr:checkCollisions 4 f,f,table,i
+spr:overlappingSprites 1 table
+spr:alphaCollision 1 boolean
+spr:setTag 0 
+spr:getTag 1 i
+spr:isVisible 1 boolean
+spr:setVisible 0 
+spr:setZIndex 0 
+spr:copy 1 playdate.graphics.sprite
+spr:getRotation 1 f
+spr:setRotation 0 
+spr:getScale 2 f,f
+spr:getCenter 2 f,f
+spr:getCenterPoint 1 playdate.geometry.point
+spr:getImageFlip 1 i
+spr:setAnimator ERR playdate.graphics.sprite:setAnimator(): `animator` must use a `playdate.geometry.point` for its start value.
+spr:getGroupMask 1 f
+spr:getCollidesWithGroupsMask 1 f
+spr:collisionsEnabled 1 boolean
+spr:getStencil ERR attempt to call a nil value
+spr:getsUpdatesEnabled 1 boolean
+sprite.getAllSprites 1 table
+sprite.spriteCount 1 i
+sprite.querySpritesAtPoint 1 table
+sprite.querySpritesInRect 1 table
+sprite.querySpritesAlongLine 1 table
+sprite.querySpriteInfoAlongLine 1 table
+sprite.allOverlappingSprites 1 table
+sprite.addEmptyCollisionSprite 1 playdate.graphics.sprite
+sprite.spriteWithText 2 playdate.graphics.sprite,boolean
+tm:getSize 2 i,i
+tm:getPixelSize 2 i,i
+tm:getTileSize 1 nil
+tm:getTiles 2 table,i
+tm:getTileAtPosition 1 nil
+tm:getCollisionRects 1 table
+pt:unpack 2 f,f
+pt:offsetBy 1 playdate.geometry.point
+pt:distanceToPoint 1 f
+pt:copy 1 playdate.geometry.point
+rc:unpack 4 f,f,f,f
+rc:intersection 1 playdate.geometry.rect
+rc:intersects 1 boolean
+rc:containsPoint 1 boolean
+rc:centerPoint 1 playdate.geometry.point
+rc:isEmpty 1 boolean
+rc:toPolygon 1 playdate.geometry.polygon
+rc:insetBy 1 playdate.geometry.rect
+rc:offset 0 
+rc:union 1 playdate.geometry.rect
+rc:flipRelativeToRect 0 
+ln:unpack 4 f,f,f,f
+ln:length 1 f
+ln:midPoint 1 playdate.geometry.point
+ln:intersectsLineSegment 2 boolean,playdate.geometry.point
+ln:intersectsRect 2 boolean,table
+ln:closestPointOnLineToPoint 1 playdate.geometry.point
+ln:pointOnLine 1 playdate.geometry.point
+ln:segmentVector 1 playdate.geometry.vector2D
+ln:intersectsPolygon 2 boolean,table
+vec:unpack 2 f,f
+vec:magnitude 1 f
+vec:normalized 1 playdate.geometry.vector2D
+vec:dotProduct 1 f
+vec:angleBetween 1 f
+vec:leftNormal 1 playdate.geometry.vector2D
+poly:count 1 i
+poly:getBounds 4 f,f,f,f
+poly:getBoundsRect 1 playdate.geometry.rect
+poly:containsPoint 1 boolean
+poly:isClosed 1 boolean
+poly:length 1 f
+poly:getPointAt 1 playdate.geometry.point
+poly:pointOnPolygon 1 playdate.geometry.point
+poly:intersects 1 boolean
+tf:transformXY 2 f,f
+tf:unpack ERR attempt to call a nil value
+tf:copy 1 playdate.geometry.affineTransform
+geo.squaredDistanceToPoint 1 f
+geo.distanceToPoint 1 f
+pd.getCurrentTimeMilliseconds 1 i
+pd.getElapsedTime 1 f
+pd.resetElapsedTime 0 
+pd.getCrankPosition 1 f
+pd.getCrankChange 2 f,f
+pd.getCrankTicks ERR attempt to call a nil value
+pd.isCrankDocked 1 boolean
+pd.buttonIsPressed 1 boolean
+pd.getButtonState 3 i,i,i
+pd.startAccelerometer 0 
+pd.readAccelerometer 3 f,f,f
+pd.accelerometerIsRunning 1 boolean
+pd.getSystemMenu 1 playdate.menu
+pd.setMenuImage ERR bad argument #1 to '?' (playdate.graphics.image or nil)
+pd.getFPS 1 i
+pd.setAutoLockDisabled 0 
+pd.wait ERR playdate.wait() can only be called from playdate.update()
+pd.getSecondsSinceEpoch 2 i,i
+pd.epochFromTime 2 i,i
+pd.timeFromEpoch 1 table
+pd.epochFromGMTTime 2 i,i
+pd.GMTTimeFromEpoch 1 table
+pd.getFlipped 1 boolean
+pd.getReduceFlashing 1 boolean
+pd.getSystemLanguage 1 i
+pd.getBatteryPercentage 1 f
+pd.getBatteryVoltage 1 f
+pd.apiVersion 2 i,i
+pd.getUptimeMilliseconds 1 nil
+datastore.write 1 boolean
+datastore.read 1 table
+datastore.delete 1 boolean
+datastore.writeImage 0 
+datastore.readImage 1 nil
+file.exists 1 boolean
+file.isdir 1 boolean
+file.listFiles 1 table
+file.getSize 1 i
+file.getType 1 string
+file.mkdir 1 boolean
+file.delete 1 boolean
+file.rename 1 boolean
+file.open missing 2 nil,string
+file.run missing ERR file not found: nope.pdz
+file.load missing ERR file not found: nope.pdz
+json.encode 1 string
+json.decode 1 table
+json.decode bad 2 nil,string
+snd.getCurrentTime 1 f
+snd.getSampleRate 1 f
+snd.playingSources 1 table
+snd.getHeadphoneState 2 boolean,boolean
+snd.setOutputsActive 0 
+snd.sample.new 1 playdate.sound.sample
+snd.sampleplayer.new missing 2 nil,string
+snd.fileplayer.new 1 playdate.sound.fileplayer
+snd.synth.new 1 playdate.sound.synth
+snd.getSystemVolume 1 f
+timer.new 1 table
+timer.allTimers 1 table
+frameTimer.new 0 
+animator.new 1 table
+string.format %d float 1 string
+math.floor type 1 i
+tostring int float 1 string
+pd.getStats 1 nil
+pd.setStatsInterval 0 
+pd.getPowerStatus 1 table

@@ -1,0 +1,11 @@
+getmetatable name true playdate.graphics.image
+setmetatable image true mine: ADDR
+after: index true custom foo
+after: getSize false main.lua:11: method 'getSize' is not callable (a string value)
+getmetatable after true true false
+tostring true mine: ADDR
+setmetatable sprite true table: ADDR
+setmetatable nil true userdata: ADDR
+setmetatable number false bad argument #1 to 'setmetatable' (table or userdata expected, got number)
+setmetatable protected false cannot change a protected metatable
+rawequal true true

@@ -1,0 +1,10 @@
+frame 1: b0 c10 a30 d30
+frame 2: b0 c10 a30 d30
+frame 3: b0 s0 e5 c10 a30 d30
+frame 4: b0 s0 e5 c10 a30 d30
+frame 5: b0 s0 e5 c10 a30 d30 t50
+frame 6: s0 e5 c10 a30 d30 b0 t50
+frame 7: s0 e5 c10 a30 d30 b0 t50
+frame 8: s0 e5 c10 a30 b0 t50
+frame 9: s0 e5 c10 a30 d30 b0 t50
+frame 10: s0 e5 c10 a30 d30 b0 t50

@@ -1,0 +1,205 @@
+rect.new	R(1.0000f,2.0000f,3.0000f,4.0000f)
+rect.new floats	R(1.5000f,-2.5000f,3.2500f,4.0000f)
+rect fields edges	1.0000f | 4.0000f | 2.0000f | 6.0000f
+rect.size	S(3.0000f,4.0000f)
+rect.origin	P(1.0000f,2.0000f)
+rect:copy	R(1.0000f,2.0000f,3.0000f,4.0000f)
+rect:toPolygon	G(n=4,closed=true,P(1.0000f,2.0000f),P(4.0000f,2.0000f),P(4.0000f,6.0000f),P(1.0000f,6.0000f))
+rect:unpack	1.0000f | 2.0000f | 3.0000f | 4.0000f
+rect:isEmpty false	false
+rect:isEmpty zero w	true
+rect:isEmpty negative	false
+rect:isEqual	true | false
+rect ==	true
+rect:intersects overlap	true
+rect:intersects touching	false
+rect:intersects apart	false
+rect:intersection	R(5.0000f,5.0000f,5.0000f,5.0000f)
+rect:intersection none	R(0.0000f,0.0000f,0.0000f,0.0000f)
+rect.fast_intersection	5.0000f | 5.0000f | 5.0000f | 5.0000f
+rect.fast_intersection none	0.0000f | 0.0000f | 0.0000f | 0.0000f
+rect:union	R(0.0000f,0.0000f,15.0000f,15.0000f)
+rect.fast_union	0.0000f | 0.0000f | 15.0000f | 15.0000f
+rect:inset	R(2.0000f,3.0000f,6.0000f,4.0000f)
+rect:insetBy	R(0.0000f,0.0000f,10.0000f,10.0000f) | R(2.0000f,3.0000f,6.0000f,4.0000f)
+rect:inset negative	R(-2.0000f,-3.0000f,14.0000f,16.0000f)
+rect:offset	R(2.0000f,3.0000f,10.0000f,10.0000f)
+rect:offsetBy	R(0.0000f,0.0000f,10.0000f,10.0000f) | R(2.0000f,3.0000f,10.0000f,10.0000f)
+rect:containsRect inside	true
+rect:containsRect equal	true
+rect:containsRect partial	false
+rect:containsRect 4 numbers	true
+rect:containsPoint inside	true
+rect:containsPoint xy	true
+rect:containsPoint edge left	true
+rect:containsPoint edge right	true
+rect:containsPoint outside	false
+rect:centerPoint	P(5.0000f,10.0000f)
+rect:flipRelativeToRect X	R(6.0000f,2.0000f,3.0000f,4.0000f)
+rect:flipRelativeToRect Y	R(1.0000f,4.0000f,3.0000f,4.0000f)
+rect:flipRelativeToRect XY	R(6.0000f,4.0000f,3.0000f,4.0000f)
+rect tostring	"(1.0, 2.0, 3.0, 4.0)"
+flip constants	0.0000i | 1.0000i | 2.0000i | 3.0000i
+point.new	P(1.0000f,2.0000f)
+point:copy	P(1.0000f,2.0000f)
+point:unpack	1.0000f | 2.0000f
+point:offset	P(4.0000f,6.0000f)
+point:offsetBy	P(1.0000f,2.0000f) | P(4.0000f,6.0000f)
+point:squaredDistanceToPoint	25.0000f
+point:distanceToPoint	5.0000f
+point + vector	P(4.0000f,6.0000f)
+point - vector	P(-2.0000f,-2.0000f)
+point - point	V(4.0000f,5.0000f)
+point * transform	P(12.0000f,26.0000f)
+point .. point	L(1.0000f,2.0000f,3.0000f,4.0000f)
+point ==	true | false
+point tostring	"(1.0, 2.0)"
+vector.new	V(3.0000f,4.0000f)
+vector.newPolar 0	V(0.0000f,-10.0000f)
+vector.newPolar 90	V(10.0000f,0.0000f)
+vector.newPolar 45	V(7.0711f,-7.0711f)
+vector x y aliases	3.0000f | 4.0000f
+vector:copy	V(3.0000f,4.0000f)
+vector:unpack	3.0000f | 4.0000f
+vector:addVector	V(4.0000f,6.0000f)
+vector:scale	V(3.0000f,6.0000f)
+vector:scaledBy	V(1.0000f,2.0000f) | V(3.0000f,6.0000f)
+vector:normalize	V(0.6000f,0.8000f)
+vector:normalized	V(3.0000f,4.0000f) | V(0.6000f,0.8000f)
+vector:normalize zero	V(0.0000f,0.0000f)
+vector:dotProduct	11.0000f
+vector:magnitude	5.0000f
+vector:magnitudeSquared	25.0000f
+vector:projectAlong	V(3.0000f,0.0000f)
+vector:projectedAlong	V(3.0000f,0.0000f)
+vector:angleBetween 90	90.0000f
+vector:angleBetween -90	-90.0000f
+vector:angleBetween 180	180.0000f
+vector:leftNormal	V(0.8000f,-0.6000f)
+vector:rightNormal	V(-0.8000f,0.6000f)
+vector unary minus	V(-3.0000f,-4.0000f)
+vector + vector	V(4.0000f,6.0000f)
+vector - vector	V(-2.0000f,-2.0000f)
+vector * number	V(3.0000f,6.0000f)
+vector * vector (dot)	11.0000f
+vector * transform	V(12.0000f,26.0000f)
+vector / number	V(1.0000f,2.0000f)
+vector ==	true
+vector tostring	"(1.0, 2.0)"
+size.new	S(3.0000f,4.0000f)
+size:copy	S(3.0000f,4.0000f)
+size:unpack	3.0000f | 4.0000f
+distanceToPoint	5.0000f
+squaredDistanceToPoint	25.0000f
+line.new	L(0.0000f,0.0000f,10.0000f,0.0000f)
+line:copy	L(0.0000f,0.0000f,10.0000f,0.0000f)
+line:unpack	1.0000f | 2.0000f | 3.0000f | 4.0000f
+line:length	5.0000f
+line:offset	L(1.0000f,2.0000f,11.0000f,2.0000f)
+line:offsetBy	L(0.0000f,0.0000f,10.0000f,0.0000f) | L(1.0000f,2.0000f,11.0000f,2.0000f)
+line:midPoint	P(5.0000f,2.0000f)
+line:pointOnLine	P(4.0000f,0.0000f)
+line:pointOnLine past end	P(10.0000f,0.0000f)
+line:pointOnLine extend	P(14.0000f,0.0000f)
+line:pointOnLine negative	P(0.0000f,0.0000f)
+line:segmentVector	V(3.0000f,4.0000f)
+line:closestPointOnLineToPoint mid	P(4.0000f,0.0000f)
+line:closestPointOnLineToPoint beyond	P(10.0000f,0.0000f)
+line:intersectsLineSegment cross	true | P(5.0000f,5.0000f)
+line:intersectsLineSegment apart	false
+line:intersectsLineSegment parallel	false
+line.fast_intersection cross	true | 5.0000f | 5.0000f
+line.fast_intersection apart	false
+line:intersectsPolygon	true | {1=P(0.0000f,5.0000f);2=P(10.0000f,5.0000f)}
+line:intersectsPolygon none	false | {}
+line:intersectsRect	true | {1=P(10.0000f,5.0000f);2=P(0.0000f,5.0000f)}
+line:intersectsRect inside	false | {}
+line:intersectsRect none	false | {}
+line * transform	ERR
+arc.new	A(0.0000f,0.0000f,10.0000f,0.0000f,90.0000f,true)
+arc.new reversed angles	A(0.0000f,0.0000f,10.0000f,90.0000f,0.0000f,false)
+arc.new direction false	A(0.0000f,0.0000f,10.0000f,0.0000f,90.0000f,false)
+arc:copy	A(0.0000f,0.0000f,10.0000f,0.0000f,90.0000f,true)
+arc:length	15.7080f
+arc:length reversed	15.7080f
+arc:setIsClockwise	A(0.0000f,0.0000f,10.0000f,0.0000f,90.0000f,false)
+arc:pointOnArc 0	P(0.0000f,-10.0000f)
+arc:pointOnArc quarter	P(7.0711f,-7.0711f)
+arc:pointOnArc past end	P(10.0000f,0.0000f)
+arc:pointOnArc extend	P(-5.4402f,8.3907f)
+poly.new numbers	G(n=3,closed=false,P(0.0000f,0.0000f),P(10.0000f,0.0000f),P(5.0000f,10.0000f))
+poly.new points	G(n=3,closed=false,P(0.0000f,0.0000f),P(10.0000f,0.0000f),P(5.0000f,10.0000f))
+poly.new count	G(n=3,closed=false,P(0.0000f,0.0000f),P(0.0000f,0.0000f),P(0.0000f,0.0000f))
+poly closed by repeat	G(n=4,closed=true,P(0.0000f,0.0000f),P(10.0000f,0.0000f),P(10.0000f,10.0000f),P(0.0000f,10.0000f))
+poly:close	G(n=3,closed=true,P(0.0000f,0.0000f),P(10.0000f,0.0000f),P(5.0000f,10.0000f))
+poly:isClosed	false | true
+poly:count	3.0000i | 4.0000i
+poly:copy	G(n=3,closed=false,P(0.0000f,0.0000f),P(10.0000f,0.0000f),P(5.0000f,10.0000f))
+poly:getPointAt	P(10.0000f,0.0000f)
+poly:setPointAt	G(n=3,closed=false,P(0.0000f,0.0000f),P(20.0000f,0.0000f),P(5.0000f,10.0000f))
+poly:getBounds	2.0000f | 3.0000f | 10.0000f | 10.0000f
+poly:getBoundsRect	R(2.0000f,3.0000f,10.0000f,10.0000f)
+poly:getBounds negative	-5.0000f | -5.0000f | 4.0000f | 4.0000f
+poly:length open	21.1803f
+poly:length closed	32.3607f
+poly:pointOnPolygon	P(10.0000f,5.0000f)
+poly:pointOnPolygon past end	P(5.0000f,10.0000f)
+poly:pointOnPolygon extend	P(-30.2492f,80.4984f)
+poly:translate	G(n=3,closed=false,P(1.0000f,2.0000f),P(11.0000f,2.0000f),P(6.0000f,12.0000f))
+poly:containsPoint inside	true
+poly:containsPoint xy	true
+poly:containsPoint outside	false
+poly:containsPoint open	true
+poly:intersects	true
+poly:intersects none	false
+poly * transform	G(n=3,closed=false,P(10.0000f,20.0000f),P(30.0000f,20.0000f),P(20.0000f,50.0000f))
+poly ==	true
+aff.new identity	T(1.0000f,0.0000f,0.0000f,1.0000f,0.0000f,0.0000f)
+aff.new values	T(1.0000f,2.0000f,3.0000f,4.0000f,5.0000f,6.0000f)
+aff:copy	T(1.0000f,2.0000f,3.0000f,4.0000f,5.0000f,6.0000f)
+aff:invert	T(0.5000f,0.0000f,0.0000f,0.2500f,-5.0000f,-5.0000f)
+aff:reset	T(1.0000f,0.0000f,0.0000f,1.0000f,0.0000f,0.0000f)
+aff:concat	T(2.0000f,0.0000f,0.0000f,2.0000f,5.0000f,6.0000f)
+aff * aff	T(2.0000f,0.0000f,0.0000f,2.0000f,5.0000f,6.0000f)
+aff:translate	T(1.0000f,0.0000f,0.0000f,1.0000f,5.0000f,6.0000f)
+aff:translatedBy	T(1.0000f,0.0000f,0.0000f,1.0000f,0.0000f,0.0000f) | T(1.0000f,0.0000f,0.0000f,1.0000f,5.0000f,6.0000f)
+aff:scale one arg	T(2.0000f,0.0000f,0.0000f,2.0000f,0.0000f,0.0000f)
+aff:scale two args	T(2.0000f,0.0000f,0.0000f,3.0000f,0.0000f,0.0000f)
+aff:scaledBy	T(1.0000f,0.0000f,0.0000f,1.0000f,0.0000f,0.0000f) | T(2.0000f,0.0000f,0.0000f,3.0000f,0.0000f,0.0000f)
+aff:rotate 90	T(0.0000f,-1.0000f,1.0000f,0.0000f,0.0000f,0.0000f)
+aff:rotate about xy	T(0.0000f,-1.0000f,1.0000f,0.0000f,10.0000f,0.0000f)
+aff:rotate about point	T(0.0000f,-1.0000f,1.0000f,0.0000f,10.0000f,0.0000f)
+aff:rotatedBy	T(1.0000f,0.0000f,0.0000f,1.0000f,0.0000f,0.0000f) | T(0.0000f,-1.0000f,1.0000f,0.0000f,0.0000f,0.0000f)
+aff:skew	T(1.0000f,0.0175f,0.0000f,1.0000f,0.0000f,0.0000f)
+aff:skewedBy	T(1.0000f,0.0000f,0.0000f,1.0000f,0.0000f,0.0000f) | T(1.0000f,0.0000f,0.0175f,1.0000f,0.0000f,0.0000f)
+aff order translate then scale	T(2.0000f,0.0000f,0.0000f,2.0000f,10.0000f,0.0000f)
+aff order scale then translate	T(2.0000f,0.0000f,0.0000f,2.0000f,5.0000f,0.0000f)
+aff:transformXY	12.0000f | 26.0000f
+aff:transformPoint	P(12.0000f,26.0000f)
+aff:transformedPoint	P(1.0000f,2.0000f) | P(12.0000f,26.0000f)
+aff:transformLineSegment	L(10.0000f,20.0000f,12.0000f,23.0000f)
+aff:transformedLineSegment	L(10.0000f,20.0000f,12.0000f,23.0000f)
+aff:transformAABB	R(0.0000f,0.0000f,10.0000f,10.0000f)
+aff:transformedAABB	R(0.0000f,0.0000f,10.0000f,10.0000f)
+aff:transformPolygon	G(n=3,closed=false,P(10.0000f,20.0000f),P(30.0000f,20.0000f),P(20.0000f,50.0000f))
+aff:transformedPolygon	G(n=3,closed=false,P(10.0000f,20.0000f),P(30.0000f,20.0000f),P(20.0000f,50.0000f))
+aff tostring	"[ 1.0 \9 0.0 \9 0.0 ]\
+[ 0.0 \9 1.0 \9 0.0 ]\
+[ 0.0 \9 0.0 \9 1.0 ]\
+"
+indexOfElement found	2
+indexOfElement missing	nil
+indexOfElement number	3
+getsize	3,2
+getsize empty	0,0
+shallowcopy	{1=1,2={1=2},k=v} sameInner=true
+shallowcopy into dest	{a=1,z=9} returnsDest=true
+deepcopy	{1=1,2={1=2,2={1=3}},k=v} sameInner=false
+deepcopy keeps metatable	false
+deepcopy non-table	ERR
+table.create	table 0
+accelerometerIsRunning initial	false
+accelerometerIsRunning after start	true
+accelerometerIsRunning after stop	false
+inputHandlers push pop	ok
+inputHandlers pop empty	ok

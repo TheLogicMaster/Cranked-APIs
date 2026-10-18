@@ -1,0 +1,49 @@
+enc1 true 0
+enc2 true 1
+enc3 true -1
+enc4 true 1.5
+enc5 true 0.10000000149012
+enc6 true 0.33333334326744
+enc7 true 1.0000000200409e+20
+enc8 true 1.0000000116861e-07
+enc9 true 2147483648
+enc10 true 9.007199254741e+15
+enc11 true -0
+enc12 true 100
+enc13 true 3
+enc14 true null
+enc15 true null
+enc16 true null
+enc17 true "a\"b\\c\n\t\u0001/"
+enc18 true "Ã©"
+enc19 true true
+enc20 true false
+holes true [1,2,null,4]
+sparse true ["a",null,"c"]
+nested true {"x":{"y":{"z":[]}},"arr":[]}
+mixed true {"_array":[1],"a":2}
+floatkey true {"2":1}
+pretty true {\n	"a": [\n		1,\n		2\n	],\n	"b":"x"\n}
+cycle true {"self":"RECURSION ERROR"}
+func true "function ADDR"
+dec1 1 true nil nil
+dec2 1.0 true nil nil
+dec3 1e2 true 1.0 float
+dec4 -0 true nil nil
+dec5 123456789012 true nil nil
+dec6 0.5 true nil nil
+dec7 [1,2,3] true table#3 nil
+dec8 {"a":1} true table#0 nil
+dec9 "\u00e9" true é nil
+dec10 true true true nil
+dec11 null true nil nil
+dec12 [] true table#0 nil
+dec13 {} true table#0 nil
+dec14  7  true 7 integer
+dec15 [1,] true nil nil
+dec16 {"a":} true nil nil
+dec17 01 true nil nil
+dec18 1. true nil nil
+dec19 "x true nil nil
+dec20 [1,2 true nil nil
+dec21 nan true nil nil

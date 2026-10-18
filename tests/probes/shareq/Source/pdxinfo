@@ -1,0 +1,6 @@
+name=shareq
+author=Cranked APIs probes
+description=probe
+bundleID=org.crankedapis.shareq
+version=1.0
+buildNumber=1

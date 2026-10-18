@@ -1,0 +1,5 @@
+name=LuaCProbe
+author=Cranked APIs probes
+bundleID=org.crankedapis.luac
+version=1.0
+buildNumber=1

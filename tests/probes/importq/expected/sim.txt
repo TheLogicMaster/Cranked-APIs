@@ -1,0 +1,3 @@
+after mod: same=true orig=false counter=1
+mod twice: counter=1
+main again: same=true

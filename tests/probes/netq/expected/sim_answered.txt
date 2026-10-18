@@ -1,0 +1,18 @@
+consts	0	1	2
+getStatus	true	2
+http.new	true	nil
+http.new port	true	nil
+https.new	true	nil
+tcp.new	true	nil
+setEnabled	true
+getServerTime	true
+instrument:stop type	true	function
+micinput.requestAccess	true	function
+signalvalue	true	function
+lfo:getValue	true	0.0
+ch:getOutputAsSource	true	function
+channelsource	true	function
+sendMirrorData	true	function
+exitToLauncher type	true	function
+serverTime cb	nil	Internal Error: -20
+frame60

@@ -1,0 +1,5 @@
+name=Probe
+author=Cranked APIs probes
+bundleID=org.crankedapis.luafuzz
+version=1.0
+buildNumber=1

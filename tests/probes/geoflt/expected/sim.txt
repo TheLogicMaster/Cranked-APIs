@@ -1,0 +1,16 @@
+rect new: x=float:1.0 y=float:2.0 width=float:3.0 height=float:4.0 w=float:3.0 h=float:4.0
+rect set 7: x=float:7.0 y=float:7.0 width=float:7.0 height=float:7.0 w=float:7.0 h=float:7.0
+point new: x=float:1.0 y=float:2.0
+point set 7: x=float:7.0 y=float:7.0
+size new: width=float:3.0 height=float:4.0 w=float:3.0 h=float:4.0
+size set 7: width=float:7.0 height=float:7.0 w=float:7.0 h=float:7.0
+vector2D new: dx=float:1.0 dy=float:2.0 x=float:1.0 y=float:2.0
+vector2D set 7: dx=float:7.0 dy=float:7.0 x=float:7.0 y=float:7.0
+lineSegment new: x1=float:1.0 y1=float:2.0 x2=float:3.0 y2=float:4.0
+lineSegment set 7: x1=float:7.0 y1=float:7.0 x2=float:7.0 y2=float:7.0
+arc new: x=float:1.0 y=float:2.0 radius=float:3.0 startAngle=float:4.0 endAngle=float:5.0
+arc set 7: x=float:7.0 y=float:7.0 radius=float:7.0 startAngle=float:7.0 endAngle=float:7.0
+affineTransform new: m11=float:1.0 m12=float:0.0 m21=float:0.0 m22=float:1.0 tx=float:2.0 ty=float:3.0
+affineTransform set 7: m11=float:7.0 m12=float:7.0 m21=float:7.0 m22=float:7.0 tx=float:7.0 ty=float:7.0
+big float:2.147484e+09
+string true nil 5.0

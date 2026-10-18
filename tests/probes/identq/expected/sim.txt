@@ -1,0 +1,19 @@
+sprite:getImage rawequal=true eq=true type=userdata
+sprite:getImage vs set rawequal=true eq=true type=userdata
+imagetable:getImage rawequal=true eq=true type=userdata
+imagetable[1] rawequal=true eq=true type=userdata
+imagetable get vs set rawequal=false eq=false type=userdata
+getFont rawequal=true eq=true type=userdata
+getSystemFont rawequal=true eq=true type=userdata
+setFont then getFont rawequal=true eq=true type=userdata
+getMaskImage rawequal=false eq=false type=userdata
+getDisplayImage rawequal=false eq=false type=userdata
+getWorkingImage rawequal=false eq=false type=userdata
+sprite.getAllSprites[1] rawequal=true eq=true type=table
+getAllSprites vs s rawequal=true eq=true type=table
+timer? rawequal=true eq=true type=nil
+getMenuItems rawequal=false eq=false type=userdata
+menu rawequal=false eq=false type=userdata
+nodeWithXY rawequal=true eq=true type=userdata
+node:connectedNodes rawequal=true eq=true type=userdata
+seq:getTrackAtIndex rawequal=true eq=true type=userdata

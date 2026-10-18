@@ -1,0 +1,13 @@
+p playdate.graphics.image: ADDR c playdate.graphics.image: ADDR
+i=1 rot=0.0 w=24 h=24 black=54 hash=712190 bounds=(108.0, 88.0, 24.0, 24.0)
+i=2 rot=345.0 w=30 h=31 black=52 hash=491031 bounds=(105.0, 84.5, 30.0, 31.0)
+i=3 rot=15.0 w=31 h=30 black=52 hash=962847 bounds=(104.5, 85.0, 31.0, 30.0)
+i=4 rot=0.0 w=24 h=24 black=54 hash=712190 bounds=(108.0, 88.0, 24.0, 24.0)
+i=5 rot=270.0 w=24 h=24 black=54 hash=479322 bounds=(108.0, 88.0, 24.0, 24.0)
+i=6 rot=200.5 w=32 h=31 black=59 hash=172982 bounds=(104.0, 84.5, 32.0, 31.0)
+i=7 rot=0.0 w=350 h=155 black=3709 hash=115029 bounds=(-55.0, 22.5, 350.0, 155.0)
+i=8 rot=345.0 w=379 h=241 black=3530 hash=803318 bounds=(-69.5, -20.5, 379.0, 241.0)
+i=9 rot=15.0 w=380 h=241 black=3918 hash=247367 bounds=(-70.0, -20.5, 380.0, 241.0)
+i=10 rot=0.0 w=350 h=155 black=3709 hash=115029 bounds=(-55.0, 22.5, 350.0, 155.0)
+i=11 rot=270.0 w=155 h=350 black=3339 hash=878215 bounds=(42.5, -75.0, 155.0, 350.0)
+i=12 rot=200.5 w=383 h=268 black=4654 hash=575624 bounds=(-71.5, -34.0, 383.0, 268.0)

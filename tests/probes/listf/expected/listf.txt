@@ -1,0 +1,18 @@
+[images/]	5f3a9c0e1b2d4a6c8e0f1a2b.pdi | apple-pear-plum.pdi | berry-cherry-grape-melon-10.pdi | sub/
+[images]	5f3a9c0e1b2d4a6c8e0f1a2b.pdi | apple-pear-plum.pdi | berry-cherry-grape-melon-10.pdi | sub/
+[images/sub/]	Zeta.pdi | deeper/
+[data/]	A.txt | b.json
+[/]	data/ | images/ | main.pdz | pdxinfo
+[]	data/ | images/ | main.pdz | pdxinfo
+[nope/]	nil
+[/images/]	5f3a9c0e1b2d4a6c8e0f1a2b.pdi | apple-pear-plum.pdi | berry-cherry-grape-melon-10.pdi | sub/
+[/images]	5f3a9c0e1b2d4a6c8e0f1a2b.pdi | apple-pear-plum.pdi | berry-cherry-grape-melon-10.pdi | sub/
+[/data/]	A.txt | b.json
+[./images/]	5f3a9c0e1b2d4a6c8e0f1a2b.pdi | apple-pear-plum.pdi | berry-cherry-grape-melon-10.pdi | sub/
+exists/isdir mod	false false -1
+exists/isdir mod.pdz	false false -1
+exists/isdir mod.lua	false false -1
+exists/isdir main	false false -1
+exists/isdir main.pdz	true false 849
+exists/isdir images	true true 4096
+exists/isdir images/sub	true true 4096

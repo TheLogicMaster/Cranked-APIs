@@ -1,0 +1,9 @@
+1 before any sprite: bg,rect | upd	rect=0/900	far=0/100
+2 before: clear,bg | upd	rect=0/900	far=0/100
+3 sprite.new only (not added)	rect=0/900	far=0/100
+4 after new only: bg,rect | upd	rect=900/900	far=0/100
+5 sprite added then removed same frame	rect=0/900	far=0/100
+6 after add+remove: bg,rect | upd	rect=900/900	far=0/100
+7 sprite added and updated	rect=0/900	far=0/100
+8 after: bg,rect | upd	rect=900/900	far=0/100
+9 after: clear,bg | upd	rect=900/900	far=100/100

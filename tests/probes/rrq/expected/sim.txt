@@ -1,0 +1,23 @@
+default 30.0
+0 true nil -> 0.0
+1 true nil -> 1.0
+20 true nil -> 20.0
+30 true nil -> 30.0
+40 true nil -> 40.0
+49.5 true nil -> 49.5
+50 true nil -> 50.0
+51 true nil -> 50.0
+60 true nil -> 50.0
+100 true nil -> 50.0
+-5 true nil -> 30.0
+7.5 true nil -> 7.5
+20 true nil -> 20.0
+-0.5 true nil -> 30.0
+20 true nil -> 20.0
+-100 true nil -> 30.0
+20 true nil -> 20.0
+50.25 true nil -> 50.0
+1e+09 true nil -> 50.0
+0.25 true nil -> 0.25
+0 true nil -> 0.0
+-nan true nil -> -nan

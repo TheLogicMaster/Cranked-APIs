@@ -1,0 +1,16 @@
+drawFaded no type false main.lua:8: bad argument #4 to 'drawFaded' (number expected, got no value) 0:0
+drawFaded nil type false main.lua:9: bad argument #4 to 'drawFaded' (number expected, got nil) 0:0
+drawFaded string type false main.lua:10: bad argument #4 to 'drawFaded' (number expected, got string) 0:0
+drawFaded float type false main.lua:11: bad argument #4 to 'drawFaded' (number has no integer representation) 0:0
+drawFaded no alpha false main.lua:12: bad argument #3 to 'drawFaded' (number expected, got no value) 0:0
+drawFaded flip int true  42:130704
+drawFaded flip str true  42:130704
+drawFaded flip nil true  42:330260
+drawFaded flip 3 true  21:21915
+drawFaded alpha1 flip true  42:130704
+drawFaded big type true  0:0
+drawFaded x float true  42:730113
+fadedImage no type false main.lua:20: bad argument #2 to 'fadedImage' (number expected, got no value) 0:0
+fadedImage nil type false main.lua:21: bad argument #2 to 'fadedImage' (number expected, got nil) 0:0
+fadedImage big type true  0:0
+fadedImage no alpha false main.lua:23: bad argument #1 to 'fadedImage' (number expected, got no value) 0:0

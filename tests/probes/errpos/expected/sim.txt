@@ -1,0 +1,13 @@
+direct pcall image.new false invalid bitmap size: 0 x 20
+from Lua image.new false main.lua:6: invalid bitmap size: 0 x 20
+from Lua file.run false main.lua:7: file not found: nope.pdz
+from Lua setMenuImage false main.lua:8: bad argument #1 to 'setMenuImage' (playdate.graphics.image expected, got number)
+from Lua wait false main.lua:9: playdate.wait() can only be called from playdate.update()
+from Lua image:draw bad false main.lua:10: playdate.graphics.image:draw() takes either x, y, arguments or a playdate.geometry.point object
+from Lua sprite.new(5) false main.lua:11: bad argument #1 to 'new' (image or tilemap)
+from Lua error() false main.lua:12: mine
+from Lua error level 2 false mine2
+from Lua string.rep true 
+from Lua math.floor('a') false main.lua:15: bad argument #1 to 'floor' (number expected, got string)
+from Lua setmetatable false main.lua:16: bad argument #1 to 'setmetatable' (table or userdata expected, got number)
+nested false main.lua:17: invalid bitmap size: 0 x 1

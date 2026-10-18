@@ -1,0 +1,13 @@
+new()	false main.lua:7: bad argument #1 to 'new' (playdate.sound.channelsource expected, got no value)
+new(c1)	false main.lua:8: bad argument #1 to 'new' (playdate.sound.channelsource expected, got playdate.sound.channel)
+new(c1,c2)	false main.lua:9: bad argument #1 to 'new' (playdate.sound.channelsource expected, got playdate.sound.channel)
+src methods	true setVolume=nil,getVolume=nil,remove=function,isPlaying=nil,play=nil,stop=nil
+src:getVolume	false main.lua:12: method 'getVolume' is not callable (a nil value)
+src:setVolume(0.5)	false main.lua:13: method 'setVolume' is not callable (a nil value)
+c2:addSource	true true
+src:remove()	true 1.0 1.0
+c2:addSource again	true true
+signalvalue	true __index,__name,getValue,userval_count
+signalvalue.getValue(lfo)	true 0.0
+lfo signalvalue mt	true true true
+signal	true __index,__name,getValue,setOffset,setScale,userval_count

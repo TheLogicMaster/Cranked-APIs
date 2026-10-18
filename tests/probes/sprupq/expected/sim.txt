@@ -1,0 +1,13 @@
+n=1 black=108 hash=386491 upd=1 sub=0
+n=2 black=108 hash=386491 upd=2 sub=0
+n=3 black=108 hash=386491 upd=3 sub=0
+n=4 black=108 hash=386491 upd=4 sub=0
+n=5 black=108 hash=386491 upd=5 sub=0
+n=6 black=162 hash=242581 upd=6 sub=1
+n=7 black=162 hash=242581 upd=7 sub=2
+n=8 black=162 hash=352884 upd=8 sub=4
+n=9 black=162 hash=352884 upd=9 sub=6
+n=10 black=162 hash=352884 upd=10 sub=7
+n=11 black=162 hash=352884 upd=11 sub=8
+n=12 black=162 hash=352884 upd=12 sub=9
+n=13 black=162 hash=352884 upd=13 sub=10

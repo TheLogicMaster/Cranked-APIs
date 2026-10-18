@@ -1,0 +1,42 @@
+// MIDI playback with a one-voice and a two-voice instrument (voice allocation for a chord).
+#include "pd_api.h"
+static PlaydateAPI* pd;
+#define MAXF (44100 * 6)
+static int16_t cap[MAXF];
+static int captured = 0, frames = 0, written = 0;
+static int captureProc(SoundEffect* e, int32_t* left, int32_t* right, int n, int active) {
+    for (int i = 0; i < n && captured < MAXF; i++, captured++) cap[captured] = (int16_t)(((active && left) ? left[i] : 0) >> 8);
+    return active;
+}
+static SoundSequence* seq[2];
+static int update(void* ud) {
+    frames++;
+    if (frames == 15) pd->sound->sequence->play(seq[0], NULL, NULL);
+    if (frames == 75) pd->sound->sequence->play(seq[1], NULL, NULL);
+    if (frames == 140 && !written) {
+        written = 1;
+        SDFile* f = pd->file->open("capture.raw", kFileWrite); pd->file->write(f, cap, (unsigned)(captured * 2)); pd->file->close(f);
+    }
+    return 1;
+}
+int eventHandler(PlaydateAPI* p, PDSystemEvent event, uint32_t arg) {
+    if (event == kEventInit) {
+        pd = p;
+        SoundChannel* ch = pd->sound->getDefaultChannel();
+        SoundEffect* fx = pd->sound->effect->newEffect(captureProc, NULL);
+        pd->sound->channel->addEffect(ch, fx);
+        for (int k = 0; k < 2; k++) {
+            seq[k] = pd->sound->sequence->newSequence();
+            pd->sound->sequence->loadMIDIFile(seq[k], "song.mid");
+            PDSynthInstrument* inst = pd->sound->instrument->newInstrument();
+            for (int v = 0; v <= k; v++) {
+                PDSynth* s = pd->sound->synth->newSynth(); pd->sound->synth->setWaveform(s, kWaveformSine);
+                pd->sound->instrument->addVoice(inst, s, 0.0f, 127.0f, 0.0f);
+            }
+            pd->sound->channel->addSource(ch, (SoundSource*)inst);
+            pd->sound->track->setInstrument(pd->sound->sequence->getTrackAtIndex(seq[k], 0), inst);
+        }
+        pd->system->setUpdateCallback(update, NULL);
+    }
+    return 0;
+}

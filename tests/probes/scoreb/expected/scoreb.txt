@@ -1,0 +1,7 @@
+type table
+members __index:table addScore:function getPersonalBest:function getScoreboards:function getScores:function
+ret getScores {1=true}
+ret addScore {1=true}
+ret getPersonalBest {1=true}
+ret getScoreboards {1=true}
+frame 0 getPersonalBest n=2 {1={code=ERROR,message=Player not registered}}

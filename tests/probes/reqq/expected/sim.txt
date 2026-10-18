@@ -1,0 +1,17 @@
+_G	_G:table _VERSION:string assert:function collectgarbage:function coroutine:table debug:table error:function getmetatable:function import:function ipairs:function json:table load:function math:table next:function pairs:function pcall:function print:function rawequal:function rawget:function rawlen:function rawset:function select:function setmetatable:function string:table table:table tonumber:function tostring:function type:function utf8:table warn:function xpcall:function
+string	byte:function char:function dump:function find:function format:function gmatch:function gsub:function len:function lower:function match:function pack:function packsize:function rep:function reverse:function sub:function unpack:function upper:function
+table	concat:function create:function deepcopy:function getsize:function indexOfElement:function insert:function move:function pack:function remove:function shallowcopy:function sort:function unpack:function
+math	abs:function acos:function asin:function atan2:function atan:function ceil:function cos:function cosh:function deg:function exp:function floor:function fmod:function frexp:function huge:number ldexp:function log10:function log:function max:function maxinteger:number min:function mininteger:number modf:function pi:number pow:function rad:function random:function randomseed:function sin:function sinh:function sqrt:function tan:function tanh:function tointeger:function type:function ult:function
+coroutine	close:function create:function isyieldable:function resume:function running:function status:function wrap:function yield:function
+utf8	char:function charpattern:string codepoint:function codes:function len:function offset:function
+debug	getinfo:function traceback:function
+os	nil
+io	nil
+json	decode:function decodeFile:function encode:function encodePretty:function encodeToFile:function null:table
+kTA	nil	nil	nil
+version	Lua 5.4
+maxinteger	2147483647	integer	inf	9.007199e+15	0.3333333
+intdiv	3	3.0	-4	-2	3
+strnum	11	16	10	3.0	-0.0
+fmt	 3.14|42|ff|1e+20|"a\
+b"

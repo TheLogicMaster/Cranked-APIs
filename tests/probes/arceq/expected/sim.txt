@@ -1,0 +1,11 @@
+arc same true true
+arc diff true false
+arc dir true false
+point same true true
+rect same true true
+size same true true
+vector same true true
+line same true true
+transform same true true
+polygon same true true
+arc vs table true false

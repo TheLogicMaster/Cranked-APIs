@@ -1,0 +1,5 @@
+name=uvcount
+author=Cranked APIs probes
+bundleID=org.crankedapis.uvcount
+version=1.0
+buildNumber=1

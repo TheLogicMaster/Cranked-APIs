@@ -1,0 +1,3 @@
+before update all=5 [c+a d+b a+b a+e b+e] a overlaps [b,c,e]
+after update 1 all=5 [c+a d+b a+b a+e b+e] a overlaps [b,c,e]
+after update 2 all=5 [c+a d+b a+b a+e b+e] a overlaps [b,c,e]

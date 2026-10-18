@@ -1,0 +1,14 @@
+tempo=160.0 length=218 tracks=3
+track 1: 0 notes, length 0 polyphony 0 signals 0
+track 2: 6 notes, length 218 polyphony 3 signals 0
+  step=1 note=60.0 length=96 velocity=0.7874016
+  step=49 note=62.0 length=170 velocity=0.6299213
+  step=97 note=60.0 length=1 velocity=0.503937
+  step=121 note=60.0 length=48 velocity=0.3779528
+  step=179 note=69.0 length=0 velocity=0.0
+  step=189 note=72.0 length=1 velocity=1.0
+track 3: 2 notes, length 100 polyphony 2 signals 2
+  step=1 note=64.0 length=100 velocity=0.7559055
+  step=1 note=67.0 length=100 velocity=0.7559055
+  signal controller 7
+  signal controller 10

@@ -1,0 +1,6 @@
+plain	white=208
+z200	white=208
+ignoreOffset	white=208
+loop	white=208
+late_add	white=208
+all	white=208

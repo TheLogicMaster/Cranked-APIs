@@ -1,0 +1,5 @@
+name=mtleak
+author=Cranked APIs probes
+bundleID=org.crankedapis.mtleak
+version=1.0
+buildNumber=1

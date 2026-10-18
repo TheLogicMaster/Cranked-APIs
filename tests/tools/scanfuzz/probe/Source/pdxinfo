@@ -1,0 +1,5 @@
+name=scanfuzz
+author=Cranked APIs probes
+bundleID=org.crankedapis.scanfuzz
+version=1.0
+buildNumber=1

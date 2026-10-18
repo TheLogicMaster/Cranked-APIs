@@ -1,0 +1,9 @@
+fillRect clearbg|111100000000
+image clearbg|111100000000
+fillRect opaque|111100001111
+image opaque|111100001111
+small stencil|ERR main.lua:14: stencil images must be at least 32 pixels wide
+tiled|110011111111
+untiled below|110011111111
+sprite clearbg|111100000000
+sprite opaque|000000000000

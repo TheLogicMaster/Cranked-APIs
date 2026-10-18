@@ -1,0 +1,7 @@
+table after drawing into original: w
+original after drawing into table image: b table b
+mask drawn black, image pixel: c mask again b
+sprite image after drawing into original: w
+setMaskImage then mask source drawn black: b
+table:getImage == set: false
+table image after original collected: w

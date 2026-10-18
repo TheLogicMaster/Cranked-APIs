@@ -1,0 +1,11 @@
+none	drawn=208	after=0
+offset00_in_sprite	drawn=208	after=0
+offset00_before	drawn=208	after=0
+offset11_before	drawn=208	after=0
+drawoffset00	drawn=208	after=0
+no_sprites	drawn=208	after=0
+offset_once	drawn=208	after=0
+bgcolor_black	drawn=2626	after=2626
+no_update	drawn=208	after=208
+late_start	drawn=208	after=0
+bg_callback	drawn=208	after=0

@@ -1,0 +1,5 @@
+frame 1 ok true err nil bg 1 draws 1 nested 1
+frame 2 ok true err nil bg 1 draws 1 nested 1
+frame 3 ok true err nil bg 1 draws 1 nested 1
+frame 4 ok true err nil bg 2 draws 2 nested 2
+frame 5 ok true err nil bg 2 draws 2 nested 2

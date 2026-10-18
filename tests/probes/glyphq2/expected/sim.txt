@@ -1,0 +1,14 @@
+1 w=19 h=19 tw=19 th=20 px=70 hash=625376
+2 w=36 h=20 tw=36 th=20 px=172 hash=260946
+3 w=36 h=20 tw=36 th=20 px=172 hash=260946
+4 w=36 h=20 tw=36 th=20 px=172 hash=260946
+5 w=39 h=19 tw=39 th=20 px=202 hash=865442
+6 w=36 h=20 tw=36 th=20 px=172 hash=260946
+7 w=36 h=20 tw=36 th=20 px=172 hash=260946
+8 w=36 h=20 tw=36 th=20 px=172 hash=260946
+9 w=15 h=20 tw=15 th=20 px=102 hash=559903
+10 w=24 h=20 tw=24 th=20 px=119 hash=520830
+11 w=15 h=40 tw=15 th=40 px=204 hash=266323
+12 w=16 h=39 tw=16 th=40 px=99 hash=956548
+13 w=9 h=19 tw=9 th=20 px=31 hash=754903
+14 w=33 h=20 tw=33 th=20 px=152 hash=863669

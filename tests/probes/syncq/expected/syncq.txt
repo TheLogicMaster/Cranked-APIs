@@ -1,0 +1,10 @@
+after lua reset: C elapsed under 0.02: true lua elapsed under 0.02: true
+after C reset: lua elapsed under 0.02: true
+C rate 20, lua rate: 20.0
+lua rate 30 set
+sprites: lua 0 C 0
+after one each: lua 2 C 2 lua spriteCount 2
+lua fill, C frame byte: 0
+C scale 2: lua width 200 scale 2 C width 200
+lua scale 1: C width 400
+C inverted: lua true

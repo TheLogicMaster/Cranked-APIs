@@ -1,0 +1,136 @@
+m0:0	 will(_root,6,p=_root) si(1,p=_root) di(1,p=_root)=i1 si(2,p=_root) di(2,p=_root)=i2 si(3,p=_root) di(3,p=_root)=i3 did(_root,6) => 1 A(1)
+m0:1	 will(_root,7,p=) sk(a,p=_root) dk(a,p=_root)=i1 sk(b,p=_root) will(b,6,p=b) si(1,p=b) di(1,p=b)=true si(2,p=b) di(2,p=b)=false si(3,p=b) di(3,p=b)=null did(b,6) dk(b,p=_root)=A(1) sk(c,p=_root) will(c,7,p=c) sk(d,p=c) dk(d,p=c)=s"e" did(c,7) dk(c,p=_root)=T(2) did(_root,7) => 1 T(3)
+m0:2	 will(_root,6,p=_root) did(_root,6) => 1 A(1)
+m0:3	 will(_root,7,p=) did(_root,7) => 1 T(1)
+m0:4	 => 0 
+m0:5	 di(0,p=)=i12 => 1 i12
+m0:6	 di(0,p=)=s"s" => 1 s"s"
+m0:7	 will(_root,6,p=_root) si(1,p=_root) di(1,p=_root)=f3fc00000 si(2,p=_root) di(2,p=_root)=f3dcccccd si(3,p=_root) di(3,p=_root)=f80000000 si(4,p=_root) di(4,p=_root)=i1000 si(5,p=_root) di(5,p=_root)=f3c23d70a si(6,p=_root) di(6,p=_root)=f40200000 ERR[decode_array() didn't find ']'@1 path=_root] => 0 
+m0:8	 will(_root,6,p=_root) si(1,p=_root) di(1,p=_root)=i1 si(2,p=_root) di(2,p=_root)=i0 si(3,p=_root) di(3,p=_root)=i1410065407 si(4,p=_root) di(4,p=_root)=i2100000000 si(5,p=_root) di(5,p=_root)=f4f32d05e si(6,p=_root) di(6,p=_root)=f3f800000 did(_root,6) => 1 A(1)
+m0:9	 will(_root,6,p=_root) si(1,p=_root) di(1,p=_root)=s"A\xe9\xe2\x82\xac\xed\xa0\xbd\xed\xb8\x80" did(_root,6) => 1 A(1)
+m0:10	 will(_root,6,p=_root) si(1,p=_root) ERR[invalid escape character@1 path=_root] => 0 
+m0:11	 will(_root,6,p=_root) si(1,p=_root) ERR[read_string() hit end of file@1 path=_root] => 0 
+m0:12	 will(_root,6,p=_root) si(1,p=_root) di(1,p=_root)=i1 si(2,p=_root) ERR[json decode_value() read unexpected character@1 path=_root] => 0 
+m0:13	 will(_root,7,p=) sk(a,p=_root) dk(a,p=_root)=i1 ERR[decode_table expected '"'@1 path=a] => 0 
+m0:14	 will(_root,7,p=) ERR[decode_table expected ':'@1 path=a] => 0 
+m0:15	 will(_root,7,p=) ERR[decode_table expected '"'@1 path=] => 0 
+m0:16	 will(_root,6,p=_root) si(1,p=_root) ERR[json decode_value() read unexpected character@1 path=_root] => 0 
+m0:17	 will(_root,6,p=_root) si(1,p=_root) di(1,p=_root)=i1 did(_root,6) ERR[decode_value() didn't run to end of file@1 path=<undefined>] => 0 
+m0:18	 ERR[empty file@1 path=<undefined>] => 0 
+m0:19	 ERR[empty file@1 path=<undefined>] => 0 
+m0:20	 will(_root,7,p=) sk(a,p=_root) => 0 
+m0:21	 will(_root,6,p=_root) si(1,p=_root) will(_root[1],6,p=_root[1]) si(1,p=_root[1]) di(1,p=_root[1])=i1 si(2,p=_root[1]) will(_root[1][2],6,p=_root[1][2]) si(1,p=_root[1][2]) di(1,p=_root[1][2])=i2 did(_root[1][2],6) di(2,p=_root[1])=A(1) did(_root[1],6) di(1,p=_root)=A(2) si(2,p=_root) will(_root[2],6,p=_root[2]) si(1,p=_root[2]) di(1,p=_root[2])=i3 did(_root[2],6) di(2,p=_root)=A(3) si(3,p=_root) will(_root[3],6,p=_root[3]) si(1,p=_root[3]) di(1,p=_root[3])=i4 si(2,p=_root[3]) will(_root[3][2],6,p=_root[3][2]) si(1,p=_root[3][2]) di(1,p=_root[3][2])=i5 si(2,p=_root[3][2]) will(_root[3][2][2],6,p=_root[3][2][2]) si(1,p=_root[3][2][2]) di(1,p=_root[3][2][2])=i6 did(_root[3][2][2],6) di(2,p=_root[3][2])=A(4) did(_root[3][2],6) di(2,p=_root[3])=A(5) did(_root[3],6) di(3,p=_root)=A(6) did(_root,6) => 1 A(7)
+m0:22	 will(_root,6,p=_root) si(1,p=_root) di(1,p=_root)=i0 si(2,p=_root) di(2,p=_root)=i1 si(3,p=_root) di(3,p=_root)=i2 si(4,p=_root) di(4,p=_root)=i3 si(5,p=_root) di(5,p=_root)=i4 si(6,p=_root) di(6,p=_root)=i5 si(7,p=_root) di(7,p=_root)=i6 si(8,p=_root) di(8,p=_root)=i7 si(9,p=_root) di(9,p=_root)=i8 si(10,p=_root) di(10,p=_root)=i9 si(11,p=_root) di(11,p=_root)=i10 si(12,p=_root) di(12,p=_root)=i11 si(13,p=_root) di(13,p=_root)=i12 si(14,p=_root) will(_root[41],6,p=_root[41]) si(1,p=_root[41]) di(1,p=_root[41])=i13 did(_root[41],6) di(14,p=_root)=A(1) did(_root,6) => 1 A(2)
+m0:23	 will(_root,7,p=) sk(x,p=_root) will(x,7,p=x) sk(y,p=x) will(y,7,p=x.y) sk(z,p=x.y) will(z,6,p=x.y.z) si(1,p=x.y.z) di(1,p=x.y.z)=i1 si(2,p=x.y.z) will(z[2],7,p=x.y.z[2]) sk(w,p=x.y.z[2]) dk(w,p=x.y.z[2])=i2 did(z[2],7) di(2,p=x.y.z)=T(1) did(z,6) dk(z,p=x.y)=A(2) did(y,7) dk(y,p=x)=T(3) did(x,7) dk(x,p=_root)=T(4) did(_root,7) => 1 T(5)
+m0:24	 will(_root,7,p=) sk(skip,p=_root) will(skip,7,p=skip) sk(a,p=skip) will(a,6,p=skip.a) si(1,p=skip.a) di(1,p=skip.a)=i1 si(2,p=skip.a) di(2,p=skip.a)=i2 did(a,6) dk(a,p=skip)=A(1) did(skip,7) dk(skip,p=_root)=T(2) sk(keep,p=_root) will(keep,6,p=keep) si(1,p=keep) di(1,p=keep)=i1 si(2,p=keep) di(2,p=keep)=i2 si(3,p=keep) di(3,p=keep)=i3 si(4,p=keep) di(4,p=keep)=i4 did(keep,6) dk(keep,p=_root)=A(3) did(_root,7) => 1 T(4)
+m0:25	 will(_root,7,p=) sk(raw,p=_root) will(raw,7,p=raw) sk(a,p=raw) will(a,6,p=raw.a) si(1,p=raw.a) di(1,p=raw.a)=i1 si(2,p=raw.a) di(2,p=raw.a)=s"]" si(3,p=raw.a) di(3,p=raw.a)=i2 did(a,6) dk(a,p=raw)=A(1) did(raw,7) dk(raw,p=_root)=T(2) sk(after,p=_root) dk(after,p=_root)=i1 did(_root,7) => 1 T(3)
+m0:26	 will(_root,7,p=) sk(raw,p=_root) will(raw,6,p=raw) si(1,p=raw) di(1,p=raw)=i1 si(2,p=raw) will(raw[2],6,p=raw[2]) si(1,p=raw[2]) di(1,p=raw[2])=i2 did(raw[2],6) di(2,p=raw)=A(1) si(3,p=raw) ERR[json decode_value() read unexpected character@1 path=raw] => 0 
+m0:27	 will(_root,6,p=_root) si(1,p=_root) di(1,p=_root)=i1 si(2,p=_root) di(2,p=_root)=i2 si(3,p=_root) ERR[json decode_value() read unexpected character@4 path=_root] => 0 
+m0:28	 will(_root,7,p=) sk(,p=_root) will(_root,6,p=_root) si(1,p=_root) di(1,p=_root)=i1 did(_root,6) dk(_root,p=_root)=A(1) did(_root,7) => 1 T(2)
+m0:29	 will(_root,7,p=) sk(,p=_root) will(_root,7,p=) sk(x,p=_root) dk(x,p=_root)=i1 did(_root,7) dk(x,p=_root)=T(1) did(_root,7) => 1 T(2)
+m0:30	 will(_root,6,p=_root) si(1,p=_root) di(1,p=_root)=s"a\x0ab\x09\/\x22" did(_root,6) => 1 A(1)
+m0:31	 will(_root,7,p=) sk(a,p=_root) dk(a,p=_root)=i1 sk(a,p=_root) dk(a,p=_root)=i2 did(_root,7) => 1 T(1)
+m0:32	 will(_root,6,p=_root) si(1,p=_root) di(1,p=_root)=i1 ERR[decode_array() didn't find ']'@1 path=_root] => 0 
+m0:33	 will(_root,6,p=_root) si(1,p=_root) di(1,p=_root)=fc3160000 si(2,p=_root) di(2,p=_root)=f47f12065 si(3,p=_root) di(3,p=_root)=f3dfcd6ea did(_root,6) => 1 A(1)
+m1:0	 will(_root,6,p=_root) si(1,p=_root) di(1,p=_root)=i1 si(2,p=_root) si(3,p=_root) di(3,p=_root)=i3 did(_root,6) => 1 A(1)
+m1:1	 will(_root,7,p=) sk(a,p=_root) dk(a,p=_root)=i1 sk(b,p=_root) will(b,6,p=b) si(1,p=b) di(1,p=b)=true si(2,p=b) si(3,p=b) di(3,p=b)=null did(b,6) dk(b,p=_root)=A(1) sk(c,p=_root) will(c,7,p=c) sk(d,p=c) dk(d,p=c)=s"e" did(c,7) dk(c,p=_root)=T(2) did(_root,7) => 1 T(3)
+m1:2	 will(_root,6,p=_root) did(_root,6) => 1 A(1)
+m1:3	 will(_root,7,p=) did(_root,7) => 1 T(1)
+m1:4	 => 0 
+m1:5	 di(0,p=)=i12 => 1 i12
+m1:6	 di(0,p=)=s"s" => 1 s"s"
+m1:7	 will(_root,6,p=_root) si(1,p=_root) di(1,p=_root)=f3fc00000 si(2,p=_root) si(3,p=_root) di(3,p=_root)=f80000000 si(4,p=_root) di(4,p=_root)=i1000 si(5,p=_root) di(5,p=_root)=f3c23d70a si(6,p=_root) di(6,p=_root)=f40200000 ERR[decode_array() didn't find ']'@1 path=_root] => 0 
+m1:8	 will(_root,6,p=_root) si(1,p=_root) di(1,p=_root)=i1 si(2,p=_root) si(3,p=_root) di(3,p=_root)=i1410065407 si(4,p=_root) di(4,p=_root)=i2100000000 si(5,p=_root) di(5,p=_root)=f4f32d05e si(6,p=_root) di(6,p=_root)=f3f800000 did(_root,6) => 1 A(1)
+m1:9	 will(_root,6,p=_root) si(1,p=_root) di(1,p=_root)=s"A\xe9\xe2\x82\xac\xed\xa0\xbd\xed\xb8\x80" did(_root,6) => 1 A(1)
+m1:10	 will(_root,6,p=_root) si(1,p=_root) ERR[invalid escape character@1 path=_root] => 0 
+m1:11	 will(_root,6,p=_root) si(1,p=_root) ERR[read_string() hit end of file@1 path=_root] => 0 
+m1:12	 will(_root,6,p=_root) si(1,p=_root) di(1,p=_root)=i1 si(2,p=_root) ERR[json decode_value() read unexpected character@1 path=_root] => 0 
+m1:13	 will(_root,7,p=) sk(a,p=_root) dk(a,p=_root)=i1 ERR[decode_table expected '"'@1 path=a] => 0 
+m1:14	 will(_root,7,p=) ERR[decode_table expected ':'@1 path=a] => 0 
+m1:15	 will(_root,7,p=) ERR[decode_table expected '"'@1 path=] => 0 
+m1:16	 will(_root,6,p=_root) si(1,p=_root) ERR[json decode_value() read unexpected character@1 path=_root] => 0 
+m1:17	 will(_root,6,p=_root) si(1,p=_root) di(1,p=_root)=i1 did(_root,6) ERR[decode_value() didn't run to end of file@1 path=<undefined>] => 0 
+m1:18	 ERR[empty file@1 path=<undefined>] => 0 
+m1:19	 ERR[empty file@1 path=<undefined>] => 0 
+m1:20	 will(_root,7,p=) sk(a,p=_root) => 0 
+m1:21	 will(_root,6,p=_root) si(1,p=_root) will(_root[1],6,p=_root[1]) si(1,p=_root[1]) di(1,p=_root[1])=i1 si(2,p=_root[1]) did(_root[1],6) di(1,p=_root)=A(1) si(2,p=_root) si(3,p=_root) will(_root[3],6,p=_root[3]) si(1,p=_root[3]) di(1,p=_root[3])=i4 si(2,p=_root[3]) did(_root[3],6) di(3,p=_root)=A(2) did(_root,6) => 1 A(3)
+m1:22	 will(_root,6,p=_root) si(1,p=_root) di(1,p=_root)=i0 si(2,p=_root) si(3,p=_root) di(3,p=_root)=i2 si(4,p=_root) di(4,p=_root)=i3 si(5,p=_root) di(5,p=_root)=i4 si(6,p=_root) di(6,p=_root)=i5 si(7,p=_root) di(7,p=_root)=i6 si(8,p=_root) di(8,p=_root)=i7 si(9,p=_root) di(9,p=_root)=i8 si(10,p=_root) di(10,p=_root)=i9 si(11,p=_root) di(11,p=_root)=i10 si(12,p=_root) di(12,p=_root)=i11 si(13,p=_root) di(13,p=_root)=i12 si(14,p=_root) will(_root[41],6,p=_root[41]) si(1,p=_root[41]) di(1,p=_root[41])=i13 did(_root[41],6) di(14,p=_root)=A(1) did(_root,6) => 1 A(2)
+m1:23	 will(_root,7,p=) sk(x,p=_root) will(x,7,p=x) sk(y,p=x) will(y,7,p=x.y) sk(z,p=x.y) will(z,6,p=x.y.z) si(1,p=x.y.z) di(1,p=x.y.z)=i1 si(2,p=x.y.z) did(z,6) dk(z,p=x.y)=A(1) did(y,7) dk(y,p=x)=T(2) did(x,7) dk(x,p=_root)=T(3) did(_root,7) => 1 T(4)
+m1:24	 will(_root,7,p=) sk(skip,p=_root) sk(keep,p=_root) will(keep,6,p=keep) si(1,p=keep) di(1,p=keep)=i1 si(2,p=keep) si(3,p=keep) di(3,p=keep)=i3 si(4,p=keep) di(4,p=keep)=i4 did(keep,6) dk(keep,p=_root)=A(1) did(_root,7) => 1 T(2)
+m1:25	 will(_root,7,p=) sk(raw,p=_root) will(raw,7,p=raw) sk(a,p=raw) will(a,6,p=raw.a) si(1,p=raw.a) di(1,p=raw.a)=i1 si(2,p=raw.a) si(3,p=raw.a) di(3,p=raw.a)=i2 did(a,6) dk(a,p=raw)=A(1) did(raw,7) dk(raw,p=_root)=T(2) sk(after,p=_root) dk(after,p=_root)=i1 did(_root,7) => 1 T(3)
+m1:26	 will(_root,7,p=) sk(raw,p=_root) will(raw,6,p=raw) si(1,p=raw) di(1,p=raw)=i1 si(2,p=raw) si(3,p=raw) ERR[json decode_value() read unexpected character@1 path=raw] => 0 
+m1:27	 will(_root,6,p=_root) si(1,p=_root) di(1,p=_root)=i1 si(2,p=_root) si(3,p=_root) ERR[json decode_value() read unexpected character@4 path=_root] => 0 
+m1:28	 will(_root,7,p=) sk(,p=_root) will(_root,6,p=_root) si(1,p=_root) di(1,p=_root)=i1 did(_root,6) dk(_root,p=_root)=A(1) did(_root,7) => 1 T(2)
+m1:29	 will(_root,7,p=) sk(,p=_root) will(_root,7,p=) sk(x,p=_root) dk(x,p=_root)=i1 did(_root,7) dk(x,p=_root)=T(1) did(_root,7) => 1 T(2)
+m1:30	 will(_root,6,p=_root) si(1,p=_root) di(1,p=_root)=s"a\x0ab\x09\/\x22" did(_root,6) => 1 A(1)
+m1:31	 will(_root,7,p=) sk(a,p=_root) dk(a,p=_root)=i1 sk(a,p=_root) dk(a,p=_root)=i2 did(_root,7) => 1 T(1)
+m1:32	 will(_root,6,p=_root) si(1,p=_root) di(1,p=_root)=i1 ERR[decode_array() didn't find ']'@1 path=_root] => 0 
+m1:33	 will(_root,6,p=_root) si(1,p=_root) di(1,p=_root)=fc3160000 si(2,p=_root) si(3,p=_root) di(3,p=_root)=f3dfcd6ea did(_root,6) => 1 A(1)
+m2:0	 will(_root,6,p=_root) si(1,p=_root) di(1,p=_root)=i1 si(2,p=_root) di(2,p=_root)=i2 si(3,p=_root) di(3,p=_root)=i3 did(_root,6) => 1 A(1)
+m2:1	 will(_root,7,p=) sk(a,p=_root) dk(a,p=_root)=i1 sk(b,p=_root) will(b,6,p=b) si(1,p=b) di(1,p=b)=true si(2,p=b) di(2,p=b)=false si(3,p=b) di(3,p=b)=null did(b,6) dk(b,p=_root)=A(1) sk(c,p=_root) will(c,7,p=c) sk(d,p=c) dk(d,p=c)=s"e" did(c,7) dk(c,p=_root)=T(2) did(_root,7) => 1 T(3)
+m2:2	 will(_root,6,p=_root) did(_root,6) => 1 A(1)
+m2:3	 will(_root,7,p=) did(_root,7) => 1 T(1)
+m2:4	 => 0 
+m2:5	 di(0,p=)=i12 => 1 i12
+m2:6	 di(0,p=)=s"s" => 1 s"s"
+m2:7	 will(_root,6,p=_root) si(1,p=_root) di(1,p=_root)=f3fc00000 si(2,p=_root) di(2,p=_root)=f3dcccccd si(3,p=_root) di(3,p=_root)=f80000000 si(4,p=_root) di(4,p=_root)=i1000 si(5,p=_root) di(5,p=_root)=f3c23d70a si(6,p=_root) di(6,p=_root)=f40200000 ERR[decode_array() didn't find ']'@1 path=_root] => 0 
+m2:8	 will(_root,6,p=_root) si(1,p=_root) di(1,p=_root)=i1 si(2,p=_root) di(2,p=_root)=i0 si(3,p=_root) di(3,p=_root)=i1410065407 si(4,p=_root) di(4,p=_root)=i2100000000 si(5,p=_root) di(5,p=_root)=f4f32d05e si(6,p=_root) di(6,p=_root)=f3f800000 did(_root,6) => 1 A(1)
+m2:9	 will(_root,6,p=_root) si(1,p=_root) di(1,p=_root)=s"A\xe9\xe2\x82\xac\xed\xa0\xbd\xed\xb8\x80" did(_root,6) => 1 A(1)
+m2:10	 will(_root,6,p=_root) si(1,p=_root) ERR[invalid escape character@1 path=_root] => 0 
+m2:11	 will(_root,6,p=_root) si(1,p=_root) ERR[read_string() hit end of file@1 path=_root] => 0 
+m2:12	 will(_root,6,p=_root) si(1,p=_root) di(1,p=_root)=i1 si(2,p=_root) ERR[json decode_value() read unexpected character@1 path=_root] => 0 
+m2:13	 will(_root,7,p=) sk(a,p=_root) dk(a,p=_root)=i1 ERR[decode_table expected '"'@1 path=a] => 0 
+m2:14	 will(_root,7,p=) ERR[decode_table expected ':'@1 path=a] => 0 
+m2:15	 will(_root,7,p=) ERR[decode_table expected '"'@1 path=] => 0 
+m2:16	 will(_root,6,p=_root) si(1,p=_root) ERR[json decode_value() read unexpected character@1 path=_root] => 0 
+m2:17	 will(_root,6,p=_root) si(1,p=_root) di(1,p=_root)=i1 did(_root,6) ERR[decode_value() didn't run to end of file@1 path=<undefined>] => 0 
+m2:18	 ERR[empty file@1 path=<undefined>] => 0 
+m2:19	 ERR[empty file@1 path=<undefined>] => 0 
+m2:20	 will(_root,7,p=) sk(a,p=_root) => 0 
+m2:21	 will(_root,6,p=_root) si(1,p=_root) will(_root[1],6,p=_root[1]) si(1,p=_root[1]) di(1,p=_root[1])=i1 si(2,p=_root[1]) will(_root[1][2],6,p=_root[1][2]) si(1,p=_root[1][2]) di(1,p=_root[1][2])=i2 did(_root[1][2],6) di(2,p=_root[1])=A(1) did(_root[1],6) di(1,p=_root)=A(2) si(2,p=_root) will(_root[2],6,p=_root[2]) si(1,p=_root[2]) di(1,p=_root[2])=i3 did(_root[2],6) di(2,p=_root)=A(3) si(3,p=_root) will(_root[3],6,p=_root[3]) si(1,p=_root[3]) di(1,p=_root[3])=i4 si(2,p=_root[3]) will(_root[3][2],6,p=_root[3][2]) si(1,p=_root[3][2]) di(1,p=_root[3][2])=i5 si(2,p=_root[3][2]) will(_root[3][2][2],6,p=_root[3][2][2]) si(1,p=_root[3][2][2]) di(1,p=_root[3][2][2])=i6 did(_root[3][2][2],6) di(2,p=_root[3][2])=A(4) did(_root[3][2],6) di(2,p=_root[3])=A(5) did(_root[3],6) di(3,p=_root)=A(6) did(_root,6) => 1 A(7)
+m2:22	 will(_root,6,p=_root) si(1,p=_root) di(1,p=_root)=i0 si(2,p=_root) di(2,p=_root)=i1 si(3,p=_root) di(3,p=_root)=i2 si(4,p=_root) di(4,p=_root)=i3 si(5,p=_root) di(5,p=_root)=i4 si(6,p=_root) di(6,p=_root)=i5 si(7,p=_root) di(7,p=_root)=i6 si(8,p=_root) di(8,p=_root)=i7 si(9,p=_root) di(9,p=_root)=i8 si(10,p=_root) di(10,p=_root)=i9 si(11,p=_root) di(11,p=_root)=i10 si(12,p=_root) di(12,p=_root)=i11 si(13,p=_root) di(13,p=_root)=i12 si(14,p=_root) will(_root[41],6,p=_root[41]) si(1,p=_root[41]) di(1,p=_root[41])=i13 did(_root[41],6) di(14,p=_root)=A(1) did(_root,6) => 1 A(2)
+m2:23	 will(_root,7,p=) sk(x,p=_root) will(x,7,p=x) sk(y,p=x) will(y,7,p=x.y) sk(z,p=x.y) will(z,6,p=x.y.z) si(1,p=x.y.z) di(1,p=x.y.z)=i1 si(2,p=x.y.z) will(z[2],7,p=x.y.z[2]) sk(w,p=x.y.z[2]) dk(w,p=x.y.z[2])=i2 did(z[2],7) di(2,p=x.y.z)=T(1) did(z,6) dk(z,p=x.y)=A(2) did(y,7) dk(y,p=x)=T(3) did(x,7) dk(x,p=_root)=T(4) did(_root,7) => 1 T(5)
+m2:24	 will(_root,7,p=) sk(skip,p=_root) will(skip,7,p=skip) sk(a,p=skip) will(a,6,p=skip.a) si(1,p=skip.a) di(1,p=skip.a)=i1 si(2,p=skip.a) di(2,p=skip.a)=i2 did(a,6) dk(a,p=skip)=A(1) did(skip,7) dk(skip,p=_root)=T(2) sk(keep,p=_root) will(keep,6,p=keep) si(1,p=keep) di(1,p=keep)=i1 si(2,p=keep) di(2,p=keep)=i2 si(3,p=keep) di(3,p=keep)=i3 si(4,p=keep) di(4,p=keep)=i4 did(keep,6) dk(keep,p=_root)=A(3) did(_root,7) => 1 T(4)
+m2:25	 will(_root,7,p=) sk(raw,p=_root) will(raw,7,p=raw) dk(raw,p=_root)=s"\x22a\x22:[1, \x22]\x22 ,2]" sk(after,p=_root) dk(after,p=_root)=i1 did(_root,7) => 1 T(1)
+m2:26	 will(_root,7,p=) sk(raw,p=_root) will(raw,6,p=raw) dk(raw,p=_root)=s"1, [2], '[' " did(_root,7) => 1 T(1)
+m2:27	 will(_root,6,p=_root) si(1,p=_root) di(1,p=_root)=i1 si(2,p=_root) di(2,p=_root)=i2 si(3,p=_root) ERR[json decode_value() read unexpected character@4 path=_root] => 0 
+m2:28	 will(_root,7,p=) sk(,p=_root) will(_root,6,p=_root) si(1,p=_root) di(1,p=_root)=i1 did(_root,6) dk(_root,p=_root)=A(1) did(_root,7) => 1 T(2)
+m2:29	 will(_root,7,p=) sk(,p=_root) will(_root,7,p=) sk(x,p=_root) dk(x,p=_root)=i1 did(_root,7) dk(x,p=_root)=T(1) did(_root,7) => 1 T(2)
+m2:30	 will(_root,6,p=_root) si(1,p=_root) di(1,p=_root)=s"a\x0ab\x09\/\x22" did(_root,6) => 1 A(1)
+m2:31	 will(_root,7,p=) sk(a,p=_root) dk(a,p=_root)=i1 sk(a,p=_root) dk(a,p=_root)=i2 did(_root,7) => 1 T(1)
+m2:32	 will(_root,6,p=_root) si(1,p=_root) di(1,p=_root)=i1 ERR[decode_array() didn't find ']'@1 path=_root] => 0 
+m2:33	 will(_root,6,p=_root) si(1,p=_root) di(1,p=_root)=fc3160000 si(2,p=_root) di(2,p=_root)=f47f12065 si(3,p=_root) di(3,p=_root)=f3dfcd6ea did(_root,6) => 1 A(1)
+bare:0	 => 1 A(0)
+bare:1	 => 1 T(0)
+bare:2	 => 1 A(0)
+bare:3	 => 1 T(0)
+bare:4	 => 0 
+bare:5	 => 1 i12
+bare:6	 => 1 s"s"
+bare:7	 ERR[decode_array() didn't find ']'@1 path=_root] => 0 
+bare:8	 => 1 A(0)
+bare:9	 => 1 A(0)
+bare:10	 ERR[invalid escape character@1 path=_root] => 0 
+bare:11	 ERR[read_string() hit end of file@1 path=_root] => 0 
+bare:12	 ERR[json decode_value() read unexpected character@1 path=_root] => 0 
+bare:13	 ERR[decode_table expected '"'@1 path=a] => 0 
+bare:14	 ERR[decode_table expected ':'@1 path=a] => 0 
+bare:15	 ERR[decode_table expected '"'@1 path=] => 0 
+bare:16	 ERR[json decode_value() read unexpected character@1 path=_root] => 0 
+bare:17	 ERR[decode_value() didn't run to end of file@1 path=<undefined>] => 0 
+bare:18	 ERR[empty file@1 path=<undefined>] => 0 
+bare:19	 ERR[empty file@1 path=<undefined>] => 0 
+bare:20	 => 0 
+bare:21	 => 1 A(0)
+bare:22	 => 1 A(0)
+bare:23	 => 1 T(0)
+bare:24	 => 1 T(0)
+bare:25	 => 1 T(0)
+bare:26	 ERR[json decode_value() read unexpected character@1 path=raw] => 0 
+bare:27	 ERR[json decode_value() read unexpected character@4 path=_root] => 0 
+bare:28	 => 1 T(0)
+bare:29	 => 1 T(0)
+bare:30	 => 1 A(0)
+bare:31	 => 1 T(0)
+bare:32	 ERR[decode_array() didn't find ']'@1 path=_root] => 0 
+bare:33	 => 1 A(0)

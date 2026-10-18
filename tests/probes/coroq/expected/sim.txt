@@ -1,0 +1,5 @@
+chunk yieldable=true ismain=false same_as_chunk=true status=running
+chunk pcall yieldable=true ismain=false same_as_chunk=true status=running
+update yieldable=true ismain=false same_as_chunk=false status=running
+yield in update: true nil
+close chunk thread: true true

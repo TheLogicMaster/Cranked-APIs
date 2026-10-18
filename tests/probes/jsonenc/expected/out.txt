@@ -1,0 +1,89 @@
+START	empty
+empty	[]
+START	array
+array	[1,2,3]
+START	holes
+holes	[1,null,3]
+START	hole5
+hole5	[null,null,null,null,"x"]
+START	float keys only
+float keys only	["a","b"]
+START	mixed
+mixed	{"_array":[1,2],"x":3}
+START	mixed pretty
+mixed pretty	{\n\t"_array": [\n\t\t1,\n\t\t2\n\t],\n\t"x":3\n}
+START	zero key
+zero key	{"a":1}
+START	neg key
+neg key	{"a":1}
+START	frac key
+frac key	{"2":"f","a":1}
+START	frac key over
+frac key over	{"_array":[1],"2":"f"}
+START	nested pretty
+nested pretty	{\n\t"a": [\n\t\t1,\n\t\t {\n\t\t\t"b":2\n\t\t}\n\t],\n\t"b": [\n\t],\n\t"c":"s"\n}
+START	nested pretty2
+nested pretty2	[\n\t [\n\t\t1,\n\t\t2\n\t],\n\t [\n\t],\n\t {\n\t\t"x": [\n\t\t]\n\t}\n]
+START	pretty empty
+pretty empty	[\n]
+START	pretty array
+pretty array	[\n\t1,\n\t2\n]
+START	sorted pretty
+sorted pretty	{\n\t"alpha":2,\n\t"mid": {\n\t\t"b":2,\n\t\t"c":1\n\t},\n\t"zeta":1\n}
+START	strings
+strings	["q\"b\\s/\b\f\n\r\t\u0001\u001f é"]
+START	ints
+ints	[0,-5,2147483647,-2147483648]
+START	floats
+floats	[0.10000000149012,1.5,-2.25,10000000000,3.1415927410126,0.33333334326744,1.0000000116861e-07,123456.7890625]
+START	float big
+float big	[1.0000000150475e+30,3.0000000054978e+38]
+START	inf
+inf	[null,null]
+START	nan
+nan	[null]
+START	float int
+float int	[2,1000000000]
+START	bool
+bool	[true,false]
+START	function
+function	["function ADDR"]
+START	thread
+thread	["thread ADDR"]
+START	userdata
+userdata	["userdata ADDR"]
+START	recursion
+recursion	["RECURSION ERROR"]
+START	recursion obj
+recursion obj	{"a":"RECURSION ERROR"}
+START	shared twice
+shared twice	[[1],[1]]
+START	top string
+top string	"hi"
+START	top number
+top number	1.5
+START	top int
+top int	3
+START	top bool
+top bool	true
+START	top nil
+top nil	null
+START	top function
+top function	"function ADDR"
+START	number key big
+number key big	[1,2,null,null,null,null,null,null,null,1]
+START	one key obj
+one key obj	{"key":"v"}
+START	one key nested
+one key nested	{"key":{"inner":[1,2]}}
+START	json null
+json null	[{"__call":"function ADDR","__tostring":"function ADDR"}]
+START	pretty strings key
+pretty strings key	{\n\t"a\"b":1\n}
+START	meta tostring
+meta tostring	[]
+START	frac key pretty
+frac key pretty	ERR attempt to compare string with number
+START	bool key
+bool key	ERR main.lua:54: table key must be a number or string
+START	mixed keys pretty

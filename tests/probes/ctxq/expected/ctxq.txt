@@ -1,0 +1,29 @@
+lua offset, C fill: at0 0 at20 1
+C offset, lua fill: at0 0 at20 1
+C offset, C fill: at20 1
+lua clip, C fill: at10 0 at120 1
+C clip, lua fill: at10 0 at120 1
+lua tracking, C width: 50 lua width: 65 20
+C tracking, lua width: 50 C width: 50
+lua FillWhite, C text on black: black pixels 1159
+C FillWhite, lua text on black: black pixels 1159
+lua line width 5, C line width 1: rows 1
+lua pushContext+offset, C fill: at0 0 at30 1
+C push, lua offset, C pop, lua fill: at0 1 at30 0
+lua bold font, C width (NULL font): 50 bold 51 normal 50
+C sets a font: true lua width now 50 C width 81
+lua round caps, C line: pixel past the end 0 before start 0
+C round caps, lua line: pixel past the end 0 before start 0
+lua mode after lua push/pop: 5
+lua mode inside C push: 5
+C mode seen inside lua push: 5
+C mode after lua pop: 0
+lua stencil, C fill: left 1 right 0
+C stencil, lua fill: left 1 right 0
+C background black, lua clear(): black 0
+lua background black, then C mode after: 0
+C mode after C push, set XOR, pop: 0
+lua mode after C push, lua Copy, C pop: 0
+lua font after lua push/pop is bold: true
+lua tracking after push/pop: 3.0
+C offset then lua pushContext: lua offset 10.0 0.0

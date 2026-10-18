@@ -1,0 +1,40 @@
+alpha First First Ichi
+beta Second {} Second {} beta
+Zed Upper Upper Zed
+gamma Third Third gamma
+missing missing missing missing
+alph alph alph alph
+phaa phaa phaa phaa
+sys 0
+false bad argument #1 to '?' (string expected, got nil)
+true First
+d1 3 true 74 20 178/291855
+d2 2 true nil 0/0
+d3 3 true 35 19 87/400667
+d4 3 true 22 19 68/336852
+d5 3 true 38 19 102/55745
+d6 3 true 22 19 68/336852
+d7 3 true 35 19 87/400667
+d8 3 true 35 19 87/484392
+d9 3 true 61 39 282/178774
+d10 3 true 61 44 282/516278
+d11 3 true 61 36 282/776274
+d12 3 true 35 19 87/400667
+d13 2 false bad argument #3 to '?' (number expected, got no value) 0/0
+d14 2 false bad argument #1 to '?' (string expected, got nil) 0/0
+d15 3 true 74 20 178/503490
+g Line one
+Line two
+a1 1 true 87/566254
+a2 1 true 143/311779
+a3 1 true 68/678946
+r1 1 true 102/223005
+r2 1 true 178/220580
+r3 1 true 143/956089
+r4 1 true 68/649298
+true Ichi
+true Ichi
+true First
+true First
+true 
+true 5

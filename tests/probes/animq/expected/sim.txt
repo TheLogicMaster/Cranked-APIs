@@ -1,0 +1,21 @@
+moveTo point true nil 0.0 0.0
+3 v=(0.0, 0.0) ended=false true x=0.00 y=0.00 r=32.35 a3=12.3 e3=false t=0.165 w=20 h=23
+6 v=(0.0, 0.0) ended=false true x=0.00 y=0.00 r=63.65 a3=15.6 e3=false t=0.4125 w=23 h=18
+9 v=(0.2406104, 0.1203052) ended=false true x=0.24 y=0.12 r=80.89 a3=18.93333 e3=false t=0.66 w=22 h=14
+12 v=(3.72597, 1.862985) ended=false true x=3.73 y=1.86 r=88.31 a3=20 e3=true t=0.91 w=21 h=11
+15 v=(15.05688, 7.528439) ended=false true x=15.06 y=7.53 r=89.97 a3=20 e3=true t=1 w=21 h=11
+18 v=(38.9017, 19.45085) ended=false true x=38.90 y=19.45 r=90.00 a3=20 e3=true t=1 w=20 h=10
+21 v=(79.91787, 39.95893) ended=false true x=79.92 y=39.96 r=90.00 a3=20 e3=true t=1 w=20 h=10
+24 v=(100.0, 50.0) ended=true true x=100.00 y=50.00 r=90.00 a3=20 e3=true t=1 w=20 h=10
+27 v=(100.0, 50.0) ended=true true x=100.00 y=50.00 r=90.00 a3=20 e3=true t=1 w=20 h=10
+30 v=(100.0, 50.0) ended=true true x=100.00 y=50.00 r=90.00 a3=20 e3=true t=1 w=20 h=10
+33 v=(100.0, 50.0) ended=true true x=100.00 y=50.00 r=90.00 a3=20 e3=true t=1 w=20 h=10
+36 v=(100.0, 50.0) ended=true true x=100.00 y=50.00 r=90.00 a3=20 e3=true t=1 w=20 h=10
+39 v=(100.0, 50.0) ended=true true x=100.00 y=50.00 r=90.00 a3=20 e3=true t=1 w=20 h=10
+42 v=(100.0, 50.0) ended=true true x=100.00 y=50.00 r=90.00 a3=20 e3=true t=1 w=20 h=10
+45 v=(100.0, 50.0) ended=true true x=100.00 y=50.00 r=90.00 a3=20 e3=true t=1 w=20 h=10
+48 v=(100.0, 50.0) ended=true true x=100.00 y=50.00 r=90.00 a3=20 e3=true t=1 w=20 h=10
+51 v=(100.0, 50.0) ended=true true x=100.00 y=50.00 r=90.00 a3=20 e3=true t=1 w=20 h=10
+54 v=(100.0, 50.0) ended=true true x=100.00 y=50.00 r=90.00 a3=20 e3=true t=1 w=20 h=10
+57 v=(100.0, 50.0) ended=true true x=100.00 y=50.00 r=90.00 a3=20 e3=true t=1 w=20 h=10
+progress 1 500 nil

@@ -1,0 +1,6 @@
+name=invq
+author=Cranked APIs probes
+description=probe
+bundleID=org.crankedapis.invq
+version=1.0
+buildNumber=1

@@ -1,0 +1,10 @@
+1 A 0.0,0.0,40.0,40.0
+-- O hidden
+-- A under hidden O
+5 A 0.0,0.0,40.0,40.0
+-- A away, O removed and shown
+7 A 0.0,0.0,40.0,40.0
+-- A under removed O
+9 A 0.0,0.0,40.0,40.0
+-- O added back
+-- A moves within O

@@ -1,0 +1,17 @@
+before spritelib nil nineSlice nil class nil animator nil
+before setBackgroundDrawingCallback nil drawCircleInRect nil Object nil
+before drawTextInRect nil addEmptyCollisionSprite nil timer nil
+override survives graphics import false
+after spritelib nil nineSlice table class function animator table
+drawCircleInRect rect true  160:724731
+fillCircleInRect rect true  1313:540716
+drawCircleAtPoint point true  196:246039
+fillCircleAtPoint point true  1976:452839
+drawArc arc true  166:944218
+drawArc ccw arc true  150:483132
+drawTextInRect rect true  238:836839
+drawLocalizedTextInRect rect true  107:478049
+ bounds 0.0 0.0 61.0 41.0 50.5 50.5
+addEmptyCollisionSprite rect true  0:0
+nineSlice drawInRect rect true  977:180571
+nineSlice drawInRect nums true  977:180571

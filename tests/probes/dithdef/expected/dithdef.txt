@@ -1,0 +1,7 @@
+a0.10|black=232 same=Bayer8
+a0.25|black=192 same=Bayer4,Bayer8
+a0.40|black=156 same=Bayer8
+a0.50|black=128 same=Bayer2,Bayer4,Bayer8
+a0.60|black=104 same=Bayer8
+a0.75|black=64 same=Bayer2,Bayer4,Bayer8,Screen
+a0.90|black=28 same=Bayer8

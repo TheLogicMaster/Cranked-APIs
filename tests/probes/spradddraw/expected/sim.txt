@@ -1,0 +1,12 @@
+n=1 black=350 hash=567665 count=2 draws=1
+n=2 black=350 hash=567665 count=2 draws=1
+n=3 black=350 hash=567665 count=2 draws=1
+n=4 black=350 hash=567665 count=2 draws=2
+n=5 black=350 hash=567665 count=2 draws=2
+n=6 black=296 hash=763003 count=2 draws=3
+n=7 black=296 hash=763003 count=2 draws=3
+n=8 black=397 hash=57289 count=2 draws=4
+n=9 black=397 hash=57289 count=2 draws=4
+n=10 black=397 hash=57289 count=2 draws=4
+n=11 black=397 hash=57289 count=2 draws=4
+n=12 black=397 hash=57289 count=2 draws=4

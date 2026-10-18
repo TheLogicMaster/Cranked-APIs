@@ -1,0 +1,14 @@
+start color=0.0 bg=1.0 lw=1.0 mode=0 off=0.0,0.0 clip=0,0,400,240 sclip=0,0,400,240 track=0.0 leading=nil stroke=0 font=true
+set color=1.0 bg=0.0 lw=3.0 mode=7 off=7.0,9.0 clip=10,10,100,50 sclip=17,19,100,50 track=2.0 leading=nil stroke=1 font=false
+in image ctx color=1.0 bg=0.0 lw=3.0 mode=7 off=0.0,0.0 clip=0,0,50,40 sclip=0,0,50,40 track=2.0 leading=nil stroke=1 font=false
+changed in ctx color=0.0 bg=0.0 lw=1.0 mode=7 off=1.0,2.0 clip=0,0,5,5 sclip=1,2,5,5 track=2.0 leading=nil stroke=1 font=false
+nested nil ctx color=0.0 bg=0.0 lw=1.0 mode=7 off=1.0,2.0 clip=0,0,5,5 sclip=1,2,5,5 track=2.0 leading=nil stroke=1 font=false
+after nested pop color=0.0 bg=0.0 lw=1.0 mode=7 off=1.0,2.0 clip=0,0,5,5 sclip=1,2,5,5 track=2.0 leading=nil stroke=1 font=false
+after pop color=1.0 bg=0.0 lw=3.0 mode=7 off=7.0,9.0 clip=10,10,100,50 sclip=17,19,100,50 track=2.0 leading=nil stroke=1 font=false
+lockFocus color=1.0 bg=0.0 lw=3.0 mode=7 off=0.0,0.0 clip=0,0,50,40 sclip=0,0,50,40 track=2.0 leading=nil stroke=1 font=false
+unlockFocus color=1.0 bg=0.0 lw=3.0 mode=7 off=7.0,9.0 clip=10,10,100,50 sclip=17,19,100,50 track=2.0 leading=nil stroke=1 font=false
+push nil color=1.0 bg=0.0 lw=3.0 mode=7 off=7.0,9.0 clip=10,10,100,50 sclip=17,19,100,50 track=2.0 leading=nil stroke=1 font=false
+screen clip in nil ctx color=1.0 bg=0.0 lw=3.0 mode=7 off=7.0,9.0 clip=13,11,30,30 sclip=20,20,30,30 track=2.0 leading=nil stroke=1 font=false
+pop nil color=1.0 bg=0.0 lw=3.0 mode=7 off=7.0,9.0 clip=10,10,100,50 sclip=17,19,100,50 track=2.0 leading=nil stroke=1 font=false
+extra pop false no pushed context!
+after extra pop color=1.0 bg=0.0 lw=3.0 mode=7 off=7.0,9.0 clip=10,10,100,50 sclip=17,19,100,50 track=2.0 leading=nil stroke=1 font=false

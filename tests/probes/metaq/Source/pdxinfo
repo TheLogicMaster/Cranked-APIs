@@ -1,0 +1,11 @@
+name=metaq
+author=Cranked APIs probes
+bundleID=org.crankedapis.metaq
+version=1.0
+buildNumber=1
+imagePath=img
+contentWarning=none
+customKey=42
+launchSoundPath=snd
+description=desc
+contentWarning2=two

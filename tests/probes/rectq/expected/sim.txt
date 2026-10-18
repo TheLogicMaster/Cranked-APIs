@@ -1,0 +1,14 @@
+rect	x=1.0 y=2.0 width=3.0 height=4.0 w=3.0 h=4.0 left=1.0 right=4.0 top=2.0 bottom=6.0 size=obj origin=obj dx=nil x1=nil
+point	x=5.0 y=6.0 dx=nil w=nil 1=nil 2=nil
+size	width=7.0 height=8.0 w=7.0 h=8.0 x=nil
+vector	dx=1.0 dy=2.0 x=1.0 y=2.0
+line	x1=1.0 y1=2.0 x2=3.0 y2=4.0 x=1.0 y=2.0 dx=nil dy=nil w=nil h=nil x3=nil
+arc	x=1.0 y=2.0 radius=3.0 startAngle=0.0 endAngle=90.0 direction=nil r=3.0 clockwise=true isClockwise=function: 0x55ccbcc76960 w=nil
+rect after w=10	width=10.0 w=10.0
+rect after h=11	height=11.0 h=11.0
+size after w=12	width=12.0 w=12.0
+arc after r=9	radius=9.0 r=9.0
+line after x=7	x1=7.0 x=7.0
+transform	m11=1.0 m12=0.0 m21=0.0 m22=1.0 tx=0.0 ty=0.0 a=nil b=nil c=nil d=nil
+err	1.0
+err2	5.0

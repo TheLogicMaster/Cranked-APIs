@@ -1,0 +1,5 @@
+first nil at 64 err Too many open files
+write open while full false Too many open files
+after one close true nil
+default mode nil at 64
+after gc true

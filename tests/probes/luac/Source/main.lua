@@ -1,0 +1,52 @@
+-- Lua side of the hybrid probe.
+local out = {}
+local function num(x) if math.type(x) == "integer" then return tostring(x) .. "i" end; return string.format("%.3f", x) .. "f" end
+local function v(x) local t = type(x); if t == "number" then return num(x) elseif t == "string" then return string.format("%q", x) elseif t == "nil" or t == "boolean" then return tostring(x) end; return "<" .. t .. ">" end
+local function all(...) local p = table.pack(...); local o = {}; for i = 1, p.n do o[i] = v(p[i]) end; return table.concat(o, " | ") end
+local function c(name, f) local ok, r = pcall(f); out[#out + 1] = name .. "\t" .. (ok and tostring(r) or "ERR " .. tostring(r)):gsub("\n", "\\n") end
+function lua_add(a, b) last_add = (a or 0) + (b or 0); return last_add end
+c("addFunction and registerClass", function() return all(c_registration()) end)
+c("addFunction dotted name", function() return all(type(util), util and util.nested and type(util.nested.fn)) end)
+c("args: none", function() return c_describe() end)
+c("args: nil bool int float", function() return c_describe(nil, true, 42, 3.7) end)
+c("args: false and zero", function() return c_describe(false, 0) end)
+c("args: strings", function() return c_describe("12", "a\0b", "") end)
+c("args: table function", function() return c_describe({}, print) end)
+c("args: image object", function() return c_describe(playdate.graphics.image.new(2, 2)) end)
+c("args: negative float to int", function() return c_describe(-2.7) end)
+c("push values", function() return all(c_push_all()) end)
+c("push bitmap", function() local b = c_push_bitmap(); return all(type(b), b and b:getSize()) end)
+c("get bitmap", function() return all(c_get_bitmap(playdate.graphics.image.new(5, 4))) end)
+c("get bitmap wrong type", function() return all(c_get_bitmap(5)) end)
+c("push sprite", function() local s = c_push_sprite(); return all(type(s), s and s:getBoundsRect().width) end)
+c("get sprite", function() local s = playdate.graphics.sprite.new(); s:setSize(12, 8); return all(c_get_sprite(s)) end)
+c("push function", function() local f = c_push_function(); return all(type(f), f and f()) end)
+c("callFunction", function() last_add = nil; local ok, noerr = c_call_lua(); return all(ok, noerr, last_add) end)
+c("callFunction missing", function() return all(c_call_missing()) end)
+c("class constants", function() return all(probeobj and probeobj.kAnswer, probeobj and probeobj.kHalf, probeobj and probeobj.kName) end)
+c("class new and method", function() local o = probeobj.new(11); return all(type(o), o:value()) end)
+c("class default value", function() return all(probeobj.new():value()) end)
+c("getArgObject wrong class", function() return all(probeobj.new():wrongtype()) end)
+c("user values", function() local o = probeobj.new(); o:setuv("kept"); return all(o:getuv()) end)
+c("pushObject twice", function() local o = probeobj.new(3); local a, b = o:twice(); return all(rawequal(a, b), rawequal(a, o), a:value()) end)
+c("uv pushed then set", function() local o = probeobj.new(); local n = o:setuv2(); return all(n, o:getuv()) end)
+c("uv set with arg", function() local o = probeobj.new(); o:setuv("kept"); return all(o:getuv()) end)
+c("kept handle", function() local o = probeobj.new(4); o:keep(); local r1 = all(c_kept_uv()); c_kept_set(); local r2 = all(c_kept_uv(), o:getuv()); return r1 .. " / " .. r2 end)
+c("kept handle survives gc", function() do local o = probeobj.new(6); o:keep() end; collectgarbage(); collectgarbage(); c_kept_set(); return all(c_kept_uv()) end)
+c("kept released", function() return all(c_kept_release()) end)
+c("retain and release", function() return all(probeobj.new():retain()) end)
+c("many objects stay distinct", function() local objs = {}; for i = 1, 20 do objs[i] = probeobj.new(i) end; local s = 0; for i = 1, 20 do s = s + objs[i]:value() end; return all(s) end)
+c("gc collects objects", function() local before = c_gc_count(); for i = 1, 50 do probeobj.new(i) end; collectgarbage(); collectgarbage(); return all(c_gc_count() - before >= 50) end)
+c("object survives gc while referenced", function() local o = probeobj.new(5); for i = 1, 50 do probeobj.new(i) end; collectgarbage(); collectgarbage(); return all(o:value()) end)
+c("indexMetatable method", function() return all(probeidx.new():m()) end)
+c("indexMetatable custom field", function() return all(probeidx.new().custom) end)
+c("indexMetatable class constant", function() return all(probeidx.new().kVal) end)
+c("indexMetatable missing field", function() return all(probeidx.new().nothing) end)
+c("callFunction_deprecated", function() last_add = nil; local r = c_call_deprecated(); return all(r, last_add) end)
+c("stop and start", function() return all(c_stop_start()) end)
+c("push twice", function() local b1, b2, s1, s2 = c_push_twice(); local b3, _, s3 = c_push_twice(); return all(rawequal(b1, b2), rawequal(b1, b3), rawequal(s1, s2), rawequal(s1, s3), b1 == b2, s1 == s3) end)
+for m = 0, 11 do c("bad position " .. m, function() return all(c_badpos(m, 2)) end) end
+local f = playdate.file.open("outl.txt", playdate.file.kFileWrite)
+f:write(table.concat(out, "\n") .. "\n"); f:close()
+if playdate.simulator then playdate.simulator.exit() end
+playdate.stop()

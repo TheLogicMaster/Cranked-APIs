@@ -1,0 +1,16 @@
+margins	100,104,25,14
+margins_flipX	105,104,25,14
+margins_flipY	100,106,25,14
+dot	108,107,3,1
+runtime_image	100,100,30,24
+margins_scaled2	100,108,50,28
+margins_src	100,104,10,6
+text_A	100,101,9,19
+text_g	100,106,7,14
+text_dot	100,113,1,7
+text_quote	100,101,1,19
+text_Ag	100,101,18,19
+text_space	
+text_two_lines	100,101,9,39
+font_drawText	100,101,9,19
+glyph_image	100,101,9,14

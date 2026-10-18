@@ -1,0 +1,12 @@
+start 1 playing false
+goToStep 5 -> 5
+goToStep 1 -> 1
+goToStep 0 -> 1
+goToStep 97 -> 97
+goToStep 504 -> 504
+goToStep 600 -> 600
+after play true
+after stop playing false calls 1
+calls a frame later 1
+goToStep 97 -> 97
+stop while stopped, calls 1

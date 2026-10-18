@@ -1,0 +1,63 @@
+display.getSize integer:400 integer:240
+display.getWidth integer:400
+display.getHeight integer:240
+display.getRect <float:0.0,float:0.0,float:400.0,float:240.0>
+display.getScale integer:1
+display.getRefreshRate float:30.0
+display.getOffset integer:0 integer:0
+display.getMosaic integer:0 integer:0
+gfx.getDrawOffset float:0.0 float:0.0
+gfx.getClipRect integer:0 integer:0 integer:400 integer:240
+gfx.getScreenClipRect integer:0 integer:0 integer:400 integer:240
+gfx.getLineWidth float:1.0
+gfx.getColor float:0.0
+gfx.getBackgroundColor float:1.0
+gfx.getImageDrawMode integer:0
+gfx.getFontTracking float:0.0
+gfx.getTextSize integer:11 integer:20
+gfx.getStrokeLocation integer:0
+image:getSize integer:10 integer:7
+displayImage:getSize integer:400 integer:240
+font:getHeight integer:20
+font:getTracking integer:2
+font:getLeading integer:0
+font:getTextWidth integer:11
+sprite:getPosition float:10.0 float:20.0
+sprite:getSize float:10.0 float:7.0
+sprite:getBounds float:5.0 float:16.5 float:10.0 float:7.0
+sprite:getCenter float:0.5 float:0.5
+sprite:getZIndex integer:0
+sprite:getRotation float:0.0
+sprite:getScale float:1.0 float:1.0
+sprite:getCollideRect <float:0.0,float:0.0,float:0.0,float:0.0>
+sprite:getTag integer:0
+sprite:getImageFlip integer:0
+sprite:getCenterPoint <float:0.5,float:0.5>
+sprite:getBoundsRect <float:5.0,float:16.5,float:10.0,float:7.0>
+sprite.spriteCount integer:1
+pd.getCrankPosition float:0.0
+pd.getCrankChange float:0.0 float:0.0
+pd.getButtonState integer:0 integer:0 integer:0
+pd.getFlipped boolean
+pd.getBatteryPercentage float:100.0
+pd.getBatteryVoltage float:4.2
+pd.getSecondsSinceEpoch integer:<n> integer:<millisecond>
+pd.getTime {day=integer:<day>,hour=integer:<hour>,millisecond=integer:<millisecond>,minute=integer:<minute>,month=integer:<month>,second=integer:<second>,weekday=integer:<weekday>,year=integer:<year>}
+pd.getGMTTime {day=integer:<day>,hour=integer:<hour>,millisecond=integer:<millisecond>,minute=integer:<minute>,month=integer:<month>,second=integer:<second>,weekday=integer:<weekday>,year=integer:<year>}
+pd.getPowerStatus {}
+pd.getSystemLanguage integer:0
+pd.getServerTime integer:0
+pd.readAccelerometer nil nil nil
+pd.getStats nil
+pd.getSystemMenu integer:0
+sound.getCurrentTime float:0.02321995
+sound.getHeadphoneState boolean boolean
+sound.playingSources integer:0
+file.getSize integer:22622
+file.modtime {day=integer:<day>,hour=integer:<hour>,minute=integer:<minute>,month=integer:<month>,second=integer:<second>,year=integer:<year>}
+metadata {pdxversion=integer:30101}
+pd.getReduceFlashing boolean
+geometry.point <float:1.0,float:2.0>
+geometry.rect <float:1.0,float:2.0,float:3.0,float:4.0>
+tilemap integer:3 integer:2
+imagetable integer:4 integer:4

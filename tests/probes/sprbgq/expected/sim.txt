@@ -1,0 +1,16 @@
+n=1 black=1236 hash=765949
+n=2 black=1290 hash=546672
+n=3 black=1290 hash=546672
+n=4 black=1344 hash=928397
+n=5 black=1344 hash=928397
+n=6 black=1344 hash=422954
+n=7 black=1344 hash=422954
+n=8 black=1344 hash=422954
+n=9 black=1344 hash=422954
+n=10 black=1344 hash=422954
+n=11 black=1344 hash=422954
+n=12 black=1344 hash=313470
+n=13 black=1344 hash=313470
+n=14 black=1342 hash=12180
+n=15 black=1342 hash=12180
+n=16 black=1342 hash=12180

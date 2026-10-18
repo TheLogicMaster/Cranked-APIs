@@ -1,0 +1,26 @@
+u1 loaded hasMask true maskImage true
+u1 0 1 size 21 15 mask true lastcol ..##...#....#..
+u1 0 1.5 size 32 23 mask true lastcol                        
+u1 0 0.75 size 16 12 mask true lastcol             
+u1 90 1 size 15 21 mask true lastcol ###.#..#..##.#.###...
+u1 90 1.5 size 23 32 mask true lastcol                                 
+u1 90 0.75 size 12 16 mask true lastcol                 
+u1 180 1 size 21 15 mask true lastcol ...##..##.#.#.#
+u1 180 1.5 size 32 23 mask true lastcol                        
+u1 180 0.75 size 16 12 mask true lastcol             
+u1 0.005 1 size 22 16 mask true lastcol                 
+u1 0.005 1.5 size 33 23 mask true lastcol                        
+u1 0.005 0.75 size 16 12 mask true lastcol             
+u2 loaded hasMask false maskImage false
+u2 0 1 size 21 15 mask false lastcol ..##...#....#..
+u2 0 1.5 size 32 23 mask false lastcol #######################
+u2 0 0.75 size 16 12 mask false lastcol ############
+u2 90 1 size 15 21 mask false lastcol ###.#..#..##.#.###...
+u2 90 1.5 size 23 32 mask false lastcol ################################
+u2 90 0.75 size 12 16 mask false lastcol ################
+u2 180 1 size 21 15 mask false lastcol ...##..##.#.#.#
+u2 180 1.5 size 32 23 mask false lastcol #######################
+u2 180 0.75 size 16 12 mask false lastcol ############
+u2 0.005 1 size 22 16 mask false lastcol ################
+u2 0.005 1.5 size 33 23 mask false lastcol #######################
+u2 0.005 0.75 size 16 12 mask false lastcol ############
