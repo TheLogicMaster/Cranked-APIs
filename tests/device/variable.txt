@@ -15,3 +15,5 @@ retq3 includes the audio clock and animator values read at frame times
 scoreb includes scoreboard callbacks, which arrive when the network answers
 dsimg lists the bundle's pdxinfo, whose size depends on the pdc that built it
 stpat includes dither patterns for error-diffusion dithers, which come out different on every run
+listf includes getSize of folders, which is the host file system's block size in the Simulator
+jsonexp converts out-of-range JSON integers, which the Simulator's x86 build and the device's ARM build saturate differently (Cranked follows the device)
